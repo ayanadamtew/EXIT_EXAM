@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "question": "An Al agent that assigns a value to each possible outcome and chooses the action with the highest value is a: [cite: 11]",
+    "options": {
+      "A": "Simple reflex agent [cite: 12]",
+      "B": "Utility-based agent [cite: 13]",
+      "C": "Model-based agent [cite: 14]",
+      "D": "Learning agent [cite: 15]"
+    },
+    "answer": "B [cite: 16]"
+  },
+  {
+    "id": 2,
+    "question": "In a Depth-First Search (DFS) implementation, the data structure typically used to store the nodes yet to be explored is: [cite: 17, 18]",
+    "options": {
+      "A": "An array [cite: 19]",
+      "B": "A linked list [cite: 20]",
+      "C": "A queue [cite: 21]",
+      "D": "A stack [cite: 22]"
+    },
+    "answer": "D [cite: 23]"
+  },
+  {
+    "id": 3,
+    "question": "Suppose you are planning a trip and want to find the cheapest flight from Jimma (initial state city) to Addis Ababa (your destination). There are multiple airlines offering various routes with connecting flights. Which search algorithm is best suited to find the cheapest flight, considering the need to evaluate different routes and prices? [cite: 24, 25, 26]",
+    "options": {
+      "A": "Depth-First Search [cite: 27]",
+      "B": "Breadth-First Search [cite: 28]",
+      "C": "Heuristic Search [cite: 29]",
+      "D": "Iterative Deepening Search [cite: 30]"
+    },
+    "answer": "C [cite: 31]"
+  },
+  {
+    "id": 4,
+    "question": "Suppose you know how to ride a bike without needing to think about the specific steps involved. This is an example of what type of knowledge? [cite: 32, 33]",
+    "options": {
+      "A": "Declarative Knowledge [cite: 34]",
+      "B": "Procedural Knowledge [cite: 35]",
+      "C": "Structural knowledge [cite: 36]",
+      "D": "Conditional Knowledge [cite: 37]"
+    },
+    "answer": "B [cite: 38]"
+  },
+  {
+    "id": 5,
+    "question": "Why is lifelong learning important for professionals working in Artificial Intelligence (AI)? [cite: 39]",
+    "options": {
+      "A": "Al concepts are static and rarely evolve. [cite: 40]",
+      "B": "Al requires adapting to rapidly advancing technologies. [cite: 41]",
+      "C": "Al projects are always repetitive. [cite: 42]",
+      "D": "Al knowledge is only relevant in academia. [cite: 43]"
+    },
+    "answer": "B [cite: 44]"
+  },
+  {
+    "id": 6,
+    "question": "In knowledge representation, what is the main purpose of connectives like AND, OR, and NOT? [cite: 45]",
+    "options": {
+      "A": "To specify slot values within frames. [cite: 46]",
+      "B": "To represent actions within production rules. [cite: 47]",
+      "C": "Define relationships between concepts in a semantic network. [cite: 48]",
+      "D": "Build complex sentences within logical representation. [cite: 49]"
+    },
+    "answer": "D [cite: 50]"
+  },
+  {
+    "id": 7,
+    "question": "Suppose we are taking an entity, Henok. Henok is a Software Developer as a profession, and his age is 22, his weight is 68KG, his height is 1.72 cm, he lives in city Jimma, and the country is Ethiopia. Which knowledge representation technique would be most appropriate for this scenario? [cite: 51, 52, 53]",
+    "options": {
+      "A": "Logical Representation. [cite: 54]",
+      "B": "Semantic Network. [cite: 55]",
+      "C": "Frame Representation. [cite: 56]",
+      "D": "Production Rules. [cite: 57]"
+    },
+    "answer": "C [cite: 58]"
+  },
+  {
+    "id": 8,
+    "question": "For a Depth-First Search (DFS) implementation, what kind of data structure is typically used to store the unexplored nodes during the exploration process? [cite: 59, 60]",
+    "options": {
+      "A": "Apriority queue [cite: 61]",
+      "B": "Linked list [cite: 62]",
+      "C": "Queue [cite: 63]",
+      "D": "Stack [cite: 64]"
+    },
+    "answer": "D [cite: 65]"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following searching algorithm guarantees to finding the optimal solution (lowest cost path) if it exists. [cite: 66, 67]",
+    "options": {
+      "A": "Depth-First Search (DFS) [cite: 68]",
+      "B": "Breadth-First Search (BFS) [cite: 69]",
+      "C": "Uniform Cost Search (UCS) [cite: 70]",
+      "D": "Iterative Deepening Search (IDS) [cite: 71]"
+    },
+    "answer": "C [cite: 72]"
+  },
+  {
+    "id": 10,
+    "question": "Imagine you are working on a social network application and want to find all friends of a user within two connections (friends of friends). Which search algorithm is best suited for this task? [cite: 73, 74]",
+    "options": {
+      "A": "Depth-First Search (DFS) [cite: 75]",
+      "B": "Breadth-First Search (BFS) [cite: 76]",
+      "C": "A* Search [cite: 77]",
+      "D": "Iterative Deepening Search (IDS) [cite: 78]"
+    },
+    "answer": "B [cite: 79]"
+  },
+  {
+    "id": 11,
+    "question": "In a Depth-First Search (DFS) implementation, the data structure typically used to store the nodes yet to be explored is: [cite: 80, 81]",
+    "options": {
+      "A": "An array [cite: 82]",
+      "B": "A linked list [cite: 83]",
+      "C": "A queue [cite: 84]",
+      "D": "A stack [cite: 85]"
+    },
+    "answer": "D [cite: 86]"
+  },
+  {
+    "id": 12,
+    "question": "Which is used to improve the agents' performance? [cite: 87]",
+    "options": {
+      "A": "Perceiving [cite: 88]",
+      "B": "Observing [cite: 89]",
+      "C": "Learning [cite: 90]",
+      "D": "Acting [cite: 91]"
+    },
+    "answer": "C [cite: 92]"
+  },
+  {
+    "id": 13,
+    "question": "Frames consist of data structures called [cite: 93]",
+    "options": {
+      "A": "Connectives [cite: 94]",
+      "B": "Nodes [cite: 95]",
+      "C": "Slots [cite: 96]",
+      "D": "Quantifiers [cite: 97]"
+    },
+    "answer": "C [cite: 98]"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is NOT a common way to represent knowledge in Artificial Intelligence (AI)? [cite: 99]",
+    "options": {
+      "A": "Propositional Logic [cite: 100]",
+      "B": "First-Order Logic [cite: 101]",
+      "C": "Semantic Networks [cite: 102]",
+      "D": "Production Rules [cite: 103]"
+    },
+    "answer": "B [cite: 104]"
+  },
+  {
+    "id": 15,
+    "question": "In a knowledge base represented using production rules, what is the part that specifies the conditions for applying the rule? [cite: 105]",
+    "options": {
+      "A": "Preconditions [cite: 106]",
+      "B": "Conclusion [cite: 107]",
+      "C": "Facts [cite: 108]",
+      "D": "Inferences [cite: 109]"
+    },
+    "answer": "A [cite: 110]"
+  },
+  {
+    "id": 16,
+    "question": "Logical representation is well-suited for representing knowledge about the world using: [cite: 111]",
+    "options": {
+      "A": "Semantic networks with nodes and edges [cite: 112]",
+      "B": "Frames with slots and values [cite: 113]",
+      "C": "Production rules with IF-THEN statements [cite: 114]",
+      "D": "Propositions, predicates, and connectives [cite: 115]"
+    },
+    "answer": "D [cite: 116]"
+  },
+  {
+    "id": 17,
+    "question": "How does an open mindset toward Artificial Intelligence advancements impact professional growth? [cite: 117, 118]",
+    "options": {
+      "A": "It limits opportunities for innovation. [cite: 119]",
+      "B": "It fosters continuous improvement and adaptability. [cite: 120]",
+      "C": "It reduces collaboration with peers. [cite: 121]",
+      "D": "It leads to over-specialization in outdated techniques. [cite: 122]"
+    },
+    "answer": "B [cite: 123]"
+  },
+  {
+    "id": 18,
+    "question": "What kind of data is required for SUPERVISED LEARNING? [cite: 124]",
+    "options": {
+      "A": "Data with patterns [cite: 125]",
+      "B": "Labeled data with input-output pairs [cite: 126]",
+      "C": "Data with no specific structure [cite: 127]",
+      "D": "Unlabeled data with output with feature piars [cite: 128]"
+    },
+    "answer": "B [cite: 129]"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following techniques is commonly used in UNSUPERVISED LEARNING? [cite: 130]",
+    "options": {
+      "A": "Linear Regression [cite: 130]",
+      "B": "Principal Component Analysis (PCA) [cite: 131]",
+      "C": "Logistic Regression [cite: 132]",
+      "D": "Random Forest [cite: 133]"
+    },
+    "answer": "B [cite: 134]"
+  },
+  {
+    "id": 20,
+    "question": "Which supervised learning algorithm is particularly well-suited for dealing with textual data and is based on probability theory? [cite: 135, 136]",
+    "options": {
+      "A": "Decision Trees [cite: 137]",
+      "B": "k-Nearest Neighbors (k-NN) [cite: 138]",
+      "C": "Naive Bayes [cite: 139]",
+      "D": "Support Vector Machines (SVM) [cite: 140]"
+    },
+    "answer": "C [cite: 141]"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is a common evaluation metric for classification models? [cite: 142]",
+    "options": {
+      "A": "Mean Squared Error [cite: 143]",
+      "B": "Root Mean Squared Error [cite: 144]",
+      "C": "R-squared [cite: 145]",
+      "D": "Precision [cite: 147]"
+    },
+    "answer": "D [cite: 148]"
+  },
+  {
+    "id": 22,
+    "question": "Which evaluation metric is most suitable for assessing time series forecasting models? [cite: 149]",
+    "options": {
+      "A": "Accuracy [cite: 150]",
+      "B": "Mean Absolute Error (MAE) [cite: 151]",
+      "C": "F1 Score [cite: 152]",
+      "D": "Precision [cite: 153]"
+    },
+    "answer": "B [cite: 154]"
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is NOT an example of supervised learning? [cite: 155]",
+    "options": {
+      "A": "Classifying animals as mammals or reptiles. [cite: 156]",
+      "B": "Predicting temperature based on historical weather data [cite: 157]",
+      "C": "Clustering social media users by interests [cite: 158]",
+      "D": "Predicting a student's exam score based on hours of study. [cite: 159]"
+    },
+    "answer": "C [cite: 160]"
+  },
+  {
+    "id": 24,
+    "question": "Which algorithm is best suited for predicting a continuous output? [cite: 161]",
+    "options": {
+      "A": "Logistic Regression [cite: 162]",
+      "B": "Decision Tree Classifier [cite: 163]",
+      "C": "Linear Regression [cite: 164]",
+      "D": "K-Nearest Neighbors (KNN) [cite: 165]"
+    },
+    "answer": "C [cite: 166]"
+  },
+  {
+    "id": 25,
+    "question": "Which unsupervised learning approach is used to group similar data points into clusters? [cite: 167]",
+    "options": {
+      "A": "Regression analysis [cite: 168]",
+      "B": "Decision Trees [cite: 169]",
+      "C": "K-Means Clustering [cite: 170]",
+      "D": "Neural Networks [cite: 171]"
+    },
+    "answer": "C [cite: 172]"
+  },
+  {
+    "id": 26,
+    "question": "What could happen if the learning rate is too small in gradient descent? [cite: 173]",
+    "options": {
+      "A": "The algorithm converges very slowly [cite: 174]",
+      "B": "The model becomes too complex [cite: 175]",
+      "C": "Training dataset size increases [cite: 176]",
+      "D": "The error immediately drops to zero [cite: 177]"
+    },
+    "answer": "A [cite: 178]"
+  },
+  {
+    "id": 27,
+    "question": "In machine learning, the cost function: [cite: 179]",
+    "options": {
+      "A": "Updates the model parameters [cite: 180]",
+      "B": "Measures how well the model predicts the target [cite: 181]",
+      "C": "Generates new data points [cite: 182]",
+      "D": "Reduces dimensionality [cite: 183]"
+    },
+    "answer": "B [cite: 184]"
+  },
+  {
+    "id": 28,
+    "question": "Which machine learning algorithm is commonly used for classification tasks and is based on finding the best hyperplane that separates data points into different classes? [cite: 185, 186]",
+    "options": {
+      "A": "k-Nearest Neighbors (k-NN) [cite: 187]",
+      "B": "Decision Trees [cite: 188]",
+      "C": "Naive Bayes [cite: 189]",
+      "D": "Support Vector Machines (SVM) [cite: 190]"
+    },
+    "answer": "D [cite: 191]"
+  },
+  {
+    "id": 29,
+    "question": "Suppose you are building a classifier to predict fraudulent transactions. The dataset has 10,000 records, but only 2% are fraud cases, meaning the classes are highly imbalanced. You want to split the data into 5 folds, but you need each fold to contain approximately the same ratio of fraud and non-fraud cases. Which cross-validation technique should you use? [cite: 192, 193, 194, 195]",
+    "options": {
+      "A": "K-Fold [cite: 196]",
+      "B": "Leave-P-Out [cite: 197]",
+      "C": "Stratified K-Folds [cite: 198]",
+      "D": "Leave-One-Out [cite: 199]"
+    },
+    "answer": "C [cite: 200]"
+  },
+  {
+    "id": 30,
+    "question": "Suppose you are training a regression model to predict Student Exam Scores. The model has high training error and high-test error, indicating that it is too simple to capture the underlying patterns in the data. Which problem is the model most likely suffering from? [cite: 202, 203, 204]",
+    "options": {
+      "A": "Overfitting [cite: 205]",
+      "B": "High variance [cite: 206]",
+      "C": "Underfitting [cite: 207]",
+      "D": "Data leakage [cite: 208]"
+    },
+    "answer": "C [cite: 209]"
+  },
+  {
+    "id": 31,
+    "question": "What output is produced if the following source code is compiled and run?\npublic class A {\npublic int number\npublic A() {\n}\nnumber *= 2;\n= 1;\npublic static void main(String[] args) {\n}\n}\nB b = new B();\nSystem.out.println(b.number);\nclass B extends A {\npublic B() {\nnumber += 1;\n}\n} [cite: 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226]",
+    "options": {
+      "A": "1 [cite: 227]",
+      "B": "2 [cite: 228]",
+      "C": "3 [cite: 229]",
+      "D": "4 [cite: 230]"
+    },
+    "answer": "C [cite: 231]"
+  },
+  {
+    "id": 32,
+    "question": "What output is produced by the following code?\nclass Parent {\n}\nint x = 10;\nclass Child extends Parent {\nint x = 20;\npublic static void main(String[] args) {\nChild c = new Child();\nSystem.out.println(c.x);\n}\n} [cite: 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242]",
+    "options": {
+      "A": "10 [cite: 243]",
+      "B": "20 [cite: 244]",
+      "C": "30 [cite: 245]",
+      "D": "Compilation Error [cite: 246]"
+    },
+    "answer": "B [cite: 247]"
+  },
+  {
+    "id": 33,
+    "question": "Consider the JAVA code snippet below. What will be the output after executing the following code?\nclass Parent {\nvoid display() {\nSystem.out.print(\"Parent \");\n}\n}\nclass Child extends Parent {\nvoid display() {\nsuper.display();\n}\nSystem.out.print(\"Child\");\n}\npublic static void main(String[] args) {\nChild c = new Child();\nc.display();\n} [cite: 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264]",
+    "options": {
+      "A": "Parent [cite: 265]",
+      "B": "Child [cite: 266]",
+      "C": "Parent Child [cite: 267]",
+      "D": "Child Parent [cite: 268]"
+    },
+    "answer": "C [cite: 269]"
+  },
+  {
+    "id": 34,
+    "question": "Which keyword is used to inherit a class in Java? [cite: 270]",
+    "options": {
+      "A": "implements [cite: 271]",
+      "B": "inherits [cite: 272]",
+      "C": "extends [cite: 273]",
+      "D": "super [cite: 274]"
+    },
+    "answer": "C [cite: 275]"
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is true about inheritance? [cite: 276]",
+    "options": {
+      "A": "It promotes code reusability [cite: 277]",
+      "B": "It hides data completely [cite: 278]",
+      "C": "It prevents method overriding [cite: 279]",
+      "D": "It replaces constructors [cite: 280]"
+    },
+    "answer": "A [cite: 281]"
+  },
+  {
+    "id": 36,
+    "question": "Which access modifier is commonly used to achieve encapsulation? [cite: 282]",
+    "options": {
+      "A": "public [cite: 283]",
+      "B": "protected [cite: 284]",
+      "C": "private [cite: 285]",
+      "D": "static [cite: 286]"
+    },
+    "answer": "C [cite: 287]"
+  },
+  {
+    "id": 37,
+    "question": "Which concept allows one function name to have multiple forms? [cite: 288]",
+    "options": {
+      "A": "Polymorphism [cite: 289]",
+      "B": "Encapsulation [cite: 290]",
+      "C": "Inheritance [cite: 291]",
+      "D": "Compilation [cite: 292]"
+    },
+    "answer": "A [cite: 293]"
+  },
+  {
+    "id": 38,
+    "question": "Method overriding occurs when: [cite: 294]",
+    "options": {
+      "A": "Two methods have the same name but different parameters [cite: 295]",
+      "B": "A subclass provides its own implementation of a superclass method [cite: 296]",
+      "C": "A method is declared private [cite: 297]",
+      "D": "A constructor calls another constructor [cite: 298]"
+    },
+    "answer": "B [cite: 299]"
+  },
+  {
+    "id": 39,
+    "question": "Method overloading occurs when: [cite: 300]",
+    "options": {
+      "A": "Methods have the same name but different parameter lists [cite: 301]",
+      "B": "Methods have different names and same parameters [cite: 302]",
+      "C": "A child class redefines a method [cite: 303]",
+      "D": "Methods are declared private [cite: 304]"
+    },
+    "answer": "A [cite: 305]"
+  },
+  {
+    "id": 40,
+    "question": "Consider the JAVA code snippet below. What will be the output after executing the following code?\nclass Test {\nvoid add(int a, int b) {\n}\nSystem.out.print(a+b);\nvoid add(int a, int b, int c) {\nSystem.out.print(a+b+c);\n}\npublic static void main(String[] args) {\nTest t = new Test();\nt.add(2, 3);\n}\n} [cite: 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319]",
+    "options": {
+      "A": "2 [cite: 320]",
+      "B": "3 [cite: 321]",
+      "C": "5 [cite: 322]",
+      "D": "23 [cite: 323]"
+    },
+    "answer": "C [cite: 324]"
+  },
+  {
+    "id": 41,
+    "question": "A class contains the following methods:\nvoid display()\nvoid display(String name)\nvoid display(int age)\nWhich OOP concept does this demonstrate? [cite: 325, 326, 327, 328, 329]",
+    "options": {
+      "A": "Inheritance [cite: 330]",
+      "B": "Encapsulation [cite: 331]",
+      "C": "Method Overloading [cite: 333]",
+      "D": "Method Overriding [cite: 334]"
+    },
+    "answer": "C [cite: 332]"
+  },
+  {
+    "id": 42,
+    "question": "A university system has a superclass Person and subclasses Student and Teacher. Both subclasses implement their own version of the method displayInfo(). When the system calls displayInfo() through a Person reference, the appropriate subclass method executes. Which OOP concept is demonstrated? [cite: 335, 336, 337]",
+    "options": {
+      "A": "Encapsulation through controlled access methods [cite: 338]",
+      "B": "Method overloading using different parameters [cite: 339]",
+      "C": "Runtime polymorphism through method overriding [cite: 340]",
+      "D": "Abstraction through hidden implementation details [cite: 341]"
+    },
+    "answer": "C [cite: 342]"
+  },
+  {
+    "id": 43,
+    "question": "A banking application stores account balance as a private variable and provides deposit() and withdraw() methods to modify it. Which OOP principle is primarily being applied? [cite: 343, 344]",
+    "options": {
+      "A": "Inheritance [cite: 345]",
+      "B": "Encapsulation [cite: 346]",
+      "C": "Polymorphism [cite: 347]",
+      "D": "Method Overloading [cite: 348]"
+    },
+    "answer": "B [cite: 349]"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following best describes polymorphism in Java? [cite: 350]",
+    "options": {
+      "A": "The ability of a class to inherit properties from multiple super classes. [cite: 351]",
+      "B": "The ability of an object to take on many forms. [cite: 352]",
+      "C": "The process of hiding complex implementation details from the user. [cite: 353]",
+      "D": "The mechanism of bundling data (attributes) and methods that operate on the data. [cite: 354]"
+    },
+    "answer": "B [cite: 355]"
+  },
+  {
+    "id": 45,
+    "question": "Which one or more of the following statement is incorrect about java exception handling mechanism. [cite: 356]",
+    "options": {
+      "A": "When an exception is thrown, the normal execution flow is interrupted [cite: 357]",
+      "B": "The primary advantage of handling an exception is to stop the normal flow of the application when the exception occur. [cite: 358]",
+      "C": "The stack shows the sequence of method invocation that cause an error [cite: 359]",
+      "D": "If an exception is not caught in the current method, it is passed to its caller. [cite: 360]"
+    },
+    "answer": "B [cite: 361]"
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is a top-level container in Java Swing? [cite: 362]",
+    "options": {
+      "A": "JButton [cite: 363]",
+      "B": "JPanel [cite: 364]",
+      "C": "JFrame [cite: 365]",
+      "D": "JLabel [cite: 366]"
+    },
+    "answer": "C [cite: 367]"
+  },
+  {
+    "id": 47,
+    "question": "Which of the following Swing containers is typically used to organize and group other GUI components? [cite: 368]",
+    "options": {
+      "A": "JButton [cite: 369]",
+      "B": "JPanel [cite: 370]",
+      "C": "JTextArea [cite: 371]",
+      "D": "JLabel [cite: 372]"
+    },
+    "answer": "B [cite: 373]"
+  },
+  {
+    "id": 48,
+    "question": "Which Swing component is designed to trigger an action when clicked by the user? [cite: 374]",
+    "options": {
+      "A": "JLabel [cite: 375]",
+      "B": "JTextField [cite: 376]",
+      "C": "JButton [cite: 377]",
+      "D": "JPanel [cite: 378]"
+    },
+    "answer": "C [cite: 379]"
+  },
+  {
+    "id": 49,
+    "question": "A student is designing a login interface in an IDE. Which combination of components would best support username entry, password entry, and login submission? [cite: 380, 381]",
+    "options": {
+      "A": "JLabel, JPanel, JMenuBar [cite: 382]",
+      "B": "JTextField, JPasswordField, JButton [cite: 383]",
+      "C": "JTextArea, JLabel, JCheckBox [cite: 384]",
+      "D": "JScrollPane, JTable, JMenu [cite: 385]"
+    },
+    "answer": "B [cite: 386]"
+  },
+  {
+    "id": 50,
+    "question": "A developer needs to create a Java Swing application that accepts user input and displays a message when a button is clicked. Which design is most appropriate? [cite: 387, 388]",
+    "options": {
+      "A": "Use a JFrame, JTextField, JButton, and an ActionListener [cite: 389]",
+      "B": "Use a JPanel, JLabel, JTextArea, and a FlowLayout [cite: 390]",
+      "C": "Use a JFrame, JLabel, JMenuBar, and a BorderLayout [cite: 391]",
+      "D": "Use a JPanel, JCheckBox, JTextField, and a GridLayout [cite: 392]"
+    },
+    "answer": "A [cite: 393]"
+  }
+]

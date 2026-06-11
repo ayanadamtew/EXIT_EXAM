@@ -1,0 +1,2695 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Program:  BSc in Software Engineering 
+Exam Type:   Mock Exit Exam-Round 2 
+Exam Item: Multiple Choice 
+Number of Questions:  100 
+Time Allowed:   3:00hrs 
+ 
+St.Name:  _____________________________________ 
+ 
+IDNo:    _______________________________________ 
+                       
+ 
+ 
+ 
+ 
+ 
+ 
+                               June08, 2026 
+Jimma University  
+ 
+1. An AI agent that assigns a value to each possible outcome and chooses the action with the 
+highest value is a:  
+A. Simple reflex agent            
+B. Utility-based agent   
+C. Model-based agent          
+D. Learning agent 
+ ANSWER: B 
+2. In a Depth-First Search (DFS) implementation, the data structure typically used to store the 
+nodes yet to be explored is: 
+A. An array 
+B. A linked list 
+C. A queue 
+D. A stack  
+ANSWER: D 
+3. Suppose you are planning a trip and want to find the cheapest flight from Jimma (initial state 
+city) to Addis Ababa (your destination). There are multiple airlines offering various routes with 
+connecting flights. Which search algorithm is best suited to find the cheapest flight, 
+considering the need to evaluate different routes and prices?  
+A. Depth-First Search                          
+B.  Breadth-First Search     
+C.  Heuristic Search                              
+D.  Iterative Deepening Search  
+ANSWER: C 
+4. Suppose you know how to ride a bike without needing to think about the specific steps 
+involved. This is an example of what type of knowledge? 
+A. Declarative Knowledge                  
+B. Procedural Knowledge   
+C. Structural knowledge                     
+D. Conditional Knowledge 
+ANSWER: B 
+ 
+5. Why is lifelong learning important for professionals working in Artificial Intelligence (AI)? 
+A. AI concepts are static and rarely evolve. 
+B. AI requires adapting to rapidly advancing technologies. 
+C. AI projects are always repetitive. 
+D. AI knowledge is only relevant in academia. 
+ANSWER: B 
+6. In knowledge representation, what is the main purpose of connectives like AND, OR,and NOT? 
+A. To specify slot values within frames. 
+B. To represent actions within production rules. 
+C. Define relationships between concepts in a semantic network. 
+D. Build complex sentences within logical representation.    
+ANSWER: D 
+7. Suppose we are taking an entity, Henok. Henok is a Software Developer as a profession, and 
+his age is 22, his weight is 68KG, his height is 1.72 cm, he lives in city Jimma, and the country 
+is Ethiopia. Which knowledge representation technique would be most appropriate for this 
+scenario? 
+A. Logical Representation.                          
+B. Semantic Network. 
+C. Frame Representation.                       
+D. Production Rules. 
+ANSWER: C 
+8. For a Depth-First Search (DFS) implementation, what kind of data structure is typically used 
+to store the unexplored nodes during the exploration process? 
+A. Apriority queue          
+B. Linked list             
+C. Queue               
+D. Stack  
+ANSWER: D 
+ 
+ 
+ 
+9. Which of the following searching algorithm guarantees to finding the optimal solution (lowest 
+cost path) if it exists. 
+A. Depth-First Search (DFS)                   
+B. Breadth-First Search (BFS) 
+C. Uniform Cost Search (UCS)               
+D. Iterative Deepening Search (IDS) 
+ANSWER: C 
+10. Imagine you are working on a social network application and want to find all friends of a user 
+within two connections (friends of friends). Which search algorithm is best suited for this task? 
+A. Depth-First Search (DFS) 
+B. Breadth-First Search (BFS)  
+C. A* Search 
+D. Iterative Deepening Search (IDS) 
+ANSWER: B 
+11. In a Depth-First Search (DFS) implementation, the data structure typically used to store the 
+nodes yet to be explored is: 
+A. An array 
+B. A linked list 
+C. A queue 
+D. A stack  
+ANSWER: D 
+12. Which is used to improve the agents’ performance? 
+A. Perceiving       
+B. Observing         
+C. Learning        
+D. Acting      
+ANSWER: C 
+13. Frames consist of data structures called _______ 
+A. Connectives 
+B. Nodes 
+C. Slots   
+D. Quantifiers 
+ANSWER: C 
+14. Which of the following is NOT a common way to represent knowledge in Artificial 
+Intelligence (AI)?  
+A. Propositional Logic  
+B. First-Order Logic  
+C. Semantic Networks 
+D.  Production Rules 
+ANSWER: B 
+15. In a knowledge base represented using production rules, what is the part that specifies the 
+conditions for applying the rule?  
+A. Preconditions  
+B. Conclusion 
+C. Facts  
+D. Inferences 
+ANSWER: A 
+16. Logical representation is well-suited for representing knowledge about the world using: 
+A. Semantic networks with nodes and edges 
+B. Frames with slots and values 
+C. Production rules with IF-THEN statements 
+D. Propositions, predicates, and connectives      
+ANSWER: D 
+17. How does an open mindset toward Artificial Intelligence advancements impact professional 
+growth? 
+A. It limits opportunities for innovation. 
+B. It fosters continuous improvement and adaptability. 
+C. It reduces collaboration with peers. 
+D. It leads to over-specialization in outdated techniques. 
+ANSWER: B 
+18. What kind of data is required for SUPERVISED LEARNING? 
+A. Data with patterns 
+B. Labeled data with input-output pairs 
+C. Data with no specific structure 
+D. Unlabeled data with output with feature piars 
+ANSWER: B 
+19. Which of the following techniques is commonly used in UNSUPERVISED LEARNING? 
+A. Linear Regression 
+B.  Principal Component Analysis (PCA) 
+C. Logistic Regression 
+D. Random Forest 
+ANSWER: B 
+20. Which supervised learning algorithm is particularly well-suited for dealing with textual 
+data and is based on probability theory? 
+A.  Decision Trees          
+B. k-Nearest Neighbors (k-NN) 
+C. Naive Bayes            
+D. Support Vector Machines (SVM) 
+ANSWER: C 
+21. Which of the following is a common evaluation metric for classification models? 
+A. Mean Squared Error   
+B.  Root Mean Squared Error   
+C.  R-squared    
+D.   Precision 
+ANSWER: D 
+22. Which evaluation metric is most suitable for assessing time series forecasting models? 
+A. Accuracy 
+B. Mean Absolute Error (MAE) 
+C. F1 Score 
+D. Precision 
+ANSWER:   B 
+23. Which of the following is NOT an example of supervised learning?   
+A. Classifying animals as mammals or reptiles.                        
+B. Predicting temperature based on historical weather data 
+C. Clustering social media users by interests 
+D. Predicting a student’s exam score based on hours of study. 
+ANSWER:   C 
+24. Which algorithm is best suited for predicting a continuous output? 
+A. Logistic Regression                      
+B. Decision Tree Classifier    
+C. Linear Regression                        
+D. K-Nearest Neighbors (KNN)   
+ANSWER:   C 
+25. Which unsupervised learning approach is used to group similar data points into clusters? 
+A. Regression analysis 
+B. Decision Trees 
+C. K-Means Clustering 
+D. Neural Networks 
+ANSWER:   C 
+26. What could happen if the learning rate is too small in gradient descent? 
+A. The algorithm converges very slowly 
+B. The model becomes too complex 
+C. Training dataset size increases 
+D. The error immediately drops to zero 
+ANSWER:  A 
+27. In machine learning, the cost function: 
+A. Updates the model parameters 
+B. Measures how well the model predicts the target 
+C.  Generates new data points 
+D. Reduces dimensionality 
+ANSWER:  B 
+28. Which machine learning algorithm is commonly used for classification tasks and is based 
+on finding the best hyperplane that separates data points into different classes? 
+A. k-Nearest Neighbors (k-NN)        
+B. Decision Trees 
+C. Naive Bayes                                
+D. Support Vector Machines (SVM) 
+ANSWER:  D 
+29. Suppose you are building a classifier to predict fraudulent transactions. The dataset has 10,000 
+records, but only 2% are fraud cases, meaning the classes are highly imbalanced. You want to 
+split the data into 5 folds, but you need each fold to contain approximately the same ratio of 
+fraud and non-fraud cases. Which cross-validation technique should you use? 
+A. K-Fold          
+B. Leave-P-Out     
+C. Stratified K-Folds      
+D.  Leave-One-Out 
+ANSWER:  C 
+ 
+30.  
+Suppose you are training a regression model to predict Student Exam Scores. The model 
+has high training error and high-test error, indicating that it is too simple to capture the 
+underlying patterns in the data. Which problem is the model most likely suffering from? 
+A. Overfitting   
+B. High variance  
+C. Underfitting     
+D. Data leakage 
+ANSWER:  C 
+31. What output is produced if the following source code is compiled and run?   
+public class A { 
+    public int number = 1; 
+    public A() { 
+        number *= 2; 
+    } 
+    public static void main(String[] args) { 
+        B b = new B(); 
+        System.out.println(b.number); 
+    } 
+} 
+class B extends A { 
+    public B() { 
+        number += 1; 
+    } 
+} 
+ 
+A. 1                      
+B. 2           
+C.  3              
+D.   4 
+ANSWER: C 
+32.  What output is produced by the following code? 
+class Parent { 
+    int x = 10; 
+} 
+class Child extends Parent { 
+    int x = 20; 
+    public static void main(String[] args) { 
+        Child c = new Child(); 
+        System.out.println(c.x); 
+    } 
+} 
+ 
+A. 10 
+B. 20 
+C. 30 
+D. Compilation Error 
+ANSWER: B 
+33. Consider the JAVA code snippet below. What will be the output after executing the following 
+code? 
+class Parent { 
+    void display() { 
+        System.out.print("Parent "); 
+    } 
+} 
+class Child extends Parent { 
+    void display() { 
+        super.display(); 
+        System.out.print("Child"); 
+    } 
+    public static void main(String[] args) { 
+        Child c = new Child(); 
+        c.display(); 
+    } 
+} 
+ 
+A. Parent 
+B. Child 
+C. Parent Child 
+D. Child Parent 
+ANSWER: C 
+ 
+34. Which keyword is used to inherit a class in Java? 
+A. implements 
+B. inherits 
+C. extends 
+D. super 
+ANSWER: C 
+35. Which of the following is true about inheritance? 
+A. It promotes code reusability 
+B. It hides data completely 
+C. It prevents method overriding 
+D. It replaces constructors 
+ANSWER: A 
+36. Which access modifier is commonly used to achieve encapsulation? 
+A. public 
+B. protected 
+C.  private 
+D.  static 
+ANSWER: C 
+37. Which concept allows one function name to have multiple forms? 
+A. Polymorphism 
+B. Encapsulation 
+C.  Inheritance 
+D. Compilation 
+ANSWER: A 
+38. Method overriding occurs when: 
+A. Two methods have the same name but different parameters 
+B. A subclass provides its own implementation of a superclass method 
+C. A method is declared private 
+D. A constructor calls another constructor 
+ANSWER: B 
+ 
+ 
+39. Method overloading occurs when: 
+A. Methods have the same name but different parameter lists 
+B. Methods have different names and same parameters 
+C. A child class redefines a method 
+D. Methods are declared private 
+ANSWER: A 
+40.  Consider the JAVA code snippet below. What will be the output after executing the following 
+code? 
+class Test { 
+    void add(int a, int b) { 
+        System.out.print(a + b); 
+    } 
+    void add(int a, int b, int c) { 
+        System.out.print(a + b + c); 
+    } 
+    public static void main(String[] args) { 
+        Test t = new Test(); 
+        t.add(2, 3); 
+    } 
+} 
+ 
+A. 2 
+B.  3 
+C. 5 
+D. 23 
+ANSWER: C 
+41. A class contains the following methods: 
+void display() 
+void display(String name) 
+void display(int age) 
+Which OOP concept does this demonstrate? 
+A. Inheritance 
+B. Encapsulation 
+C. Method Overloading 
+D. Method Overriding 
+ANSWER: C 
+ 
+42. A university system has a superclass Person and subclasses Student and Teacher. Both 
+subclasses implement their own version of the method displayInfo(). When the system calls 
+displayInfo() through a Person reference, the appropriate subclass method executes. Which 
+OOP concept is demonstrated? 
+A. Encapsulation through controlled access methods 
+B. Method overloading using different parameters 
+C. Runtime polymorphism through method overriding 
+D. Abstraction through hidden implementation details 
+ANSWER: C 
+43. A banking application stores account balance as a private variable and provides deposit() and 
+withdraw() methods to modify it. Which OOP principle is primarily being applied? 
+A. Inheritance 
+B.  Encapsulation 
+C.  Polymorphism 
+D.  Method Overloading 
+ANSWER: B 
+44. Which of the following best describes polymorphism in Java?  
+A. The ability of a class to inherit properties from multiple super classes.  
+B. The ability of an object to take on many forms.  
+C. The process of hiding complex implementation details from the user.  
+D. The mechanism of bundling data (attributes) and methods that operate on the data. 
+ANSWER: B 
+45. Which one or more of the following statement is incorrect about java exception handling 
+mechanism. 
+A. When an exception is thrown, the normal execution flow is interrupted 
+B. The primary advantage of handling an exception is to stop the normal flow of the 
+application when the exception occur. 
+C. The stack shows the sequence of method invocation that cause an error 
+D.  If an exception is not caught in the current method, it is passed to its caller. 
+ANSWER: B 
+ 
+46. Which of the following is a top-level container in Java Swing? 
+A. JButton 
+B. JPanel 
+C. JFrame 
+D. JLabel 
+ANSWER: C 
+47. Which of the following Swing containers is typically used to organize and group other GUI 
+components? 
+A. JButton 
+B. JPanel 
+C. JTextArea 
+D.  JLabel 
+ANSWER: B  
+48. Which Swing component is designed to trigger an action when clicked by the user? 
+A. JLabel 
+B. JTextField 
+C. JButton 
+D. JPanel 
+ANSWER: C 
+49. A student is designing a login interface in an IDE. Which combination of components would 
+best support username entry, password entry, and login submission? 
+A. JLabel, JPanel, JMenuBar 
+B. JTextField, JPasswordField, JButton 
+C. JTextArea, JLabel, JCheckBox 
+D.  JScrollPane, JTable, JMenu 
+ANSWER: B 
+ 
+ 
+ 
+ 
+50. A developer needs to create a Java Swing application that accepts user input and displays a 
+message when a button is clicked. Which design is most appropriate? 
+A. Use a JFrame, JTextField, JButton, and an ActionListener 
+B. Use a JPanel, JLabel, JTextArea, and a FlowLayout 
+C. Use a JFrame, JLabel, JMenuBar, and a BorderLayout 
+D. Use a JPanel, JCheckBox, JTextField, and a GridLayout 
+ANSWER: A 
+51. A software developer is creating a survey form. Which layout manager would be most 
+appropriate for arranging labels and input fields in rows and columns? 
+A. FlowLayout 
+B. BorderLayout 
+C. GridLayout 
+D. CardLayout 
+ANSWER: C 
+52. A developer wants to design a GUI application that responds when the user presses a button. 
+Which additional element must be created besides the button itself? 
+A. A layout manager only 
+B. An event listener implementation 
+C. A second frame 
+D. A menu bar 
+ANSWER: B 
+53. Which block is always executed regardless of whether an exception occurs? 
+A. try 
+B. catch 
+C. finally 
+D. throw 
+ANSWER: C 
+54. Which of the following is a checked exception? 
+A. ArithmeticException 
+B. NullPointerException 
+C.  IOException 
+D.  ArrayIndexOutOfBoundsException 
+ANSWER: C 
+55. Consider the JAVA code snippet below. What will be the output after executing the following 
+code? 
+public class Test { 
+    public static void main(String[] args) { 
+        try { 
+            int a = 10 / 0; 
+        } catch (ArithmeticException e) { 
+            System.out.print("Error"); 
+        } 
+    } 
+} 
+ 
+A. 10 
+B.  Error 
+C.  Runtime Exception 
+D.  Compilation Error 
+ANSWER: B 
+56. What will happen if an exception is not handled in Java? 
+A. Program continues normally 
+B. Program ignores the exception 
+C. Program terminates abnormally 
+D.  Program restarts automatically 
+ANSWER: C 
+57. Which keyword is used to explicitly pass an exception to the calling method? 
+A. Try 
+B. Throw 
+C.  Throws 
+D.  catch 
+ANSWER: C 
+58. Which of the following Swing components allows users to select one option from a list of 
+choices? 
+A. JTextArea 
+B. JButton 
+C.  JComboBox 
+D. JLabel 
+ANSWER: C 
+ 
+59. Consider the JAVA code snippet below. What will be the output after executing the following 
+code? 
+public class Test { 
+    public static void main(String[] args) { 
+        try { 
+            int x = 5 / 1; 
+            System.out.print("A"); 
+        } catch (Exception e) { 
+            System.out.print("B"); 
+        } finally { 
+            System.out.print("C"); 
+        } 
+    } 
+} 
+ 
+A. A 
+B.  B 
+C. AC 
+D. BC 
+ANSWER: C 
+60. Which of the following is true about the finally block? 
+A. It executes only if exception occurs 
+B.  It executes only if no exception occurs 
+C.  It always executes 
+D. It replaces catch block 
+ANSWER: C 
+61. Which concept allows an object to respond differently to the same message? 
+A. Aggregation 
+B. Polymorphism 
+C. Inheritance 
+D. Encapsulation 
+ANSWER: B 
+62. __________________ is the OOP feature and mechanism that binds together code and the 
+data it manipulates, and keep both safe from outside world. 
+A. Data Binding 
+B. Data Encapsulation 
+C. Data Storing 
+D. Data Abstraction 
+ANSWER: B 
+63. Which of the following is false about class? 
+A. Memory is allocated only for the class variables 
+B. Destructor automatically executes when the class object goes out of scope.  
+C. Class is a blueprint from which object is created. 
+D. A class can have more than one destructor 
+ANSWER: D 
+64. In debugging code, we sometimes break down the execution using breakpoints. What is the 
+main purpose of using this? 
+A. To print output on the console 
+B. To stop code execution at a specific point to examine the current state and variable values 
+C. To execute a specific block of code repeatedly 
+D. To restart the program from the beginning 
+ANSWER: B 
+65. Which of the following is true about static functions. 
+A. It should be called when an object is destroyed. 
+B. It is closely connected with and individual object of a class. 
+C. It can be called using the class name and function name. 
+D. It is used when a dummy object must be created. 
+ANSWER: C 
+66. What is a potential drawback of using user-defined data types in C++? 
+A. Limited code organization and readability 
+B. Increased efficiency and performance issues 
+C. Reduced flexibility and scalability 
+D. Improved code maintenance and debugging 
+ANSWER: C 
+67. If a new programming framework is released with significant updates, how should a 
+programmer stay relevant with it?  
+A. Ignore it and stick with what they know. 
+B. Delegate learning the framework to someone else.  
+C. Dedicate time to learn and explore the new framework.  
+D. Hope their current skills are enough. 
+ANSWER: C 
+68. If we create a file by ‘ifstream’, then the default mode of the file is _________ 
+A. ios :: out 
+B. ios :: in 
+C. ios :: app 
+D. ios :: binary 
+ANSWER: B 
+69. Which of the following is true about the actual parameters in C++? 
+A. Parameters with which functions are called. 
+B. Parameters which are used in the definition of a function. 
+C. Variables other than passed parameters in a function. 
+D. Variables that are never used in the function. 
+ANSWER: A 
+70. In C++, dynamic memory allocation is accomplished with the operator ____. 
+A. New 
+B. This 
+C. malloc( ) 
+D. delete 
+ANSWER: A 
+71. What would be the output of the following?  
+#include <iostream> 
+using namespace std; 
+int main() { 
+    char *ptr = (char*)"abcd"; 
+    char ch; 
+    ch = ++*ptr++; 
+    cout << ch; 
+    return 0; 
+} 
+ 
+A. a 
+B. b 
+C. c 
+D. d 
+ANSWER: B 
+72. Which of the following ways are legal to access a class data member using this pointer? 
+A. this.x 
+B. *this.x 
+C. *(this.x) 
+D. (*this).x 
+ANSWER: B 
+73. Which type of programming error occurs when a program executes successfully but produces incorrect 
+results? 
+A. Syntax Error 
+B. Runtime Error 
+C. Compilation Error 
+D. Logical Error 
+ANSWER: D 
+74. What is the purpose of the #include<iostream> directive?   To------- 
+A.  Define the main function          
+B. Declare variables and data type 
+C. Speed up program execution         
+D.  Allow the use of input and output streams 
+ANSWER: D 
+ 
+75. Which loop is most appropriate when the number of iterations is unknown and depends on a 
+condition evaluated before each iteration? 
+A. while loop 
+B. do-while loop 
+C. for loop 
+D. nested loop 
+ANSWER: A 
+51. Which loop guarantees that its body executes at least once, regardless of the condition? 
+A. while loop 
+B. do-while loop  
+C. for loop 
+D.  nested loop 
+ANSWER: B 
+ 
+ 
+76. Consider the C++ code snippet below. What will be the output after executing the following 
+code? 
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int a = 5, b = 4, c = a + b, d; 
+    a += 5; 
+    b *= 4; 
+    c += a * b; 
+    c %= 6; 
+    d = ++c; 
+    cout << "b = " << b << endl; 
+    cout << "c = " << c << endl; 
+    cout << "d = " << d << endl; 
+    return 0; 
+} 
+ 
+A.  
+                b = 16   
+                c = 2   
+                d = 2 
+B.  
+                  b = 16   
+                  c = 3   
+                  d = 3 
+C.  
+        b = 20   
+        c = 2   
+        d = 2 
+ 
+D.  
+       b = 16   
+       c = 2   
+              d = 3 
+Answer: A 
+77. Which type of loop is commonly used when processing rows and columns of a two-
+dimensional array? 
+A. while loop 
+B.  do-while loop 
+C.  for loop 
+D. nested loop  
+ANSWER: D 
+78. A program is divided into several functions, each performing a specific task. What is the 
+main advantage of this approach? 
+A. Increases execution speed only 
+B. Improves code reusability  
+C. Eliminates the need for variables 
+D. Avoids compilation errors 
+ANSWER: B 
+79. If a function modifies a variable passed from the main function, which parameter passing 
+method is used? 
+A. Pass by value 
+B. Pass by reference 
+C. Pass by constant only 
+D. Pass by copy 
+ANSWER: B 
+80. Consider the C++ code snippet below.  The value of num remains unchanged after the function 
+call. Which parameter-passing method is used? 
+ 
+#include <iostream> 
+using namespace std; 
+ 
+void update(int x) { 
+    x = x + 10; 
+} 
+int main() { 
+    int num = 5; 
+    update(num); 
+    cout << num; 
+    return 0; 
+} 
+ 
+A. Pass by reference 
+B. Pass by value 
+C. Pass by pointer 
+D. Pass by constant reference 
+ANSWER: B 
+ 
+81. Which structure best represents user-defined data type in C++? 
+A.  int 
+B. float 
+C. struct 
+D. double 
+ANSWER: C 
+82. Which mode is used to append data to a file? 
+A. ios::in 
+B. ios::out 
+C. ios::app 
+D. ios::trunc 
+ANSWER: C 
+83. Which explicit file open mode flag should be passed to an std::ofstream constructor to ensure 
+that existing file content is preserved and new records are appended to the end of the stream? 
+A. std::ios::in 
+B.  std::ios::trunc 
+C.  std::ios::out 
+D.  std::ios::app 
+ANSWER: D 
+84. A file named data.txt already contains information. A programmer wants to overwrite all 
+existing data and write new information to the file. Which file mode should be selected? 
+A. std::ios::app 
+B.  std::ios::in 
+C.  std::ios::ate 
+D.  std::ios::trunc 
+ANSWER: D  
+85. Which of the following statements is used to select ONE OPTION from multiple cases in C++? 
+A.  if 
+B.  For 
+C. Switch 
+D. While loop 
+ANSWER: C 
+ 
+86. Consider the following statement:  What is the primary purpose of the ios::out mode? 
+ofstream file("employee1.txt", ios::out); 
+A. Read data from the file 
+B. Write data to the file 
+C.  Append data to the end of the file 
+D.  Position the pointer at the end 
+ANSWER: B  
+87. Consider the following statement: 
+result = (x > 10) ? (y < 5 ? 1 : 2) : 3; 
+ 
+A. 1 
+B. 2 
+C. 3 
+D. Invalid 
+ANSWER: C  
+88. Suppose a program opens a file using the following statement:  What is the purpose of the 
+ios::in mode? 
+ifstream file("students.txt", ios::in); 
+A.  Open the file for reading 
+B. Delete existing contents 
+C.  Append data to the file 
+D. Open the file for writing only 
+ANSWER: A 
+89. In which situation is the CONTINUE statement useful? 
+A. When you want to exit a loop completely based on the condition 
+B. When you want to skip specific iterations based on a condition 
+C. When you want to stop program execution based on a condition 
+D. When you want to jump outside a function based on a condition 
+ANSWER: B 
+ 
+ 
+ 
+90. What will be the output of the following switch statement? 
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int x = 2; 
+    switch(x) { 
+        case 1: 
+        case 2: 
+            cout << "A "; 
+        case 3: 
+            cout << "B "; 
+        default: 
+            cout << "C"; 
+    } 
+    return 0; 
+} 
+ 
+A. A 
+B. A B C 
+C.  B C 
+D.  C 
+ANSWER: B 
+91. A programmer wants to generate the following inverted number pattern using C++ code: 
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+ 
+How many times will the INNER LOOP EXECUTE in total? 
+A. 8 
+B. 10 
+C.  12 
+D. 16 
+ANSWER: B 
+92. What happens if the loop condition is always TRUE and there is no terminating statement? 
+A. The loop executes only once. 
+B. The loop produces a compilation error. 
+C. The loop is skipped. 
+D. The loop becomes an infinite loop.  
+ANSWER: D 
+ 
+93. What will be the output of the following program? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. 11  12  13  21  22  23  31  32  33  41  42  43  51  52  53 
+B. 11  12  21  22  31  32  41  42  51  52 
+C. 11  12  21  22  31  41  42  43  51  52  53 
+D.  Infinite loop 
+ANSWER: C 
+94. What will be the output of the following code? 
+#include <iostream> 
+using namespace std; 
+int main() { 
+    for(int i = 1; i <= 3; i++) { 
+        for(int j = 1; j <= 3; j++) { 
+            if(i == j) 
+                continue; 
+            cout << i << j << " "; 
+        } 
+    } 
+    return 0; 
+} 
+ 
+A. 11 22 33 
+B. 12 13 21 23 31 32 
+C. 12 21 23 32 
+D.  11 12 21 22 31 32 
+ANSWER: B 
+#include <iostream> 
+using namespace std; 
+int main() { 
+    for(int i = 1; i <= 5; i++) { 
+        for(int j = 1; j <= 3; j++) { 
+            if(i == 3 && j == 2) 
+                break; 
+            cout << i << j << " "; 
+        } 
+    } 
+    return 0; 
+} 
+95. Which operator is used to access STRUCTURE MEMBERS? 
+A. ; 
+B.  -> 
+C. * 
+D.  . 
+ANSWER: D 
+96. A programmer wants to store marks of 100 students and process them later. Which data 
+structure is most appropriate? 
+A. Variable 
+B. Constant 
+C. Operator 
+D. Array 
+ANSWER: D 
+97. When evaluating a standard switch-case construct in C++, what happens if a matching case 
+block does not conclude with a 'break' statement? 
+A. Execution falls through to execute subsequent case statements sequentially until a 
+break or the end of the switch block is reached. 
+B. The compiler rejects the code format and raises a syntax validation error at compile 
+time. 
+C. The execution flow exits the switch structure immediately to protect operational 
+invariants. 
+D. The program triggers a runtime segmentation fault exception due to unstable execution 
+paths. 
+ ANSWER: A 
+98. Given the declaration "int x = 10; int* ptr = &x;", what does the expression "*ptr" directly 
+represent in a C++ source file? 
+A. The absolute memory address assignment path tracking where x is physically stored. 
+B. An independent reference duplicate instance holding a copy of the value 10. 
+C. The variable entity x itself, accessed via pointer dereferencing to read or modify its 
+value. 
+D. A secondary memory allocation pointer tracking the address location of the variable ptr. 
+ ANSWER: C 
+99. What operational vulnerability occurs if a recursive C++ function is executed without a valid, 
+reachable base case exit condition? 
+A. The memory addresses space defaults to an out-of-bounds array layout boundary. 
+B. The execution engine falls into an infinite cascade of activation records, causing a 
+stack overflow crash. 
+C. The compiler flags a logical structure conflict exception and automatically breaks 
+compilation. 
+D. The system automatically transforms the execution architecture into an optimization 
+iteration loop. 
+ ANSWER: B 
+100. 
+A developer configures a loop statement: for(int i = 0; i < 10; i++) { if(i == 5) continue; 
+std::cout << i; } Which of the following describes the accurate output trace behavior of this 
+processing block? 
+A. The program prints numbers from 0 to 4, then completely breaks out of the loop 
+construct. 
+B. The loop skips printing the digit 5 specifically, but successfully executes processing for 
+all other indices. 
+C. The execution engine halts execution entirely, logging a critical runtime memory 
+boundary exception. 
+D. The loop loops infinitely at index value 5 because the loop control increment step is 
+bypassed. 
+ANSWER: B 
+101. 
+If a developer increments a pointer variable (e.g., ptr++) where ptr is defined as a pointer 
+to a standard 4-byte integer (int* ptr), how does the raw underlying memory address change? 
+A. The memory address changes by exactly 1 byte. 
+B. The memory address changes by exactly 4 bytes to point to the next integer storage slot. 
+C. The address remains completely unchanged, but the value stored inside the memory cell 
+increments by 1. 
+D. The pointer converts into an null tracking layout target automatically. 
+ANSWER: B 
+102. 
+When using the C++ fstream library to open an input file stream (std::ifstream), which 
+method loop validation check is best suited to detect if the end of the file target has been 
+reached during read sequences? 
+A. stream.eof() 
+B. stream.bad() 
+C. stream.clear() 
+D. stream.fail() 
+ANSWER: A 
+103. 
+What memory allocation feature distinguishes a 'union' user-defined data type from a 
+standard 'struct' layout in C++? 
+A. All members in a union share the same memory location, meaning its size is equal to its 
+largest member. 
+B. Unions do not allow primitive tracking variables to act as properties within their blocks. 
+C. Members in a union are allocated sequentially with byte-padding gaps separating them. 
+D. A union automatically locks structural data variables to prevent compilation mutation 
+steps. 
+ ANSWER: A 
+104. 
+Given the evaluation logic block: if (a || b && c), which operator has higher precedence 
+and will be evaluated first by default? 
+A. The logical AND operator (&&) 
+B. The logical OR operator (||) 
+C. Both operators hold equal priority and parse strictly from right to left layout patterns. 
+D. The assignment variable outside the brackets controls conditional precedence rules. 
+ANSWER: A 
+105. 
+What C++ feature allows multiple distinct functions within the same scope space to share 
+the exact same name identifier, provided they maintain unique parameter lists? 
+A. Function Overloading 
+B. Function Overriding 
+C. Template Specialization Macros 
+D. Inline Dynamic Compilation Linkage 
+ ANSWER: A 
+106. 
+Consider the following code block tracking a multi-conditional loop break structure: 
+What is the final value state stored in the 'count' tracking variable when execution completes? 
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int count = 0; 
+    while (count < 5) { 
+        count++; 
+        if (count == 3) 
+            break; 
+    } 
+    cout << "Count = " << count << endl; 
+    return 0; 
+} 
+ 
+A. 5 
+B. 4 
+C. 3 
+D. 0 
+ ANSWER: C 
+107. 
+Review the following C++ memory assignment state code snippet: Which of the 
+following processing modifications will cause a compile-time error? 
+int a = 50; 
+int b = 100; 
+int* const p = &a; 
+ 
+ 
+A. *p = 75; 
+B. p = &b; 
+C. int c = *p; 
+D. a = b; 
+ANSWER: B 
+108. 
+ Given the initialization block: int x = 5, y = 5; if (++x > 5 || ++y > 5) { /* execute */ } 
+What are the final values of x and y after the conditional block is evaluated? 
+A. x = 6, y = 5 
+B. x = 6, y = 6 
+C. x = 5, y = 5 
+D. x = 6, y = 10 
+ANSWER: A 
+109. 
+Consider the following nested loop block structure execution trace: What is the final total 
+tracking balance value after exiting the nested loop logic? 
+ 
+int total = 0; 
+for(int i = 0; i < 2; i++) { 
+    for(int j = 0; j < 3; j++) { 
+        total += i; 
+    } 
+} 
+110. 
+ 
+ 
+A. 0 
+B. 3 
+C. 6 
+D. 2 
+ ANSWER: B 
+111. 
+Consider the following structural array declaration sequence: int arr[3][3] = {{2, 4, 6}, 
+{8, 10, 12}, {14, 16, 18}}; What is the explicit evaluation outcome when looking up the 
+record position arr[1][1]? 
+ 
+A. 8 
+B.  10 
+C. 12 
+D. 16 
+ANSWER: B 
+112. 
+Which of the following is a characteristic of a relational database model? 
+A. Data is stored in a tree structure. 
+B. Data is stored in tables with rows and columns. 
+C. Data is stored as a single large file. 
+D. Data is stored in a key-value pair format. 
+ANSWER: B 
+113. 
+Which SQL statement is used to retrieve all records from a table called "Students"? 
+A. SELECT * FROM Students; 
+B. GET ALL Students; 
+C. SHOW RECORDS FROM Students; 
+D. RETRIEVE * FROM Students; 
+ANSWER: A 
+114. 
+Which SQL command is used to delete a record from a table? 
+A. REMOVE 
+B. DELETE 
+C. DROP 
+D. TRUNCATE 
+ANSWER: B  
+115. 
+When creating an Entity-Relationship diagram, which of the following represents a "many-
+to-many" relationship? 
+A. A line with a diamond shape in between. 
+B. A line with no shape. 
+C. A line with two lines on both ends. 
+D. A line with crow’s foot notation on both sides. 
+ANSWER: D 
+116. 
+Which of the following is typically used to define constraints on database fields in an ER 
+diagram? 
+A. Relationships 
+B. Attributes 
+C. Entities 
+D. Keys 
+ANSWER: D  
+117. 
+Which of the following SQL commands is used to grant a user permission to perform 
+certain operations on a database? 
+A. GRANT 
+B. DENY 
+C. REVOKE 
+D. ALLOW 
+ANSWER: A 
+ 
+ 
+ 
+118. 
+A company wants to update salaries only for employees in the SE department. Which query 
+is correct? 
+A. UPDATE Employee SET Salary = 50000 WHERE Department = 'SE' 
+B. INSERT INTO Employee VALUES Salary = 50000 WHERE Department = 'SE' 
+C. SELECT Salary FROM Employee 
+D. UPDATE Employee SET Salary = 50000 
+ANSWER: A 
+119. 
+What is the difference between DELETE and TRUNCATE? 
+A. DELETE removes structure, TRUNCATE removes rows 
+B. DELETE removes selected rows, TRUNCATE removes all rows quickly 
+C. Both are identical 
+D. TRUNCATE works only with WHERE clause 
+ANSWER: B 
+120. 
+Which SQL command ensures that a newly inserted record is permanently saved in the 
+database? 
+A. SAVE 
+B. COMMIT 
+C.  PUSH 
+D. STORE 
+ANSWER: B 
+121. 
+Which SQL command is used to undo changes in a transaction? 
+A. COMMIT 
+B. SAVE 
+C. ROLLBACK 
+D. UNDO 
+ANSWER: C 
+122. 
+Which SQL clause is used to filter records after joining conditions? 
+A. WHERE 
+B. ORDER BY 
+C. GROUP BY 
+D.  HAVING 
+ANSWER: A 
+123. 
+In a real-world system, which combination represents correct data manipulation 
+operations? 
+A. CREATE, DROP, ALTER 
+B. INSERT, UPDATE, DELETE 
+C. SELECT, COMPILE, RUN 
+D.  SAVE, OPEN, CLOSE 
+ANSWER: B 
+124. 
+A developer is designing a database from requirements stating: “Each employee belongs 
+to one department, but a department can have many employees.” What relationship should be 
+implemented? 
+A. Many-to-Many 
+B. One-to-One 
+C. One-to-Many 
+D. Self-Join 
+ANSWER: C 
+125. 
+While designing a database, a requirement says: “Each order can contain multiple products, 
+and each product can appear in multiple orders.” What is the best design approach? 
+A. Single table with duplicated data 
+B.  Two tables only (Orders and Products) 
+C. Use a junction table (OrderDetails) 
+D.  Store products as a list in Orders table 
+ANSWER: C 
+126. 
+A system requirement specifies that student email must be unique and not null. Which 
+design choice is correct? 
+A. PRIMARY KEY constraint 
+B. FOREIGN KEY constraint 
+C.  UNIQUE + NOT NULL constraint 
+D.  CHECK constraint only 
+ANSWER: C 
+ 
+127. 
+A database designer wants to reduce redundancy while designing tables. Which process 
+should be applied? 
+A. Indexing 
+B. Normalization 
+C.  Encryption 
+D. Sorting 
+ANSWER: B 
+128. 
+While designing a database in MySQL, which object is best for representing a real-world 
+entity? 
+A. Trigger 
+B.  Table 
+C. View 
+D. Index 
+ANSWER: B 
+129. 
+A requirement says: “Each department has a unique ID and name, and employees must 
+reference a department.” What is the best design? 
+A. Employee table without relationships 
+B.  Department table with no keys 
+C.  Department table with PRIMARY KEY and Employee with FOREIGN KEY 
+D. Store department name in Employee only 
+ANSWER: C 
+130. 
+In database modeling, what does an ER diagram help to define? 
+A. SQL queries 
+B. Relationships between entities 
+C. Data insertion rules 
+D. Programming loops 
+ANSWER: B 
+131. 
+A designer is creating a database for an online shopping system. Which structure best 
+supports scalability? 
+A. One large table for everything 
+B. Multiple normalized related tables 
+C.  Flat file storage 
+D. Duplicate tables for each user 
+ANSWER: B 
+132. 
+A requirement states: “Each student can enroll in multiple courses, and each course has 
+multiple students.” What type of relationship is this? 
+A. One-to-One 
+B. One-to-Many 
+C.  Many-to-Many 
+D. Hierarchical 
+ANSWER: C 
+133. 
+Which DBMS feature is most useful when implementing relationships between tables? 
+A. Views 
+B. Foreign Keys 
+C.  Indexes 
+D.  Stored Procedures 
+ANSWER: B 
+134. 
+During database design, which step ensures that attributes are logically grouped to avoid 
+duplication? 
+A. Execution phase 
+B. Normalization phase 
+C.  Query phase 
+D.  Compilation phase 
+ANSWER: B 
+135. 
+A database is being designed using a popular DBMS like MySQL or PostgreSQL. What 
+is the main purpose of using such DBMS tools? 
+A. Writing programming loops 
+B. Designing user interfaces 
+C. Creating operating systems 
+D. Managing structured data efficiently 
+ANSWER: B 
+136. 
+A company wants to prevent unauthorized access to sensitive database records. Which 
+solution should be designed? 
+A. Store passwords in plain text 
+B.  Implement role-based access control (RBAC) 
+C.  Allow all users full database access 
+D. Disable authentication system 
+ANSWER: B 
+137. 
+A system stores user passwords. What is the most secure design choice? 
+A. Store passwords as plain text 
+B. Encrypt passwords using reversible encryption 
+C. Hash passwords with a secure algorithm 
+D. Store passwords in a text file 
+ANSWER: C 
+138. 
+A database administrator wants to protect data during transmission over a network. Which 
+solution should be implemented? 
+A. HTTP protocol 
+B. FTP protocol 
+C. HTTPS with encryption 
+D. Telnet connection 
+ANSWER: C 
+139. 
+A developer needs to ensure only authorized users can modify data. Which approach should 
+be implemented? 
+A. Remove authentication system 
+B. Use user roles and permissions 
+C. Share admin credentials 
+D. Store credentials in code 
+ANSWER: B 
+140. 
+A system requires protection against data loss due to hardware failure. Which solution 
+should be designed? 
+A. Delete unused data 
+B. Disable backups 
+C.  Implement regular database backups 
+D.  Store data in one location only 
+ANSWER: C 
+141. 
+Which of the following is NOT a core component of an Android application? 
+A. Activity 
+B. Broadcast Receiver 
+C. Intent Filter 
+D. Content Provider 
+ANSWER: C 
+ 
+ 
+ 
+142. 
+Which Android component is responsible for managing an app's UI and user interactions? 
+A. Service 
+B. Activity 
+C. Content Provider 
+D. Broadcast Receiver 
+ANSWER: B 
+143. 
+What is the role of a "Service" in Android? 
+A. To store and retrieve data from a database 
+B. To perform long-running operations in the background 
+C. To handle communication between different apps 
+D. To display user interface elements 
+ANSWER: B 
+144. 
+ What is the purpose of the "Logcat" tool in Android Studio? 
+A. To design user interfaces 
+B. To view system and app logs in real-time 
+C. To manage project dependencies 
+D. To generate APK files 
+ANSWER: B 
+145. 
+ Which file is responsible for declaring an Android app’s permissions and components? 
+A. build.gradle 
+B. MainActivity.kt 
+C. AndroidManifest.xml 
+D. strings.xml 
+ANSWER: C 
+146. 
+Which of the following CSS style properties are inherited, meaning they are transmitted 
+from parent to child elements? 
+A. Borders style 
+B. Colors style 
+C. Margins style 
+D. Height style 
+ANSWER: B 
+ 
+147. 
+Consider the following JavaScript statements. 
+var sentence = "Life is precious!!"; // Sample text 
+var pattern = /\d+/g // Matches all instances of one or more digits 
+In order to check if the pattern matches with the string represented by a variable sentence, the 
+statement is ____________ 
+A. sentence==pattern 
+B. pattern.test(text) 
+C. sentence.test(pattern) 
+D. pattern.test(sentence) 
+ANSWER: D  
+148. 
+What is the purpose of using relative and absolute paths in hyperlinking? 
+A. To specify the location of the linked page 
+B. To control the size and position of the linked element 
+C. To define the background color of the linked element 
+D. To add interactivity to the linked element 
+ANSWER: A 
+ 
+149. 
+What is the purpose of using the box-sizing property in CSS? 
+A. To control the layout of table elements 
+B. To specify the position of an element 
+C. To control the size of an element including padding and border 
+D. To create rounded corners on elements  
+ANSWER: C 
+150. 
+What does the ID selector do? 
+A. Apply the style to a specific element 
+B. Apply the style to all the elements 
+C. Apply the style to a group of elements 
+D. Apply the style to elements of the same type 
+ANSWER: A 
+ 
+ 
+151. 
+Given the following PHP code, when does the cookie expire?  
+             setcookie (“username”, ”light”, time()+3600); 
+A. After 3600 minutes 
+B. After 3 days 
+C. Expired 60 minutes ago already 
+D. After 1 hour 
+ANSWER: D  
+152. 
+Among the given statements, which statement is correct? 
+A. JavaScript enables the segregation of a web page's layout and styles. 
+B. HTML attributes enable the incorporation of interactivity into your website. 
+C. HTML enables you to organize the contents of a webpage. 
+D. JavaScript cannot alter the content or attributes of HTML elements. 
+ANSWER: C 
+153. 
+What is the correct HTML for inserting an image? 
+A. <img src="image.gif" alt="MyImage"> 
+B. <img alt="MyImage" image.gif /img> 
+C. <image src="image.gif" alt="MyImage"> 
+D. <img href="image.gif" alt="MyImage"> 
+ANSWER: A 
+154. 
+What is the purpose of hyperlinking to an email address in HTML? 
+A. To display the email address as a clickable link 
+B. To open the default email client with a new message 
+C. To redirect the user to a different web page 
+D. To send an email directly from the web page 
+ANSWER: B 
+155. 
+What type of attack attempts to exploit a web application by injecting malicious scripts 
+into content delivered to users? 
+A. SQL Injection 
+B. Buffer Overflow 
+C. Cross-Site Scripting (XSS) 
+D. Session Fixation 
+ANSWER: C 
+156. 
+Which of the following best describes why PHP is considered a server-side language? 
+A. It executes in the browser before HTML loads 
+B. It executes on the server and returns generated HTML to the client 
+C. It compiles to machine code on the client 
+D.  It manipulates the DOM directly 
+ANSWER: B 
+157. 
+Which statement best describes the role of the PHP engine in processing a web request? 
+A. It serves the HTML file directly from the file system to the browser. 
+B. It acts as a DNS resolver to look up the server's IP address. 
+C. It receives the request from the web server, executes the PHP code, and returns the 
+resulting HTML output to the server. 
+D. It handles all client-side form validation before transmission. 
+ANSWER: C 
+158. 
+What is the correct way to access the temporary name of an uploaded file? 
+A. $_FILES['fieldname']['tmp'] 
+B. $_FILES['fieldname']['tempname'] 
+C. $_FILES['fieldname']['tmp_name'] 
+D. $_FILES['fieldname']['upload_tmp'] 
+ANSWER: C 
+159. 
+Why is Backend development generally considered more secure than Frontend 
+development?  
+A. Frontend scripts are invisible to users.  
+B. Backend scripts are easier to encrypt.  
+C. Backend is more secure as users do not see the source code.  
+D. Frontend has built-in less secure protocols. 
+ANSWER: C 
+160. 
+What is the Hypertext Transfer Protocol (HTTP) primarily used for? 
+A. Managing connections between devices on a network 
+B. Identifying hosts through unique network addresses 
+C. Protecting information stored on web servers 
+D. Exchanging web resources between clients and servers 
+ANSWER: D 
+ 
+161. 
+To link to a document that is located outside on the Web, you should use a(n): 
+A. Relative URL  
+B. Absolute URL  
+C. Named Anchor  
+D. Internal Link 
+ANSWER: B 
+162. 
+What is the correct HTML for creating a hyperlink? 
+A. <a url="http://www.w3schools.com">W3Schools.com</a> 
+B. <a href="http://www.w3schools.com">W3Schools</a> 
+C. <a>http://www.w3schools.com</a> 
+D. <a name="http://www.w3schools.com">W3Schools.com</a> 
+ANSWER: B 
+163. 
+Which of the following rules will override all others, assuming equal specificity? 
+A. Inline style 
+B. External stylesheet 
+C. Embedded stylesheet 
+D. Browser default 
+ANSWER: A 
+164. 
+Which of the following selectors has the highest specificity? 
+A. div p 
+B. .content p 
+C. #main p 
+D. p:hover 
+ANSWER: C 
+165. 
+What does the declaration p.blog { font-size: 12pt; } do? 
+A. Applies to all <p> elements 
+B. Applies to all elements with class blog 
+C. Applies only to <p> elements with class blog 
+D. Applies to <p> inside .blog 
+ANSWER: C 
+ 
+ 
+ 
+166. 
+What is the key purpose of the !important indicator in a CSS declaration?   
+A. To prevent the style from being inherited by child elements. 
+B. To prevent a specific rule from being overridden by other rules.  
+C. To flag a rule as experimental or deprecated.  
+D. To make the property value case-sensitive. 
+ANSWER: B 
+167. 
+In CSS, what is the correct hierarchy of selector specificity, from highest to lowest? 
+A. Element, Class, ID, Inline Style 
+B. Universal Selector, Element, Class, ID 
+C. Inline Style, Universal Selector, ID, Class, Element 
+D. ID, Class, Element, Universal Selector 
+ANSWER: D 
+168. 
+What is the key difference between symmetric and asymmetric encryption? 
+A. Symmetric uses public keys; asymmetric does not 
+B. Symmetric uses the same key for encryption and decryption; asymmetric uses a key pair 
+C. Asymmetric is faster than symmetric encryption 
+D. Symmetric provides digital signatures 
+ANSWER: B 
+169. 
+Which security testing method is performed with no prior knowledge of the system? 
+A.  White-box testing 
+B. Black-box testing 
+C. Grey-box testing 
+D. Regression testing 
+ANSWER: B 
+170. 
+Which of the following types of malwares disguises itself as legitimate software to trick 
+users into installing it on their systems? 
+A. Trojan 
+B. Virus 
+C. Worm 
+D. Rootkit 
+ANSWER: A 
+ 
+171. 
+In security terms, what is "defense in depth"? 
+A. A security model based solely on firewalls 
+B. A layered approach to security using multiple defensive mechanisms 
+C. A principle that requires deep learning models for intrusion detection 
+D. A term for military-grade cyber defense 
+ANSWER: B 
+172. 
+Which type of attack relies on repeatedly trying different passwords until the correct one 
+is found? 
+A. Denial of Service (DoS) 
+B. Cross-Site Request Forgery (CSRF) 
+C. Brute-force attack 
+D. Social engineering 
+ANSWER: C 
+173. 
+The code segment below has time complexity? 
+for (int i = 0; i < n; i++){ 
+for (int j = 1; j < n: j=j ∗2){ 
+int val = ( j ∗ i ) ; 
+cout<< val; 
+} 
+} 
+ 
+A. O(1) 
+B. O(n) 
+C. O(n2) 
+D. O(n log n) 
+44 
+ 
+ 
+ANSWER: D 
+174. 
+If the function T (n) = Ω(g(n), which statements are true? 
+A. T(n) <= cg(n) for all n >= n0, for positive c, n0 
+B. T(n) >= cg(n) for all n >= n0, for positive c, n0 
+C. T(n) = cg(n) for all n >= n0, for positive c, n0 
+D. T(n) > cg(n) for all n >= n0, for positive c, n0 
+ANSWER: B 
+ 
+ 
+ 
+175. 
+Which of the following data structures can be used to reverse the order of set of data items? 
+A. Queue 
+B. Stack 
+C. Linked list 
+D. Heap 
+ANSWER: B 
+176.  Which of the following sorting algorithm is of divide-and-conquer type? 
+A. Bubble sort 
+B. Insertion sort 
+C. Quick sort 
+D. Selection sort 
+ANSWER: C 
+177.  Searching for an element in a hash table containing n elements can be performed in time 
+A. O(1) 
+B. O( n ) 
+C. O(n2) 
+D. O(n log n) 
+ANSWER: A 
+178. 
+ Which of the following operations is performed more efficiently by doubly linked list than by singly 
+linked list? 
+A. Deleting a node whose location in given 
+B. Searching of an unsorted list for a given item 
+C. Inverting a node after the node with given location 
+D. Traversing a list to process each node 
+ANSWER:  A 
+45 
+ 
+ 
+179. Suppose that items A, B, C, D and E are pushed, in that order, onto an initially empty stack S. S is then 
+popped four times; as each item is popped off, it is inserted into an initially empty queue. If two items are 
+then removed from the queue, what is the next item that will be removed from the queue? 
+A. item A 
+B. item B 
+C. item C 
+D. item D 
+ANSWER: C 
+ 
+180. 
+Which of the following statements is false about chaining collision avoidance  
+A. A hash table never fills up; we can always add more elements to the chain. 
+B. Chaining is mostly used when it is unknown which keys may be inserted or deleted. 
+C. The table may become full in the chaining collision avoidance 
+D. Chaining is Simpler to implement. 
+ANSWER: C 
+181. 
+In the Binary Search algorithm, if the middle element is greater than the search key, what happens 
+next? 
+A. The search continues in the right half of the array 
+B. The search terminates as unsuccessful 
+C. The search continues in the left half of the array 
+D. The middle element is swapped with the first element 
+ANSWER: C 
+182. 
+What happens when you try to pop an element from an empty stack? 
+A. The operation succeeds with a null value 
+B. The stack automatically initializes with default values 
+C. The operation fails with a stack underflow error 
+D. The program terminates immediately 
+ANSWER: C 
+183. 
+Which application would most likely use a queue data structure? 
+A. Browser's back button history 
+B. Undo functionality in a text editor 
+C. Print job scheduling 
+D. Expression evaluation 
+ANSWER: C 
+46 
+ 
+ 
+184. 
+For the linked list implementation of the queue, where are the enqueues and dequeues performed? 
+A. Enqueue in front of the first element, dequeue the first element 
+B. Enqueue after the last element, dequeue the last element 
+C. Enqueue after the last element, dequeue the first element 
+D. Enqueue in front of the first element, dequeue the last element 
+ANSWER: C 
+185. 
+Assume the UNIX editor allows searching in both forward and backward directions and also allows 
+for a wraparound if necessary. If the sequence of lines is stored as a linked list, which of the following is 
+most reasonable? 
+A. Singly-linked list 
+B. Doubly linked list 
+C. Circular singly linked list 
+D. Circular doubly linked list 
+ANSWER: D 
+186. 
+Which binary tree is used to represent mathematical expressions where each operator has exactly two 
+operands? 
+A. Complete Binary Tree 
+B. Strictly Binary Tree 
+C. Balanced Binary Tree 
+D. Skewed Binary Tree 
+ANSWER: B 
+187. 
+Which of the following is a common application of tree data structures in computer systems? 
+A. Sorting a list of numbers using bubble sort 
+B. Representing hierarchical data such as file systems 
+C. Managing linear data such as queues 
+D. Implementing circular arrays  
+ANSWER: B 
+188. 
+Which type of tree structure is commonly used to store and manage sorted data efficiently? 
+A. AVL Tree 
+B. Binary Search Tree 
+C. Skewed Linked List 
+D. Strictly Binary Tree 
+ANSWER: B 
+47 
+ 
+ 
+189. 
+What data structure is used for breadth first traversal of a graph? 
+A. queue 
+B. stack 
+C. list 
+D. array 
+ANSWER A 
+190. 
+In algorithm analysis, what does asymptotic complexity refer to? 
+A. The complexity in the best case 
+B. The complexity in the worst case 
+C. The complexity in the average case 
+D. The behavior of an algorithm as the input size grows 
+ANSWER: D 
+191. 
+In a queue, what operations correspond to adding and removing elements? 
+A. push and pop 
+B. enqueue and dequeue 
+C. insert and delete 
+D. add and remove 
+ANSWER: B 
+192. 
+Which data structure is most efficient for implementing a priority queue? 
+A. Binary search tree 
+B. Hash table 
+C. Binary heap 
+D. Linked list 
+ANSWER: C 
+193. 
+The disadvantage in using a circular linked list is ……………………. 
+A. It is possible to get into infinite loop 
+B. Last node points to first node. 
+C. Time consuming 
+D. Requires more memory space 
+ANSWER:  A 
+ 
+48 
+ 
+ 
+194. 
+Consider a situation where a swap operation is very costly. Which of the following sorting algorithms 
+should be preferred so that the number of swap operations is minimized in general? 
+A. Quick sort 
+B. Merge sort 
+C. Bubble sort 
+D. Shell sort 
+ANSWER: B 
+195. 
+For the linked list implementation of the queue, where are the enqueue and dequeues performed? 
+A. Enqueue in front of the first element, dequeue the first element 
+B. Enqueue after the last element, dequeue the last element 
+C. Enqueue after the last element, dequeue the first element 
+D. Enqueue in front of the first element, dequeue the last element 
+ANSWER: C 
+196. 
+Which sorting algorithm has the same average and worst-case time bounds (in Big-Oh) as heapsort? 
+A. insertion sort 
+B. merge sort 
+C. quicksort 
+D. shell sort 
+ANSWER: B 
+197. 
+Which of the following statements hold true for binary search trees? 
+A. The left subtree of a node contains only nodes with keys less than the node’s key 
+B. The right subtree of a node contains only nodes with keys greater than the node’s key 
+C. The median of the key values is at the root of the tree. 
+D. In-order traversal of a BST visits the nodes in non-decreasing order.  
+ANSWER: D 
+198. 
+You are designing a parking system for a single-lane parking lot where cars can only exit in the reverse 
+order of their entry. Which data structure best models this scenario? 
+A. Stack (LIFO) 
+B. Queue(FIFO) 
+C. Array 
+D. Graph 
+ANSWER: A 
+49 
+ 
+ 
+199. 
+Consider a call center where calls are handled on a first-come, first-served basis. To efficiently manage 
+the sequence of incoming calls, which data structure would you choose? 
+A. Priority Queue 
+B. Stack (LIFO) 
+C. Binary Search Tree 
+D. Queue 
+ANSWER: D 
+200. 
+A hospital emergency room needs to prioritize patients based on the severity of their condition. Patients 
+with critical conditions are treated first, regardless of arrival time. Which data structure would you use to 
+manage the patients? 
+A. Queue 
+B. Priority Queue 
+C. Stack (LIFO) 
+D. Linked List 
+ANSWER: B 
+201. 
+Which of the following is non-liner data structure? 
+A.  Stacks 
+B. List 
+C. Strings 
+D. Trees 
+ANSWER: D  
+202. 
+Which of the following data structure can’t store the non-homogeneous data elements? 
+A.  Arrays 
+B.  Records 
+C. Pointers 
+D.  Stacks 
+ANSWER: A 
+203. 
+To represent hierarchical relationship between elements, which data structure is suitable? 
+A. Dequeue 
+B.  Priority 
+C. Tree 
+D. Graph 
+ANSWER: C  
+50 
+ 
+ 
+204. 
+Minimum number of fields in each node of a doubly linked list is ____ 
+A. 2 
+B. 3 
+C.  4 
+D. 1 
+ANSWER: B  
+205. 
+Which of following data structure is more appropriate for implementing quick sort iteratively? 
+A. Deque 
+B. Queue 
+C.  Stack 
+D. Priority queue 
+ANSWER: C  
+206. 
+The number of edges in a complete graph of n vertices is 
+A. n(n+1)/2 
+B. n(n-1)/2 
+C. n2/2 
+D. n 
+ANSWER: B  
+207. 
+The time complexity of quicksort is …….. 
+A. O(n) 
+B. O(logn) 
+C. O(n2) 
+D.  O(n logn) 
+ANSWER: D 
+208. 
+………. sorting is good to use when alphabetizing a large list of names. 
+A. Merge 
+B. Heap 
+C. Radix 
+D. Bubble 
+ANSWER: C  
+51 
+ 
+ 
+209. 
+The total number of comparisons in a bubble sort is …. 
+A. O(n logn) 
+B. O(2n) 
+C. O(n2) 
+D. O(n) 
+ANSWER: A  
+210. 
+ ……… form of access is used to add and remove nodes from a queue. 
+A. LIFO, Last In First Out 
+B.  FIFO, First In First Out 
+C.  Graph 
+D. Tree 
+ANSWER: B  
+211. 
+ The term push and pop is related to 
+A.  Array 
+B. Lists 
+C. Stacks 
+D. Trees 
+ANSWER: C  
+212. 
+The operation of processing each element in the list is known as …… 
+A.  Sorting 
+B. Merging 
+C. Inserting 
+D.  Traversal 
+ANSWER: D  
+213. 
+Which software development model is also known as verification and validation model?  
+A. Waterfall  
+B. V-Model  
+C. Spiral model  
+D. Prototype model  
+ANSWER: B  
+52 
+ 
+ 
+214. 
+From the following software development model, one is not suitable for large projects and good for 
+learning and experimenting?  
+A. Spiral model  
+B. Big Bang model  
+C. Waterfall model  
+D. Prototype model  
+ANSWER: B  
+215. 
+According to International Business market research, “40% of projects are abandoned before they are 
+completed, 64% exceed their cost projections by an average of 195 percent, and 96 projects are restarted for 
+every 100 projects.” What is the significance of these figures?  
+A. Lack of software ethics and understanding  
+B. Clear management issues in the company  
+C. adequate training of development team  
+D. development experience of the team  
+ANSWER: A  
+216. 
+The process of generating analysis and designing documents in software development process is?  
+A. Re-engineering  
+B. Reverse engineering  
+C. Software re-engineering  
+D. Science and engineering  
+ANSWER: B  
+217. 
+_________ is a software development life cycle model that is chosen if the development team has 
+less experience on similar projects.  
+A. Iterative Enhancement Model  
+B. RAD  
+C. Spiral  
+D. Waterfall  
+ANSWER: C  
+ 
+ 
+ 
+53 
+ 
+ 
+218. 
+Which of the following are the 5 generic software engineering framework activities from beginning to 
+the closing phase?  
+A. communication, modeling, planning, construction, deployment  
+B. communication, planning, modeling, construction, deployment  
+C. analysis, designing, programming, debugging, maintenance  
+D. analysis, planning, designing, programming, testing  
+ANSWER: B  
+219. 
+Cohesion and coupling metrics are primarily used which in software design?  
+A. Component level design  
+B. Architectural design  
+C. User interface design  
+D. Pattern based design  
+ANSWER: A  
+220. 
+Which of the following is the understanding of software product limitations, learning systems 
+related to problems or changes to be done in existing systems beforehand, identifying and addressing the 
+impact of project on organization and personnel?  
+A. Feasibility study  
+B. System analysis  
+C. System design  
+D. Requirements gathering  
+ANSWER: B  
+221. 
+From the following system model one is being depicted by the ATM operations below.  
+ 
+ 
+ 
+ 
+ 
+ 
+A. Structural model  
+B. Context model  
+C. Behavioral model  
+D. Interaction model  
+ANSWER: B  
+ 
+54 
+ 
+ 
+222. 
+Which of the following is not a design principle for software design?  
+A. Traceable to analysis model  
+B. Should “Reinvent The Wheel”  
+C. Minimize Intellectual distance  
+D. Exhibit uniformity and integration  
+ANSWER: B  
+223. 
+A government agency is developing a system to manage citizen data, including personal information 
+and records. Which view of the 4+1 Architectural View should they focus on to ensure interoperability with 
+other government systems?  
+A. Logical View  
+B. Development view  
+C. Physical view  
+D. Process view  
+ANSWER: C  
+224. 
+Requirement engineering mainly focuses on: 
+A. Implementation and coding of software 
+B. Visual design and layout 
+C. Gathering, analyzing, and documenting what the system should do 
+D. Marketing the final product 
+ANSWER: C  
+225. 
+Why is requirement engineering considered a critical phase in software development? 
+A. It deals with hardware components 
+B. It forms the foundation for design and development. 
+C.  It is where coding is done 
+D.  It improves the graphical interface 
+ANSWER: B 
+226. 
+During a requirement gathering session, you notice that the user is not expressing all their needs 
+clearly. What technique can help uncover hidden requirements? 
+A. Document analysis 
+B.  Interview 
+C.  Interface design 
+D.  Observation 
+ANSWER: D 
+55 
+ 
+ 
+227. 
+A stakeholder keeps changing their requirements after each discussion. Which elicitation technique 
+can help solidify their ideas? 
+A. Observation 
+B.  Prototyping 
+C.  Questionnaire 
+D.  Focus group 
+ANSWER: B 
+228. 
+ Suppose you are creating a requirements specification document. What should you include to ensure 
+consistency throughout the document? 
+A. Use of user stories for each requirement 
+B.  Separate sections for functional and non-functional requirements 
+C.  Use of a standardized template and terminology 
+D. Group similar requirements in paragraphs 
+ANSWER: C 
+229. 
+A project manager is developing the cost management plan. What is a key element that should be 
+included to effectively control project costs throughout the execution phase? 
+A. A detailed budget breakdown by resource type. 
+B. Clearly defined cost baselines, variance thresholds, and reporting mechanisms. 
+C. Regular team meetings to discuss project expenses. 
+D. List of resource types required for the project.  
+ANSWER: B 
+ 
+230. 
+Which tool would you apply to continuously compare planned versus actual project performance? 
+A. Work Breakdown Structure 
+B. Pareto Chart 
+C. Earned Value Management (EVM) 
+D. Monte Carlo Simulation 
+ANSWER: C 
+ 
+ 
+ 
+ 
+56 
+ 
+ 
+ 
+231. 
+When preparing the risk response plan, what is the most proactive strategy for dealing with a high-
+probability, high-impact risk that cannot be avoided? 
+A. Accepting the risk and hoping it doesn't occur. 
+B. Escalating the risk immediately to senior management. 
+C. Plan with the assumption that the best-case scenario happens and the risk is avoided 
+D. Developing a detailed mitigation plan with specific actions, responsibilities, and timelines to 
+reduce the likelihood or impact. 
+ANSWER: D 
+232. 
+In a software project schedule, you identify a task with 0 float/slack. What does this imply, and what 
+actions might you consider if this task is delayed? 
+A. The task is on the critical path, and any delay will directly impact the project completion date. You 
+might need to fast-track or crash the project. 
+B. The task has no resource assigned, and you need to allocate resources immediately. 
+C. The task is ahead of schedule and has extra time. No action is needed. 
+D. The task duration is zero which means it is a dummy activity and no action is needed.  
+ANSWER: A 
+233. 
+How would you develop a schedule that handles uncertainty? 
+A. Fix all deadlines strictly 
+B. Use rolling wave planning to detail near-term work and estimate future tasks 
+C. Skip time buffers 
+D. Allow only team leads to plan 
+ANSWER: A 
+234. 
+Which of the following best describes the 'iron triangle' constraint in software project management, and 
+what happens when the project scope is significantly increased without adjusting other constraints? 
+A. The iron triangle refers to cost, quality, and team size; increasing scope will automatically improve 
+quality. 
+B. The iron triangle represents scope, time, and cost; increasing scope without adjustment will likely 
+cause schedule delays or cost overruns. 
+C. The iron triangle refers to risk, communication, and procurement; scope increase affects only 
+procurement. 
+D. The iron triangle is a documentation framework; scope increases require only updating the project 
+charter. 
+ANSWER: B 
+57 
+ 
+ 
+235. 
+During stakeholder analysis, a project manager identifies a stakeholder with high power but low interest 
+in the project. According to the power/interest grid, what is the recommended communication strategy? 
+A. Manage closely — involve them in all project decisions and daily standups. 
+B. Monitor — minimal engagement is needed since they have low power. 
+C. Keep informed — send detailed weekly progress reports and include them in all reviews. 
+D. Keep satisfied — provide periodic high-level updates and address their concerns promptly. 
+ANSWER: D 
+236. 
+A project has the following activities and dependencies: A(5 days, no predecessor), B(8 days, depends 
+on A), C(4 days, depends on A), D(6 days, depends on B and C), E(3 days, depends on D). Applying Critical 
+Path Method (CPM), what is the project duration and which path is critical? 
+A. 22 days; Critical path: A → B → D → E 
+B. 20 days; Critical path: A → C → D → E 
+C. 18 days; Critical path: A → C → E 
+D. 24 days; Critical path: A → B → C → D → E 
+ANSWER: A 
+237. 
+A project has BAC = $200,000, PV = $100,000, EV = $80,000, AC = $95,000. Applying Earned Value 
+Management (EVM), which of the following correctly computes the Cost Performance Index (CPI) and 
+Schedule Performance Index (SPI), and what do they indicate? 
+A. CPI = 1.19, SPI = 0.84; project is under budget and ahead of schedule. 
+B. CPI = 0.95, SPI = 1.00; project is slightly over budget but on schedule. 
+C. CPI = 0.84, SPI = 0.80; project is over budget and behind schedule. 
+D. CPI = 1.06, SPI = 0.95; project is under budget and slightly behind schedule. 
+ANSWER: C 
+238. 
+You are constructing a WBS for an online banking system. Which of the following WBS structures best 
+reflects good decomposition practice for a three-level WBS? 
+A. Level 1: Project; Level 2: Frontend, Backend, Testing; Level 3: individual developer names assigned 
+to each module. 
+B. Level 1: Project; Level 2: Week 1 tasks, Week 2 tasks … Week N tasks; Level 3: daily activities per 
+team member. 
+C. Level 1: Project Charter; Level 2: Functional requirements and non-functional requirements; Level 
+3: individual test cases. 
+D. Level 1: Online Banking System; Level 2: Requirements, Design, Development, Testing, 
+Deployment, Project Management; Level 3: sub-deliverables under each phase (e.g., SRS document, 
+UI wireframes, unit tests). 
+ANSWER: D 
+58 
+ 
+ 
+239. 
+When constructing a project cost baseline (S-curve), a project manager must aggregate costs over time. 
+Which of the following best describes the correct method for building an S-curve baseline and its purpose 
+in cost control? 
+A. Sum all costs at project completion and plot a flat line; it serves only as a final budget reference. 
+B. Distribute costs from the WBS work packages across the schedule timeline, cumulatively sum them 
+to produce a time-phased baseline that is used as the reference for EVM. 
+C. Plot actual costs incurred after each reporting period without reference to planned values; it replaces 
+the need for EVM. 
+D. Calculate average monthly spend and draw a straight diagonal line from $0 to BAC; deviations are 
+acceptable up to ±30%. 
+ANSWER: B 
+240. 
+A software project is 3 weeks behind schedule at the mid-point. The project manager proposes 'crashing' 
+the critical path tasks. Which scenario best exemplifies valid schedule crashing and identifies its primary 
+trade-off? 
+A. Assigning additional qualified developers to critical path coding tasks to reduce their duration; trade-
+off is increased cost and potential coordination overhead. 
+B. Removing testing phases to save time; trade-off is reduced documentation. 
+C. Overlapping the design and coding phases so they run in parallel; this is fast-tracking, not crashing. 
+D. Extending working hours of the existing team with no additional resources or cost; trade-off is 
+REDUCED MORALE. 
+ANSWER: A 
+241. 
+During execution, a client requests 12 small feature additions not in the original WBS, arguing each is 
+'trivial.' What is the most appropriate project management response that protects scope while maintaining 
+the client relationship? 
+A. Implement all 12 features immediately to maintain client satisfaction. 
+B. Refuse all 12 features and remind the client that the contract is fixed-scope with no changes 
+permitted. 
+C. Evaluate each request through the formal Integrated Change Control process, assess impact on 
+scope, schedule and cost, update the WBS and baseline if approved, and communicate outcomes to 
+the client. 
+D. Assign the features to junior team members to handle in their spare time, since they are trivial and 
+will not affect the schedule. 
+ANSWER: C 
+59 
+ 
+ 
+242. 
+When constructing a Software Project Management Plan (SPMP) for a large-scale ERP implementation, 
+which component is most critical for ensuring that all team members understand their responsibilities and 
+deliverable ownership? 
+A. The project Gantt chart, because it visually shows who is working each day. 
+B. The Responsibility Assignment Matrix (RACI), which maps each WBS work package to team roles 
+as Responsible, Accountable, Consulted, or Informed. 
+C. The risk register, because it identifies who is responsible for risk responses. 
+D. The communication plan, because it specifies meeting schedules and email distribution lists. 
+ANSWER: B 
+243. 
+During risk planning for a healthcare software system, a risk is identified with a probability of 0.6 and 
+an impact score of 4 (on a scale of 1–5), resulting in a risk score of 2.4. Which response strategy and 
+justification best applies to this high-priority risk? 
+A. Develop a mitigation plan that reduces the probability or impact and assign a risk owner to monitor 
+it throughout the project. 
+B. Accept the risk passively and document it in the risk register with no action, since risk response 
+planning is only required for low-probability events. 
+C. Transfer the risk entirely to the client by adding a contract clause, eliminating the need for internal 
+mitigation. 
+D. Avoid the risk by canceling the entire healthcare module and reducing project scope. 
+ANSWER: A 
+244. 
+Why do operating systems use paging in memory management? 
+A. To reduce the need for secondary storage 
+B. To allow non-contiguous allocation of physical memory 
+C. To eliminate the need for virtual memory 
+D. To increase CPU clock speed 
+ANSWER:  B 
+245. 
+Which of these is a key feature of a microkernel architecture? 
+A. Most OS services run in kernel space 
+B. Device drivers are part of the kernel 
+C. It is slower than a monolithic kernel 
+D. Only essential functions (e.g., IPC, scheduling) run in kernel space 
+ANSWER: D 
+ 
+ 
+60 
+ 
+ 
+246. 
+Which of the following is Not a core function of a modern operating system? 
+A. Process management 
+B. Memory management 
+C. Compiling source code 
+D. File system management 
+ANSWER: C 
+247. 
+Which of the following is NOT one of the four necessary conditions for a deadlock to occur?   
+A. Mutual Exclusion   
+B. Hold and Wait   
+C. No Preemption   
+D. Priority Scheduling   
+ANSWER: D         
+248. 
+A banking application uses a shared `account_balance` variable accessed by multiple threads for 
+deposits and withdrawals. Occasionally, the balance shows incorrect values due to race conditions. Which 
+synchronization technique would best resolve this issue? 
+A. Disabling interrupts   
+B. Using a mutex lock around critical sections   
+C. Increasing thread priority   
+D. Rewriting the code in assembly language   
+ANSWER: B 
+249. 
+A file-editing application has two threads:  Thread 1 locks `File A` and requests `File B`.   Thread 2 
+locks `File B` and requests `File A`.   This causes a deadlock. Which design change would prevent it? 
+A. Allow threads to hold unlimited locks   
+B. Implement a lock hierarchy (always lock A before B)   
+C. Restart the OS periodically   
+D. Use non-blocking I/O   
+ANSWER: B    
+250. 
+Which of the following is the correct definition of a process in an operating system? 
+A. A program stored on disk that is waiting to be executed 
+B. A program in execution including the program counter, stack, and data section 
+C. A collection of threads that share the same memory space 
+D. A system call that creates a new execution context 
+ANSWER: B    
+61 
+ 
+ 
+251. 
+What is the fundamental difference between a binary semaphore and a mutex? 
+A. A mutex has ownership, while a semaphore does not have ownership 
+B. A binary semaphore can only be used for signaling, while a mutex can only be used for mutual 
+exclusion 
+C. A binary semaphore can count up to 1, while a mutex can count up to any value 
+D. A mutex is implemented in user space, while a semaphore is implemented in kernel space 
+ANSWER: A   
+252. 
+Which of the following best describes the difference between paging and segmentation? 
+A. Paging divides memory into variable-sized blocks, while segmentation uses fixed-sized blocks 
+B. Paging is invisible to the programmer, while segmentation is visible to the programmer 
+C. Paging suffers from external fragmentation, while segmentation suffers from internal fragmentation 
+D. Paging requires a TLB, while segmentation does not 
+ANSWER: B    
+253. 
+A system uses demand paging with a page fault service time of 8 milliseconds and a memory access 
+time of 100 nanoseconds. If the effective access time (EAT) is required to be no worse than 200 
+nanoseconds, what is the maximum acceptable page fault rate? 
+A. 0.0000125 (1.25 × 10⁻⁵) 
+B. 0.000025 (2.5 × 10⁻⁵) 
+C. 0.00005 (5 × 10⁻⁵) 
+D. 0.0001 (1 × 10⁻⁴) 
+ANSWER: A  
+254. 
+Consider a system with 6 identical resources. There are 4 processes with maximum needs: P1=4, 
+P2=5, P3=3, P4=4. Currently allocated: P1=1, P2=2, P3=1, P4=1. How many resources must be available 
+to guarantee that deadlock will not occur? 
+A. 2 
+B. 1 
+C. 3 
+D. 4 
+ANSWER: A    
+62 
+ 
+ 
+255. 
+Consider a system with 3 processes sharing a CPU. Process A has a period of 20ms and execution time 
+of 5ms. Process B has period 30ms and execution time 10ms. Process C has period 50ms and execution 
+time 15ms. Using Rate Monotonic Scheduling (RMS), is this set of processes schedulable? 
+A. Yes, because total utilization is less than 1 
+B. Yes, because RMS always guarantees schedulability for any task set 
+C. No, because the utilization exceeds the RMS schedulability bound for 3 tasks 
+D. No, because period of C is too long 
+ANSWER: C   
+256. 
+Two threads share a global variable and use a mutex for synchronization. Thread A locks the mutex, 
+reads the variable, and then calls a function that attempts to lock the same mutex again before unlocking it. 
+What will happen? 
+A. The thread will deadlock itself (self-deadlock) because standard mutexes are not recursive 
+B. The thread will successfully lock the mutex again because the same thread already holds it 
+C. The operating system will terminate the thread to prevent deadlock 
+D. The mutex will be automatically converted to a recursive mutex 
+ANSWER: B    
+257. 
+In the context of file system implementation, what is the primary advantage of using extents over 
+traditional block pointers in an inode? 
+A. Extents allow random access to any byte in the file without reading metadata 
+B. Extents reduce metadata overhead by describing contiguous blocks with a single (start, length) 
+pair 
+C. Extents completely eliminate external fragmentation in the file system 
+D. Extents automatically compress file data to save storage space 
+ANSWER: B    
+ 
+ 
+ 
+63 
+ 
+ 
+258. 
+In the POSIX threads (pthreads) library, which of the following is true about a thread created with the 
+detachstate attribute set to PTHREAD_CREATE_DETACHED? 
+A. The thread's resources are automatically reclaimed when the thread terminates, and 
+pthread_join() cannot be called on it 
+B. The thread must be joined by the main thread using pthread_join() to prevent memory leaks 
+C. The thread runs at a higher priority than normal threads 
+D. The thread cannot be canceled using pthread_cancel() 
+ANSWER: A    
+259. 
+Which of the following is a fundamental limitation of using the principle of least privilege in practice? 
+a. Most operating systems do not support multiple privilege levels 
+A. Determining the minimum necessary privileges for a given application is often difficult and error-
+prone 
+B. The principle only applies to processes, not to threads 
+C. Least privilege eliminates all security vulnerabilities but reduces performance by 50% 
+ANSWER: B    
+260. 
+In a system using the many-to-many threading model with scheduler activations, when a kernel thread 
+blocks on a page fault, what happens to the other user-level threads mapped to that same kernel thread? 
+A. They continue running because the kernel thread remains scheduled 
+B. They all block until the page fault is resolved because the kernel thread is blocked 
+C. The user-level scheduler is notified and can run other user threads on different kernel threads 
+D. The operating system automatically creates a new kernel thread to replace the blocked one 
+ANSWER: C 
+261. 
+A file system uses inodes with 12 direct pointers, 1 single indirect pointer, 1 double indirect pointer, 
+and 1 triple indirect pointer. Each block is 4 KB and each block pointer is 8 bytes. What is the maximum 
+file size supported? 
+A. Approximately 4 GB 
+B. Approximately 16 GB 
+C. Approximately 64 GB 
+D. Approximately 512 GB 
+ANSWER: D    
+64 
+ 
+ 
+262. 
+Which of the following is NOT a valid technique for preventing deadlock? 
+A. Requiring processes to request all resources before execution (breaking hold-and-wait) 
+B. Allowing preemption of held resources (breaking no-preemption) 
+C. Increasing the number of resource instances (breaking mutual exclusion) 
+D. Enforcing a total ordering of resource requests (breaking circular wait) 
+ANSWER: C    
+263. 
+A system uses a multi-level queue scheduling algorithm with two queues: Queue 1 (RR, quantum=8ms) 
+for interactive processes, Queue 2 (FCFS) for batch processes. Processes can move from Queue 2 to Queue 
+1 if they have been waiting for more than 100ms. This mechanism is an example of: 
+A. Priority inversion 
+B. Aging 
+C. Load balancing 
+D. Thread pooling 
+ANSWER: B    
+264. 
+A software engineer is debugging a multithreaded application that occasionally crashes due to a race 
+condition. The engineer suspects that two threads are accessing a shared data structure without proper 
+synchronization. Which debugging approach would be most effective to identify the exact location of the 
+race condition? 
+A. Add print statements before and after every shared memory access 
+B. Use a thread sanitizer tool that dynamically detects data races during execution 
+C. Remove all locks and observe which thread crashes first 
+D. Increase the number of CPU cores to make the race condition more frequent 
+ANSWER: B    
+265. 
+As a software engineering team leader, you are tasked with selecting an operating system for a real-time 
+medical device that monitors patient vital signs. The device requires guaranteed response times within 5 
+milliseconds. Which scheduling approach would you recommend and why? 
+A. Round Robin with a 1ms quantum because it provides fair scheduling for all processes 
+B. Rate Monotonic Scheduling (RMS) because it provides schedulability guarantees for periodic 
+tasks 
+C. First-Come First-Served (FCFS) because it is simple and predictable 
+D. Priority scheduling without aging because high-priority tasks should always run first 
+ANSWER: B    
+65 
+ 
+ 
+ 
+266. 
+A secure operating system implements mandatory access control (MAC) using SELinux. Which of the 
+following best describes the difference between MAC and discretionary access control (DAC) from a 
+software engineering perspective? 
+A. In MAC, users can freely grant access to their files; in DAC, the system enforces a global policy 
+B. In MAC, the system enforces a global security policy that users cannot override; in DAC, file 
+owners decide permissions 
+C. MAC is used only for network security, while DAC is used for local file security 
+D. MAC requires biometric authentication, while DAC uses passwords 
+ANSWER: B    
+267. 
+As a software engineering project manager, you discover that a junior developer on your team has 
+implemented a critical banking application without proper thread synchronization, leading to a race 
+condition that could cause financial inconsistencies. What is the most appropriate ethical and professional 
+response? 
+A. Ignore the issue because the application passed initial testing 
+B. Immediately report the developer to senior management without discussion 
+C. Discuss the issue privately with the developer, ensure they understand the severity, and 
+implement a code review process to fix the synchronization problem 
+D. Fix the problem yourself and never mention it to anyone to avoid embarrassing the developer 
+ANSWER: C    
+268. 
+A company has a network address of 10.0.0.0/24. It needs to create two subnetworks to support 20 hosts 
+and 12 hosts respectively. Which two subnetworks are valid? 
+A. 10.0.0.0/27 and 10.0.0.32/28 
+B. 10.0.0.64/27 and 10.0.0.96/28 
+C. 10.0.0.0/28 and 10.0.0.32/27 
+D. 10.0.0.128/27 and 10.0.0.160/28 
+ANSWER: A    
+ 
+66 
+ 
+ 
+269. 
+Which of the following is NOT a primary responsibility of Transport layer Protocols? 
+A. Identifying the proper application 
+B. Subnetting 
+C. Tracking individual communication  
+D. Segmenting  
+ANSWER: B    
+270. 
+Which of the following statement is true about IPv6 addresses? 
+A. Leading zeros are not required. 
+B. Two colons (::) are used to represent successive hexadecimal fields of zeros.  
+C. Two colons (::) are used to separate fields.  
+D. A single interface will have multiple IPv6 addresses of different types. 
+ANSWER: C   
+271. 
+Which transmission medium is most suitable for communication over very long distances where 
+physical cables are not feasible? 
+A. Coaxial Cable 
+B.  Optical Fiber 
+C. Twisted Pair Cable 
+D.  Satellite 
+ANSWER: D   
+272. 
+Which transmission medium is best known for very high-speed data transmission and long-distance 
+communication in modern backbone networks? 
+A. Coaxial Cable 
+B. Optical Fiber 
+C. Twisted Pair Cable 
+D. Satellite 
+ANSWER: B 
+273. 
+Which of the following protocol used to provide remote access to servers and networking devices 
+through plaintext? 
+A. Telnet 
+B. SMTP 
+C. ICMP 
+D. SSH 
+ANSWER: A
+67 
+ 
+ 
+274. 
+Which PDU is processed when a host computer is de-encapsulating a message at the network layer of 
+the TCP/IP model? 
+A. Packet 
+B. Segment 
+C. Bits 
+D. Frame 
+ANSWER: D 
+275. 
+What is the complete range of TCP and UDP well-known ports? 
+A. 0 to 255 
+B. 0 to 1023 
+C. 256 to 1023 
+D. 1024 to 49151 
+ANSWER: B 
+276. 
+Which of the following network device repeats incoming data frames only to the computers to which a 
+frame is addressed by using MAC address? 
+A. Active hub 
+B. Router 
+C. Switch 
+D. Firewall 
+ANSWER: C 
+277. 
+Which two flags in the TCP header are used in a TCP three-way handshake to establish connectivity 
+between two network devices? 
+A. ACK and FIN 
+B. FIN and Checksum 
+C. URG and SEQ 
+D. ACK AND SYNC 
+ANSWER: D 
+ 
+ 
+ 
+68 
+ 
+ 
+278. 
+Which three layers of the OSI model are comparable in function to the application layer of the TCP/IP 
+model? 
+A. Application, Presentation and Transport  
+B. Session, Transport and Network 
+C. Application, Session and Datalink  
+D. Application, Presentation and Session 
+ANSWER: D 
+279. 
+Which statement describes the half-duplex mode of data transmission? 
+A. Data that is transmitted over the network flows in both directions at the same time. 
+B. Data that is transmitted over the network flows in one direction to many different 
+destinations simultaneously. 
+C. Data that is transmitted over the network flows in one direction at a time. 
+D. Data that is transmitted over the network can only flow in one direction. 
+ANSWER:C 
+280. 
+A Network engineer has been asked to develop a physical topology for a network that 
+provides a high level of redundancy. Which physical topology requires that every node is 
+attached to every other node on the network? 
+A. Mesh 
+B. Extended Star 
+C. Hierarchical 
+D. Bus 
+ANSWER: A 
+281. 
+What method can be used by two computers to ensure that packets are not dropped 
+because too much data is being sent too quickly? 
+69 
+ 
+ 
+A. Encapsulation 
+B. Flow control 
+C. Access method 
+D. Response timeout 
+ANSWER: B 
+ 
+ 
+ 
+ 
+282. 
+Which device operates at the Network Layer of the OSI model? 
+A.  Hub 
+B. Repeater 
+C. Switch 
+D. Router 
+ANSWER: D 
+283. 
+Which protocol is used for web browsing? 
+A. FTP 
+B. HTTP 
+C. SMTP 
+D.  SNMP 
+ANSWER: B 
+284. 
+Which OSI layer is responsible for routing? 
+A. Data Link 
+B. Network 
+C. Transport 
+D.  Physical 
+ANSWER: B 
+285. 
+What is the main function of a switch? 
+A. Connect different networks 
+B. Forward data based on MAC address 
+C. Assign IP addresses 
+70 
+ 
+ 
+D.  Encrypt data 
+ANSWER: B 
+286. 
+What is the main difference between a switch and a hub? 
+A. Switch broadcasts to all ports 
+B. Hub uses MAC addresses 
+C.  Switch forwards data intelligently 
+D. Hub operates at Network layer 
+ANSWER: C 
+ 
+ 
+ 
+287. 
+Why is fiber optic preferred for backbone networks? 
+A. It is cheap 
+B.  It uses electricity 
+C. It supports high bandwidth and long distance 
+D.  It is wireless 
+ANSWER: C 
+288. 
+Which layer ensures reliable data transfer between end systems? 
+A. Physical 
+B. Data Link 
+C.  Transport 
+D. Session 
+ANSWER: C 
+289. 
+Why is TCP considered reliable compared to UDP? 
+A. It does not check errors 
+B. It guarantees delivery and order 
+C. It is faster 
+D.  It is connectionless 
+ANSWER: B 
+290. 
+A company needs high-speed long-distance communication between buildings. What 
+should they use? 
+71 
+ 
+ 
+A. Coaxial Cable 
+B. Twisted Pair 
+C. Optical Fiber 
+D. Bluetooth 
+ANSWER: C 
+291. 
+You are designing a network that requires secure and reliable data transfer. Which protocol 
+should you use? 
+A. UDP 
+B. IP 
+C.  TCP 
+D. ARP 
+ANSWER: C 
+ 
+292. 
+A university wants to separate student and staff networks for security. What should be 
+used? 
+A. VLANs 
+B. Hub 
+C. Coaxial cable 
+D.  Ping 
+ANSWER: A 
+293. 
+A network designer needs to reduce traffic collisions in LAN. What should they 
+implement? 
+A. Hub-based network 
+B.  Switch-based network 
+C.  Bus topology 
+D.  Broadcast system 
+ANSWER: B 
+294. 
+A network has IP range 192.168.1.0/24. If it is divided into 4 equal subnets, how many 
+hosts per subnet? 
+A. 62 
+B.  64 
+C. 128 
+D. 254 
+ANSWER: A 
+72 
+ 
+ 
+295. 
+A network transmits 10 MB of data in 5 seconds. What is the bandwidth in MB/s? 
+A. 1 MB/s 
+B.  2 MB/s 
+C. 5 MB/s 
+D. 10 MB/s 
+ANSWER: B 
+296. 
+What is the primary purpose of Change Management Reviews?  
+A.  Decreasing Software Errors 
+B. Ensuring Document Conformance  
+C. Accelerating System Testing 
+D. Minimizing Work Metrics  
+ANSWER: A 
+297. 
+Which phase of the software reengineering process involves creating a new system 
+from the extracted design information?  
+A. Reverse Engineering  
+B. Restructuring  
+C. Forward Engineering  
+D. Re-documentation  
+ANSWER: C 
+298. 
+What is a challenge related to the legal factor in software reuse?  
+A. Technical complexity  
+B. Economic viability 
+C. Proprietary and copyright issues  
+D. Managerial resistance  
+ANSWER: C 
+299. 
+During the maintenance phase of a software product's life cycle, which metrics are 
+considered de facto metrics for assessing the software's quality?  
+A. Fix backlog and backlog management index  
+B. Defect arrivals and customer problem calls  
+C. Fix response time and fix responsiveness  
+D. Percent delinquent fixes and fix quality  
+ 
+ANSWER: B 
+73 
+ 
+ 
+300. Which activity is NOT typically part of the re-engineering process?  
+A. Source code translation  
+B. Reverse engineering 
+C.  Program modularization 
+D.  Data re-engineering  
+ANSWER: A 
+301. When creating a test plan, which element is critical to include? 
+A. The list of all possible defects. 
+B. Detailed descriptions of objectives, scope, resources, and schedule. 
+C. Only functional testing requirements. 
+D. A high-level summary of the software being tested. 
+ANSWER: B 
+302. How does prioritizing test cases benefit the testing process? 
+A. Reduces overall testing effort by skipping low-priority tests. 
+B. Ensures critical functionalities are tested early and frequently. 
+C. Eliminates the need for test execution reporting. 
+D. Limits testing to functional aspects only. 
+ANSWER: B 
+303. 
+Which of the following types of testing focuses on ensuring that new changes in code do 
+not adversely affect existing functionality? 
+A. Unit Testing 
+B. Regression Testing 
+C. Performance Testing 
+D. Smoke Testing 
+ANSWER: B 
+304. 
+Which of the following tests is performed to ensure that the system meets user 
+requirements and business objectives? 
+A. Unit Testing 
+B. System Testing 
+C. Acceptance Testing 
+D. Stress Testing 
+ANSWER: C 
+ 
+ 

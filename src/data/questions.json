@@ -1,0 +1,3914 @@
+[
+  {
+    "id": 1,
+    "question": "An AI agent that assigns a value to each possible outcome and chooses the action with the highest value is a:",
+    "options": {
+      "A": "Simple reflex agent",
+      "B": "Utility-based agent",
+      "C": "Model-based agent",
+      "D": "Learning agent"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 1
+  },
+  {
+    "id": 2,
+    "question": "In a Depth-First Search (DFS) implementation, the data structure typically used to store the nodes yet to be explored is:",
+    "options": {
+      "A": "An array",
+      "B": "A linked list",
+      "C": "A queue",
+      "D": "A stack"
+    },
+    "answer": "D",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 2
+  },
+  {
+    "id": 3,
+    "question": "Suppose you are planning a trip and want to find the cheapest flight from Jimma (initial state city) to Addis Ababa (your destination). There are multiple airlines offering various routes with connecting flights. Which search algorithm is best suited to find the cheapest flight, considering the need to evaluate different routes and prices?",
+    "options": {
+      "A": "Depth-First Search",
+      "B": "Breadth-First Search",
+      "C": "Heuristic Search",
+      "D": "Iterative Deepening Search"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 3
+  },
+  {
+    "id": 4,
+    "question": "Suppose you know how to ride a bike without needing to think about the specific steps involved. This is an example of what type of knowledge?",
+    "options": {
+      "A": "Declarative Knowledge",
+      "B": "Procedural Knowledge",
+      "C": "Structural knowledge",
+      "D": "Conditional Knowledge"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 4
+  },
+  {
+    "id": 5,
+    "question": "Why is lifelong learning important for professionals working in Artificial Intelligence (AI)?",
+    "options": {
+      "A": "AI concepts are static and rarely evolve.",
+      "B": "AI requires adapting to rapidly advancing technologies.",
+      "C": "AI projects are always repetitive.",
+      "D": "AI knowledge is only relevant in academia."
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 5
+  },
+  {
+    "id": 6,
+    "question": "In knowledge representation, what is the main purpose of connectives like AND, OR,and NOT?",
+    "options": {
+      "A": "To specify slot values within frames.",
+      "B": "To represent actions within production rules.",
+      "C": "Define relationships between concepts in a semantic network.",
+      "D": "Build complex sentences within logical representation."
+    },
+    "answer": "D",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 6
+  },
+  {
+    "id": 7,
+    "question": "Suppose we are taking an entity, Henok. Henok is a Software Developer as a profession, and his age is 22, his weight is 68KG, his height is 1.72 cm, he lives in city Jimma, and the country is Ethiopia. Which knowledge representation technique would be most appropriate for this scenario?",
+    "options": {
+      "A": "Logical Representation.",
+      "B": "Semantic Network.",
+      "C": "Frame Representation.",
+      "D": "Production Rules."
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 7
+  },
+  {
+    "id": 8,
+    "question": "For a Depth-First Search (DFS) implementation, what kind of data structure is typically used to store the unexplored nodes during the exploration process?",
+    "options": {
+      "A": "Apriority queue",
+      "B": "Linked list",
+      "C": "Queue",
+      "D": "Stack"
+    },
+    "answer": "D",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 8
+  },
+  {
+    "id": 9,
+    "question": "Which of the following searching algorithm guarantees to finding the optimal solution (lowest cost path) if it exists.",
+    "options": {
+      "A": "Depth-First Search (DFS)",
+      "B": "Breadth-First Search (BFS)",
+      "C": "Uniform Cost Search (UCS)",
+      "D": "Iterative Deepening Search (IDS)"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 9
+  },
+  {
+    "id": 10,
+    "question": "Imagine you are working on a social network application and want to find all friends of a user within two connections (friends of friends). Which search algorithm is best suited for this task?",
+    "options": {
+      "A": "Depth-First Search (DFS)",
+      "B": "Breadth-First Search (BFS)",
+      "C": "A* Search",
+      "D": "Iterative Deepening Search (IDS)"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 10
+  },
+  {
+    "id": 11,
+    "question": "In a Depth-First Search (DFS) implementation, the data structure typically used to store the nodes yet to be explored is:",
+    "options": {
+      "A": "An array",
+      "B": "A linked list",
+      "C": "A queue",
+      "D": "A stack"
+    },
+    "answer": "D",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 11
+  },
+  {
+    "id": 12,
+    "question": "Which is used to improve the agents’ performance?",
+    "options": {
+      "A": "Perceiving",
+      "B": "Observing",
+      "C": "Learning",
+      "D": "Acting"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 12
+  },
+  {
+    "id": 13,
+    "question": "Frames consist of data structures called _______",
+    "options": {
+      "A": "Connectives",
+      "B": "Nodes",
+      "C": "Slots",
+      "D": "Quantifiers"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 13
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is NOT a common way to represent knowledge in Artificial Intelligence (AI)?",
+    "options": {
+      "A": "Propositional Logic",
+      "B": "First-Order Logic",
+      "C": "Semantic Networks",
+      "D": "Production Rules"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 14
+  },
+  {
+    "id": 15,
+    "question": "In a knowledge base represented using production rules, what is the part that specifies the conditions for applying the rule?",
+    "options": {
+      "A": "Preconditions",
+      "B": "Conclusion",
+      "C": "Facts",
+      "D": "Inferences"
+    },
+    "answer": "A",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 15
+  },
+  {
+    "id": 16,
+    "question": "Logical representation is well-suited for representing knowledge about the world using:",
+    "options": {
+      "A": "Semantic networks with nodes and edges",
+      "B": "Frames with slots and values",
+      "C": "Production rules with IF-THEN statements",
+      "D": "Propositions, predicates, and connectives"
+    },
+    "answer": "D",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 16
+  },
+  {
+    "id": 17,
+    "question": "How does an open mindset toward Artificial Intelligence advancements impact professional growth?",
+    "options": {
+      "A": "It limits opportunities for innovation.",
+      "B": "It fosters continuous improvement and adaptability.",
+      "C": "It reduces collaboration with peers.",
+      "D": "It leads to over-specialization in outdated techniques."
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 17
+  },
+  {
+    "id": 18,
+    "question": "What kind of data is required for SUPERVISED LEARNING?",
+    "options": {
+      "A": "Data with patterns",
+      "B": "Labeled data with input-output pairs",
+      "C": "Data with no specific structure",
+      "D": "Unlabeled data with output with feature piars"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 18
+  },
+  {
+    "id": 19,
+    "question": "Which of the following techniques is commonly used in UNSUPERVISED LEARNING?",
+    "options": {
+      "A": "Linear Regression",
+      "B": "Principal Component Analysis (PCA)",
+      "C": "Logistic Regression",
+      "D": "Random Forest"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 19
+  },
+  {
+    "id": 20,
+    "question": "Which supervised learning algorithm is particularly well-suited for dealing with textual data and is based on probability theory?",
+    "options": {
+      "A": "Decision Trees",
+      "B": "k-Nearest Neighbors (k-NN)",
+      "C": "Naive Bayes",
+      "D": "Support Vector Machines (SVM)"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 20
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is a common evaluation metric for classification models?",
+    "options": {
+      "A": "Mean Squared Error",
+      "B": "Root Mean Squared Error",
+      "C": "R-squared",
+      "D": "Precision"
+    },
+    "answer": "D",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 21
+  },
+  {
+    "id": 22,
+    "question": "Which evaluation metric is most suitable for assessing time series forecasting models?",
+    "options": {
+      "A": "Accuracy",
+      "B": "Mean Absolute Error (MAE)",
+      "C": "F1 Score",
+      "D": "Precision"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 22
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is NOT an example of supervised learning?",
+    "options": {
+      "A": "Classifying animals as mammals or reptiles.",
+      "B": "Predicting temperature based on historical weather data",
+      "C": "Clustering social media users by interests",
+      "D": "Predicting a student’s exam score based on hours of study."
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 23
+  },
+  {
+    "id": 24,
+    "question": "Which algorithm is best suited for predicting a continuous output?",
+    "options": {
+      "A": "Logistic Regression",
+      "B": "Decision Tree Classifier",
+      "C": "Linear Regression",
+      "D": "K-Nearest Neighbors (KNN)"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 24
+  },
+  {
+    "id": 25,
+    "question": "Which unsupervised learning approach is used to group similar data points into clusters?",
+    "options": {
+      "A": "Regression analysis",
+      "B": "Decision Trees",
+      "C": "K-Means Clustering",
+      "D": "Neural Networks"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 25
+  },
+  {
+    "id": 26,
+    "question": "What could happen if the learning rate is too small in gradient descent?",
+    "options": {
+      "A": "The algorithm converges very slowly",
+      "B": "The model becomes too complex",
+      "C": "Training dataset size increases",
+      "D": "The error immediately drops to zero"
+    },
+    "answer": "A",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 26
+  },
+  {
+    "id": 27,
+    "question": "In machine learning, the cost function:",
+    "options": {
+      "A": "Updates the model parameters",
+      "B": "Measures how well the model predicts the target",
+      "C": "Generates new data points",
+      "D": "Reduces dimensionality"
+    },
+    "answer": "B",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 27
+  },
+  {
+    "id": 28,
+    "question": "Which machine learning algorithm is commonly used for classification tasks and is based on finding the best hyperplane that separates data points into different classes?",
+    "options": {
+      "A": "k-Nearest Neighbors (k-NN)",
+      "B": "Decision Trees",
+      "C": "Naive Bayes",
+      "D": "Support Vector Machines (SVM)"
+    },
+    "answer": "D",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 28
+  },
+  {
+    "id": 29,
+    "question": "Suppose you are building a classifier to predict fraudulent transactions. The dataset has 10,000 records, but only 2% are fraud cases, meaning the classes are highly imbalanced. You want to split the data into 5 folds, but you need each fold to contain approximately the same ratio of fraud and non-fraud cases. Which cross-validation technique should you use?",
+    "options": {
+      "A": "K-Fold",
+      "B": "Leave-P-Out",
+      "C": "Stratified K-Folds",
+      "D": "Leave-One-Out"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 29
+  },
+  {
+    "id": 30,
+    "question": "Suppose you are training a regression model to predict Student Exam Scores. The model has high training error and high-test error, indicating that it is too simple to capture the underlying patterns in the data. Which problem is the model most likely suffering from?",
+    "options": {
+      "A": "Overfitting",
+      "B": "High variance",
+      "C": "Underfitting",
+      "D": "Data leakage"
+    },
+    "answer": "C",
+    "category": "Artificial Intelligence & Machine Learning",
+    "originalId": 30
+  },
+  {
+    "id": 31,
+    "question": "What output is produced if the following source code is compiled and run? public class A { public int number = 1; public A() { number *= 2; } public static void main(String[] args) { B b = new B(); System.out.println(b.number); } } class B extends A { public B() { number += 1; } }",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 31
+  },
+  {
+    "id": 32,
+    "question": "What output is produced by the following code? class Parent { int x = 10; } class Child extends Parent { int x = 20; public static void main(String[] args) { Child c = new Child(); System.out.println(c.x); } }",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "Compilation Error"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 32
+  },
+  {
+    "id": 33,
+    "question": "Consider the JAVA code snippet below. What will be the output after executing the following code? class Parent { void display() { System.out.print(\"Parent \"); } } class Child extends Parent { void display() { super.display(); System.out.print(\"Child\"); } public static void main(String[] args) { Child c = new Child(); c.display(); } }",
+    "options": {
+      "C": "Parent Child",
+      "A": "Parent",
+      "B": "Child",
+      "D": "Child Parent"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 33
+  },
+  {
+    "id": 34,
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": {
+      "A": "implements",
+      "B": "inherits",
+      "C": "extends",
+      "D": "super"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 34
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is true about inheritance?",
+    "options": {
+      "A": "It promotes code reusability",
+      "B": "It hides data completely",
+      "C": "It prevents method overriding",
+      "D": "It replaces constructors"
+    },
+    "answer": "A",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 35
+  },
+  {
+    "id": 36,
+    "question": "Which access modifier is commonly used to achieve encapsulation?",
+    "options": {
+      "A": "public",
+      "B": "protected",
+      "C": "private",
+      "D": "static"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 36
+  },
+  {
+    "id": 37,
+    "question": "Which concept allows one function name to have multiple forms?",
+    "options": {
+      "A": "Polymorphism",
+      "B": "Encapsulation",
+      "C": "Inheritance",
+      "D": "Compilation"
+    },
+    "answer": "A",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 37
+  },
+  {
+    "id": 38,
+    "question": "Method overriding occurs when:",
+    "options": {
+      "A": "Two methods have the same name but different parameters",
+      "B": "A subclass provides its own implementation of a superclass method",
+      "C": "A method is declared private",
+      "D": "A constructor calls another constructor"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 38
+  },
+  {
+    "id": 39,
+    "question": "Method overloading occurs when:",
+    "options": {
+      "A": "Methods have the same name but different parameter lists",
+      "B": "Methods have different names and same parameters",
+      "C": "A child class redefines a method",
+      "D": "Methods are declared private"
+    },
+    "answer": "A",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 39
+  },
+  {
+    "id": 40,
+    "question": "Consider the JAVA code snippet below. What will be the output after executing the following code? class Test { void add(int a, int b) { System.out.print(a + b); } void add(int a, int b, int c) { System.out.print(a + b + c); } public static void main(String[] args) { Test t = new Test(); t.add(2, 3); } }",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "23"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 40
+  },
+  {
+    "id": 41,
+    "question": "A class contains the following methods: void display() void display(String name) void display(int age) Which OOP concept does this demonstrate?",
+    "options": {
+      "A": "Inheritance",
+      "B": "Encapsulation",
+      "C": "Method Overloading",
+      "D": "Method Overriding"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 41
+  },
+  {
+    "id": 42,
+    "question": "A university system has a superclass Person and subclasses Student and Teacher. Both subclasses implement their own version of the method displayInfo(). When the system calls displayInfo() through a Person reference, the appropriate subclass method executes. Which OOP concept is demonstrated?",
+    "options": {
+      "A": "Encapsulation through controlled access methods",
+      "B": "Method overloading using different parameters",
+      "C": "Runtime polymorphism through method overriding",
+      "D": "Abstraction through hidden implementation details"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 42
+  },
+  {
+    "id": 43,
+    "question": "A banking application stores account balance as a private variable and provides deposit() and withdraw() methods to modify it. Which OOP principle is primarily being applied?",
+    "options": {
+      "A": "Inheritance",
+      "B": "Encapsulation",
+      "C": "Polymorphism",
+      "D": "Method Overloading"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 43
+  },
+  {
+    "id": 44,
+    "question": "Which of the following best describes polymorphism in Java?",
+    "options": {
+      "A": "The ability of a class to inherit properties from multiple super classes.",
+      "B": "The ability of an object to take on many forms.",
+      "C": "The process of hiding complex implementation details from the user.",
+      "D": "The mechanism of bundling data (attributes) and methods that operate on the data."
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 44
+  },
+  {
+    "id": 45,
+    "question": "Which one or more of the following statement is incorrect about java exception handling mechanism.",
+    "options": {
+      "A": "When an exception is thrown, the normal execution flow is interrupted",
+      "B": "The primary advantage of handling an exception is to stop the normal flow of the application when the exception occur.",
+      "C": "The stack shows the sequence of method invocation that cause an error",
+      "D": "If an exception is not caught in the current method, it is passed to its caller."
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 45
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is a top-level container in Java Swing?",
+    "options": {
+      "A": "JButton",
+      "B": "JPanel",
+      "C": "JFrame",
+      "D": "JLabel"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 46
+  },
+  {
+    "id": 47,
+    "question": "Which of the following Swing containers is typically used to organize and group other GUI components?",
+    "options": {
+      "A": "JButton",
+      "B": "JPanel",
+      "C": "JTextArea",
+      "D": "JLabel"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 47
+  },
+  {
+    "id": 48,
+    "question": "Which Swing component is designed to trigger an action when clicked by the user?",
+    "options": {
+      "A": "JLabel",
+      "B": "JTextField",
+      "C": "JButton",
+      "D": "JPanel"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 48
+  },
+  {
+    "id": 49,
+    "question": "A student is designing a login interface in an IDE. Which combination of components would best support username entry, password entry, and login submission?",
+    "options": {
+      "A": "JLabel, JPanel, JMenuBar",
+      "B": "JTextField, JPasswordField, JButton",
+      "C": "JTextArea, JLabel, JCheckBox",
+      "D": "JScrollPane, JTable, JMenu"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 49
+  },
+  {
+    "id": 50,
+    "question": "A developer needs to create a Java Swing application that accepts user input and displays a message when a button is clicked. Which design is most appropriate?",
+    "options": {
+      "A": "Use a JFrame, JTextField, JButton, and an ActionListener",
+      "B": "Use a JPanel, JLabel, JTextArea, and a FlowLayout",
+      "C": "Use a JFrame, JLabel, JMenuBar, and a BorderLayout",
+      "D": "Use a JPanel, JCheckBox, JTextField, and a GridLayout"
+    },
+    "answer": "A",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 50
+  },
+  {
+    "id": 51,
+    "question": "A software developer is creating a survey form. Which layout manager would be most appropriate for arranging labels and input fields in rows and columns?",
+    "options": {
+      "A": "FlowLayout",
+      "B": "BorderLayout",
+      "C": "GridLayout",
+      "D": "CardLayout"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 51
+  },
+  {
+    "id": 52,
+    "question": "A developer wants to design a GUI application that responds when the user presses a button. Which additional element must be created besides the button itself?",
+    "options": {
+      "A": "A layout manager only",
+      "B": "An event listener implementation",
+      "C": "A second frame",
+      "D": "A menu bar"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 52
+  },
+  {
+    "id": 53,
+    "question": "Which block is always executed regardless of whether an exception occurs?",
+    "options": {
+      "A": "try",
+      "B": "catch",
+      "C": "finally",
+      "D": "throw"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 53
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is a checked exception?",
+    "options": {
+      "A": "ArithmeticException",
+      "B": "NullPointerException",
+      "C": "IOException",
+      "D": "ArrayIndexOutOfBoundsException"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 54
+  },
+  {
+    "id": 55,
+    "question": "Consider the JAVA code snippet below. What will be the output after executing the following code? public class Test { public static void main(String[] args) { try { int a = 10 / 0; } catch (ArithmeticException e) { System.out.print(\"Error\"); } } }",
+    "options": {
+      "A": "10",
+      "B": "Error",
+      "C": "Runtime Exception",
+      "D": "Compilation Error"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 55
+  },
+  {
+    "id": 56,
+    "question": "What will happen if an exception is not handled in Java?",
+    "options": {
+      "A": "Program continues normally",
+      "B": "Program ignores the exception",
+      "C": "Program terminates abnormally",
+      "D": "Program restarts automatically"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 56
+  },
+  {
+    "id": 57,
+    "question": "Which keyword is used to explicitly pass an exception to the calling method?",
+    "options": {
+      "A": "Try",
+      "B": "Throw",
+      "C": "Throws",
+      "D": "catch"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 57
+  },
+  {
+    "id": 58,
+    "question": "Which of the following Swing components allows users to select one option from a list of choices?",
+    "options": {
+      "A": "JTextArea",
+      "B": "JButton",
+      "C": "JComboBox",
+      "D": "JLabel"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 58
+  },
+  {
+    "id": 59,
+    "question": "Consider the JAVA code snippet below. What will be the output after executing the following code? public class Test { public static void main(String[] args) { try { int x = 5 / 1; System.out.print(\"A\"); } catch (Exception e) { System.out.print(\"B\"); } finally { System.out.print(\"C\"); } } }",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "AC",
+      "D": "BC"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 59
+  },
+  {
+    "id": 60,
+    "question": "Which of the following is true about the finally block?",
+    "options": {
+      "A": "It executes only if exception occurs",
+      "B": "It executes only if no exception occurs",
+      "C": "It always executes",
+      "D": "It replaces catch block"
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 60
+  },
+  {
+    "id": 61,
+    "question": "Which concept allows an object to respond differently to the same message?",
+    "options": {
+      "A": "Aggregation",
+      "B": "Polymorphism",
+      "C": "Inheritance",
+      "D": "Encapsulation"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 61
+  },
+  {
+    "id": 62,
+    "question": "__________________ is the OOP feature and mechanism that binds together code and the data it manipulates, and keep both safe from outside world.",
+    "options": {
+      "A": "Data Binding",
+      "B": "Data Encapsulation",
+      "C": "Data Storing",
+      "D": "Data Abstraction"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 62
+  },
+  {
+    "id": 63,
+    "question": "Which of the following is false about class?",
+    "options": {
+      "A": "Memory is allocated only for the class variables",
+      "B": "Destructor automatically executes when the class object goes out of scope.",
+      "C": "Class is a blueprint from which object is created.",
+      "D": "A class can have more than one destructor"
+    },
+    "answer": "D",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 63
+  },
+  {
+    "id": 64,
+    "question": "In debugging code, we sometimes break down the execution using breakpoints. What is the main purpose of using this?",
+    "options": {
+      "A": "To print output on the console",
+      "B": "To stop code execution at a specific point to examine the current state and variable values",
+      "C": "To execute a specific block of code repeatedly",
+      "D": "To restart the program from the beginning"
+    },
+    "answer": "B",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 64
+  },
+  {
+    "id": 65,
+    "question": "Which of the following is true about static functions.",
+    "options": {
+      "A": "It should be called when an object is destroyed.",
+      "B": "It is closely connected with and individual object of a class.",
+      "C": "It can be called using the class name and function name.",
+      "D": "It is used when a dummy object must be created."
+    },
+    "answer": "C",
+    "category": "Object-Oriented Programming (Java/C++)",
+    "originalId": 65
+  },
+  {
+    "id": 66,
+    "question": "What is a potential drawback of using user-defined data types in C++?",
+    "options": {
+      "A": "Limited code organization and readability",
+      "B": "Increased efficiency and performance issues",
+      "C": "Reduced flexibility and scalability",
+      "D": "Improved code maintenance and debugging"
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 66
+  },
+  {
+    "id": 67,
+    "question": "If a new programming framework is released with significant updates, how should a programmer stay relevant with it?",
+    "options": {
+      "A": "Ignore it and stick with what they know.",
+      "B": "Delegate learning the framework to someone else.",
+      "C": "Dedicate time to learn and explore the new framework.",
+      "D": "Hope their current skills are enough."
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 67
+  },
+  {
+    "id": 68,
+    "question": "If we create a file by ‘ifstream’, then the default mode of the file is _________",
+    "options": {
+      "A": "ios :: out",
+      "B": "ios :: in",
+      "C": "ios :: app",
+      "D": "ios :: binary"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 68
+  },
+  {
+    "id": 69,
+    "question": "Which of the following is true about the actual parameters in C++?",
+    "options": {
+      "A": "Parameters with which functions are called.",
+      "B": "Parameters which are used in the definition of a function.",
+      "C": "Variables other than passed parameters in a function.",
+      "D": "Variables that are never used in the function."
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 69
+  },
+  {
+    "id": 70,
+    "question": "In C++, dynamic memory allocation is accomplished with the operator ____.",
+    "options": {
+      "A": "New",
+      "B": "This",
+      "C": "malloc( )",
+      "D": "delete"
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 70
+  },
+  {
+    "id": 71,
+    "question": "What would be the output of the following? #include <iostream> using namespace std; int main() { char *ptr = (char*)\"abcd\"; char ch; ch = ++*ptr++; cout << ch; return 0; }",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 71
+  },
+  {
+    "id": 72,
+    "question": "Which of the following ways are legal to access a class data member using this pointer?",
+    "options": {
+      "A": "this.x",
+      "B": "*this.x",
+      "C": "*(this.x)",
+      "D": "(*this).x"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 72
+  },
+  {
+    "id": 73,
+    "question": "Which type of programming error occurs when a program executes successfully but produces incorrect results?",
+    "options": {
+      "A": "Syntax Error",
+      "B": "Runtime Error",
+      "C": "Compilation Error",
+      "D": "Logical Error"
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 73
+  },
+  {
+    "id": 74,
+    "question": "What is the purpose of the #include<iostream> directive? To-------",
+    "options": {
+      "A": "Define the main function",
+      "B": "Declare variables and data type",
+      "C": "Speed up program execution",
+      "D": "Allow the use of input and output streams"
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 74
+  },
+  {
+    "id": 75,
+    "question": "Which loop is most appropriate when the number of iterations is unknown and depends on a condition evaluated before each iteration?",
+    "options": {
+      "A": "while loop",
+      "B": "do-while loop",
+      "C": "for loop",
+      "D": "nested loop"
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 75
+  },
+  {
+    "id": 76,
+    "question": "Consider the C++ code snippet below. What will be the output after executing the following code? #include <iostream> using namespace std; int main() { int a = 5, b = 4, c = a + b, d; a += 5; b *= 4; c += a * b; c %= 6; d = ++c; cout << \"b = \" << b << endl; cout << \"c = \" << c << endl; cout << \"d = \" << d << endl; return 0; }",
+    "options": {
+      "A": "while loop",
+      "B": "do-while loop",
+      "C": "for loop",
+      "D": "nested loop"
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 76
+  },
+  {
+    "id": 77,
+    "question": "A program is divided into several functions, each performing a specific task. What is the main advantage of this approach?",
+    "options": {
+      "A": "Increases execution speed only",
+      "B": "Improves code reusability",
+      "C": "Eliminates the need for variables",
+      "D": "Avoids compilation errors"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 78
+  },
+  {
+    "id": 78,
+    "question": "If a function modifies a variable passed from the main function, which parameter passing method is used?",
+    "options": {
+      "A": "Pass by value",
+      "B": "Pass by reference",
+      "C": "Pass by constant only",
+      "D": "Pass by copy"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 79
+  },
+  {
+    "id": 79,
+    "question": "Consider the C++ code snippet below. The value of num remains unchanged after the function call. Which parameter-passing method is used? #include <iostream> using namespace std; void update(int x) { x = x + 10; } int main() { int num = 5; update(num); cout << num; return 0; }",
+    "options": {
+      "A": "Pass by reference",
+      "B": "Pass by value",
+      "C": "Pass by pointer",
+      "D": "Pass by constant reference"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 80
+  },
+  {
+    "id": 80,
+    "question": "Which structure best represents user-defined data type in C++?",
+    "options": {
+      "A": "int",
+      "B": "float",
+      "C": "struct",
+      "D": "double"
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 81
+  },
+  {
+    "id": 81,
+    "question": "Which mode is used to append data to a file?",
+    "options": {
+      "A": "ios::in",
+      "B": "ios::out",
+      "C": "ios::app",
+      "D": "ios::trunc"
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 82
+  },
+  {
+    "id": 82,
+    "question": "Which explicit file open mode flag should be passed to an std::ofstream constructor to ensure that existing file content is preserved and new records are appended to the end of the stream?",
+    "options": {
+      "A": "std::ios::in",
+      "B": "std::ios::trunc",
+      "C": "std::ios::out",
+      "D": "std::ios::app"
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 83
+  },
+  {
+    "id": 83,
+    "question": "A file named data.txt already contains information. A programmer wants to overwrite all existing data and write new information to the file. Which file mode should be selected?",
+    "options": {
+      "A": "std::ios::app",
+      "B": "std::ios::in",
+      "C": "std::ios::ate",
+      "D": "std::ios::trunc"
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 84
+  },
+  {
+    "id": 84,
+    "question": "Which of the following statements is used to select ONE OPTION from multiple cases in C++?",
+    "options": {
+      "A": "if",
+      "B": "For",
+      "C": "Switch",
+      "D": "While loop"
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 85
+  },
+  {
+    "id": 85,
+    "question": "Consider the following statement: What is the primary purpose of the ios::out mode? ofstream file(\"employee1.txt\", ios::out);",
+    "options": {
+      "A": "Read data from the file",
+      "B": "Write data to the file",
+      "C": "Append data to the end of the file",
+      "D": "Position the pointer at the end"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 86
+  },
+  {
+    "id": 86,
+    "question": "Consider the following statement: result = (x > 10) ? (y < 5 ? 1 : 2) : 3;",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "Invalid"
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 87
+  },
+  {
+    "id": 87,
+    "question": "Suppose a program opens a file using the following statement: What is the purpose of the ios::in mode? ifstream file(\"students.txt\", ios::in);",
+    "options": {
+      "A": "Open the file for reading",
+      "B": "Delete existing contents",
+      "C": "Append data to the file",
+      "D": "Open the file for writing only"
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 88
+  },
+  {
+    "id": 88,
+    "question": "In which situation is the CONTINUE statement useful?",
+    "options": {
+      "A": "When you want to exit a loop completely based on the condition",
+      "B": "When you want to skip specific iterations based on a condition",
+      "C": "When you want to stop program execution based on a condition",
+      "D": "When you want to jump outside a function based on a condition"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 89
+  },
+  {
+    "id": 89,
+    "question": "What will be the output of the following switch statement? #include <iostream> using namespace std; int main() { int x = 2; switch(x) { case 1: case 2: cout << \"A \"; case 3: cout << \"B \"; default: cout << \"C\"; } return 0; }",
+    "options": {
+      "A": "A",
+      "B": "A B C",
+      "C": "B C",
+      "D": "C"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 90
+  },
+  {
+    "id": 90,
+    "question": "A programmer wants to generate the following inverted number pattern using C++ code: 1 2 3 4 1 2 3 1 2 How many times will the INNER LOOP EXECUTE in total?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "16"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 91
+  },
+  {
+    "id": 91,
+    "question": "What happens if the loop condition is always TRUE and there is no terminating statement?",
+    "options": {
+      "A": "The loop executes only once.",
+      "B": "The loop produces a compilation error.",
+      "C": "The loop is skipped.",
+      "D": "The loop becomes an infinite loop."
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 92
+  },
+  {
+    "id": 92,
+    "question": "What will be the output of the following program?",
+    "options": {
+      "A": "11 12 13 21 22 23 31 32 33 41 42 43 51 52 53",
+      "B": "11 12 21 22 31 32 41 42 51 52",
+      "C": "11 12 21 22 31 41 42 43 51 52 53",
+      "D": "Infinite loop"
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 93
+  },
+  {
+    "id": 93,
+    "question": "What will be the output of the following code? #include <iostream> using namespace std; int main() { for(int i = 1; i <= 3; i++) { for(int j = 1; j <= 3; j++) { if(i == j) continue; cout << i << j << \" \"; } } return 0; }",
+    "options": {
+      "A": "11 22 33",
+      "B": "12 13 21 23 31 32",
+      "C": "12 21 23 32",
+      "D": "11 12 21 22 31 32"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 94
+  },
+  {
+    "id": 94,
+    "question": "Which operator is used to access STRUCTURE MEMBERS?",
+    "options": {
+      "A": ";",
+      "B": "->",
+      "C": "*",
+      "D": "."
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 95
+  },
+  {
+    "id": 95,
+    "question": "A programmer wants to store marks of 100 students and process them later. Which data structure is most appropriate?",
+    "options": {
+      "A": "Variable",
+      "B": "Constant",
+      "C": "Operator",
+      "D": "Array"
+    },
+    "answer": "D",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 96
+  },
+  {
+    "id": 96,
+    "question": "When evaluating a standard switch-case construct in C++, what happens if a matching case block does not conclude with a 'break' statement?",
+    "options": {
+      "A": "Execution falls through to execute subsequent case statements sequentially until a break or the end of the switch block is reached.",
+      "B": "The compiler rejects the code format and raises a syntax validation error at compile time.",
+      "C": "The execution flow exits the switch structure immediately to protect operational invariants.",
+      "D": "The program triggers a runtime segmentation fault exception due to unstable execution paths."
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 97
+  },
+  {
+    "id": 97,
+    "question": "Given the declaration \"int x = 10; int* ptr = &x;\", what does the expression \"*ptr\" directly represent in a C++ source file?",
+    "options": {
+      "A": "The absolute memory address assignment path tracking where x is physically stored.",
+      "B": "An independent reference duplicate instance holding a copy of the value 10.",
+      "C": "The variable entity x itself, accessed via pointer dereferencing to read or modify its value.",
+      "D": "A secondary memory allocation pointer tracking the address location of the variable ptr."
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 98
+  },
+  {
+    "id": 98,
+    "question": "What operational vulnerability occurs if a recursive C++ function is executed without a valid, reachable base case exit condition?",
+    "options": {
+      "A": "The memory addresses space defaults to an out-of-bounds array layout boundary.",
+      "B": "The execution engine falls into an infinite cascade of activation records, causing a stack overflow crash.",
+      "C": "The compiler flags a logical structure conflict exception and automatically breaks compilation.",
+      "D": "The system automatically transforms the execution architecture into an optimization iteration loop."
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 99
+  },
+  {
+    "id": 99,
+    "question": "A developer configures a loop statement: for(int i = 0; i < 10; i++) { if(i == 5) continue; std::cout << i; } Which of the following describes the accurate output trace behavior of this processing block?",
+    "options": {
+      "A": "The program prints numbers from 0 to 4, then completely breaks out of the loop construct.",
+      "B": "The loop skips printing the digit 5 specifically, but successfully executes processing for all other indices.",
+      "C": "The execution engine halts execution entirely, logging a critical runtime memory boundary exception.",
+      "D": "The loop loops infinitely at index value 5 because the loop control increment step is bypassed."
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 100
+  },
+  {
+    "id": 100,
+    "question": "If a developer increments a pointer variable (e.g., ptr++) where ptr is defined as a pointer to a standard 4-byte integer (int* ptr), how does the raw underlying memory address change?",
+    "options": {
+      "A": "The memory address changes by exactly 1 byte.",
+      "B": "The memory address changes by exactly 4 bytes to point to the next integer storage slot.",
+      "C": "The address remains completely unchanged, but the value stored inside the memory cell increments by 1.",
+      "D": "The pointer converts into an null tracking layout target automatically."
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 101
+  },
+  {
+    "id": 101,
+    "question": "When using the C++ fstream library to open an input file stream (std::ifstream), which method loop validation check is best suited to detect if the end of the file target has been reached during read sequences?",
+    "options": {
+      "A": "stream.eof()",
+      "B": "stream.bad()",
+      "C": "stream.clear()",
+      "D": "stream.fail()"
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 102
+  },
+  {
+    "id": 102,
+    "question": "What memory allocation feature distinguishes a 'union' user-defined data type from a standard 'struct' layout in C++?",
+    "options": {
+      "A": "All members in a union share the same memory location, meaning its size is equal to its largest member.",
+      "B": "Unions do not allow primitive tracking variables to act as properties within their blocks.",
+      "C": "Members in a union are allocated sequentially with byte-padding gaps separating them.",
+      "D": "A union automatically locks structural data variables to prevent compilation mutation steps."
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 103
+  },
+  {
+    "id": 103,
+    "question": "Given the evaluation logic block: if (a || b && c), which operator has higher precedence and will be evaluated first by default?",
+    "options": {
+      "A": "The logical AND operator (&&)",
+      "B": "The logical OR operator (||)",
+      "C": "Both operators hold equal priority and parse strictly from right to left layout patterns.",
+      "D": "The assignment variable outside the brackets controls conditional precedence rules."
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 104
+  },
+  {
+    "id": 104,
+    "question": "What C++ feature allows multiple distinct functions within the same scope space to share the exact same name identifier, provided they maintain unique parameter lists?",
+    "options": {
+      "A": "Function Overloading",
+      "B": "Function Overriding",
+      "C": "Template Specialization Macros",
+      "D": "Inline Dynamic Compilation Linkage"
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 105
+  },
+  {
+    "id": 105,
+    "question": "Consider the following code block tracking a multi-conditional loop break structure: What is the final value state stored in the 'count' tracking variable when execution completes? #include <iostream> using namespace std; int main() { int count = 0; while (count < 5) { count++; if (count == 3) break; } cout << \"Count = \" << count << endl; return 0; }",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "C",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 106
+  },
+  {
+    "id": 106,
+    "question": "Review the following C++ memory assignment state code snippet: Which of the following processing modifications will cause a compile-time error? int a = 50; int b = 100; int* const p = &a;",
+    "options": {
+      "A": "*p = 75;",
+      "B": "p = &b;",
+      "C": "int c = *p;",
+      "D": "a = b;"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 107
+  },
+  {
+    "id": 107,
+    "question": "Given the initialization block: int x = 5, y = 5; if (++x > 5 || ++y > 5) { /* execute */ } What are the final values of x and y after the conditional block is evaluated?",
+    "options": {
+      "A": "x = 6, y = 5",
+      "B": "x = 6, y = 6",
+      "C": "x = 5, y = 5",
+      "D": "x = 6, y = 10"
+    },
+    "answer": "A",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 108
+  },
+  {
+    "id": 108,
+    "question": "Consider the following nested loop block structure execution trace: What is the final total tracking balance value after exiting the nested loop logic? int total = 0; for(int i = 0; i < 2; i++) { for(int j = 0; j < 3; j++) { total += i; } } 110.",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "6",
+      "D": "2"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 109
+  },
+  {
+    "id": 109,
+    "question": "Consider the following structural array declaration sequence: int arr[3][3] = {{2, 4, 6}, {8, 10, 12}, {14, 16, 18}}; What is the explicit evaluation outcome when looking up the record position arr[1][1]?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "16"
+    },
+    "answer": "B",
+    "category": "Fundamentals of Programming (C++)",
+    "originalId": 111
+  },
+  {
+    "id": 110,
+    "question": "Which of the following is a characteristic of a relational database model?",
+    "options": {
+      "A": "Data is stored in a tree structure.",
+      "B": "Data is stored in tables with rows and columns.",
+      "C": "Data is stored as a single large file.",
+      "D": "Data is stored in a key-value pair format."
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 112
+  },
+  {
+    "id": 111,
+    "question": "Which SQL statement is used to retrieve all records from a table called \"Students\"?",
+    "options": {
+      "A": "SELECT * FROM Students;",
+      "B": "GET ALL Students;",
+      "C": "SHOW RECORDS FROM Students;",
+      "D": "RETRIEVE * FROM Students;"
+    },
+    "answer": "A",
+    "category": "Database Systems",
+    "originalId": 113
+  },
+  {
+    "id": 112,
+    "question": "Which SQL command is used to delete a record from a table?",
+    "options": {
+      "A": "REMOVE",
+      "B": "DELETE",
+      "C": "DROP",
+      "D": "TRUNCATE"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 114
+  },
+  {
+    "id": 113,
+    "question": "When creating an Entity-Relationship diagram, which of the following represents a \"many- to-many\" relationship?",
+    "options": {
+      "A": "A line with a diamond shape in between.",
+      "B": "A line with no shape.",
+      "C": "A line with two lines on both ends.",
+      "D": "A line with crow’s foot notation on both sides."
+    },
+    "answer": "D",
+    "category": "Database Systems",
+    "originalId": 115
+  },
+  {
+    "id": 114,
+    "question": "Which of the following is typically used to define constraints on database fields in an ER diagram?",
+    "options": {
+      "A": "Relationships",
+      "B": "Attributes",
+      "C": "Entities",
+      "D": "Keys"
+    },
+    "answer": "D",
+    "category": "Database Systems",
+    "originalId": 116
+  },
+  {
+    "id": 115,
+    "question": "Which of the following SQL commands is used to grant a user permission to perform certain operations on a database?",
+    "options": {
+      "A": "GRANT",
+      "B": "DENY",
+      "C": "REVOKE",
+      "D": "ALLOW"
+    },
+    "answer": "A",
+    "category": "Database Systems",
+    "originalId": 117
+  },
+  {
+    "id": 116,
+    "question": "A company wants to update salaries only for employees in the SE department. Which query is correct?",
+    "options": {
+      "A": "UPDATE Employee SET Salary = 50000 WHERE Department = 'SE'",
+      "B": "INSERT INTO Employee VALUES Salary = 50000 WHERE Department = 'SE'",
+      "C": "SELECT Salary FROM Employee",
+      "D": "UPDATE Employee SET Salary = 50000"
+    },
+    "answer": "A",
+    "category": "Database Systems",
+    "originalId": 118
+  },
+  {
+    "id": 117,
+    "question": "What is the difference between DELETE and TRUNCATE?",
+    "options": {
+      "A": "DELETE removes structure, TRUNCATE removes rows",
+      "B": "DELETE removes selected rows, TRUNCATE removes all rows quickly",
+      "C": "Both are identical",
+      "D": "TRUNCATE works only with WHERE clause"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 119
+  },
+  {
+    "id": 118,
+    "question": "Which SQL command ensures that a newly inserted record is permanently saved in the database?",
+    "options": {
+      "A": "SAVE",
+      "B": "COMMIT",
+      "C": "PUSH",
+      "D": "STORE"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 120
+  },
+  {
+    "id": 119,
+    "question": "Which SQL command is used to undo changes in a transaction?",
+    "options": {
+      "A": "COMMIT",
+      "B": "SAVE",
+      "C": "ROLLBACK",
+      "D": "UNDO"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 121
+  },
+  {
+    "id": 120,
+    "question": "Which SQL clause is used to filter records after joining conditions?",
+    "options": {
+      "A": "WHERE",
+      "B": "ORDER BY",
+      "C": "GROUP BY",
+      "D": "HAVING"
+    },
+    "answer": "A",
+    "category": "Database Systems",
+    "originalId": 122
+  },
+  {
+    "id": 121,
+    "question": "In a real-world system, which combination represents correct data manipulation operations?",
+    "options": {
+      "A": "CREATE, DROP, ALTER",
+      "B": "INSERT, UPDATE, DELETE",
+      "C": "SELECT, COMPILE, RUN",
+      "D": "SAVE, OPEN, CLOSE"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 123
+  },
+  {
+    "id": 122,
+    "question": "A developer is designing a database from requirements stating: “Each employee belongs to one department, but a department can have many employees.” What relationship should be implemented?",
+    "options": {
+      "A": "Many-to-Many",
+      "B": "One-to-One",
+      "C": "One-to-Many",
+      "D": "Self-Join"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 124
+  },
+  {
+    "id": 123,
+    "question": "While designing a database, a requirement says: “Each order can contain multiple products, and each product can appear in multiple orders.” What is the best design approach?",
+    "options": {
+      "A": "Single table with duplicated data",
+      "B": "Two tables only (Orders and Products)",
+      "C": "Use a junction table (OrderDetails)",
+      "D": "Store products as a list in Orders table"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 125
+  },
+  {
+    "id": 124,
+    "question": "A system requirement specifies that student email must be unique and not null. Which design choice is correct?",
+    "options": {
+      "A": "PRIMARY KEY constraint",
+      "B": "FOREIGN KEY constraint",
+      "C": "UNIQUE + NOT NULL constraint",
+      "D": "CHECK constraint only"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 126
+  },
+  {
+    "id": 125,
+    "question": "A database designer wants to reduce redundancy while designing tables. Which process should be applied?",
+    "options": {
+      "A": "Indexing",
+      "B": "Normalization",
+      "C": "Encryption",
+      "D": "Sorting"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 127
+  },
+  {
+    "id": 126,
+    "question": "While designing a database in MySQL, which object is best for representing a real-world entity?",
+    "options": {
+      "A": "Trigger",
+      "B": "Table",
+      "C": "View",
+      "D": "Index"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 128
+  },
+  {
+    "id": 127,
+    "question": "A requirement says: “Each department has a unique ID and name, and employees must reference a department.” What is the best design?",
+    "options": {
+      "A": "Employee table without relationships",
+      "B": "Department table with no keys",
+      "C": "Department table with PRIMARY KEY and Employee with FOREIGN KEY",
+      "D": "Store department name in Employee only"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 129
+  },
+  {
+    "id": 128,
+    "question": "In database modeling, what does an ER diagram help to define?",
+    "options": {
+      "A": "SQL queries",
+      "B": "Relationships between entities",
+      "C": "Data insertion rules",
+      "D": "Programming loops"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 130
+  },
+  {
+    "id": 129,
+    "question": "A designer is creating a database for an online shopping system. Which structure best supports scalability?",
+    "options": {
+      "A": "One large table for everything",
+      "B": "Multiple normalized related tables",
+      "C": "Flat file storage",
+      "D": "Duplicate tables for each user"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 131
+  },
+  {
+    "id": 130,
+    "question": "A requirement states: “Each student can enroll in multiple courses, and each course has multiple students.” What type of relationship is this?",
+    "options": {
+      "A": "One-to-One",
+      "B": "One-to-Many",
+      "C": "Many-to-Many",
+      "D": "Hierarchical"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 132
+  },
+  {
+    "id": 131,
+    "question": "Which DBMS feature is most useful when implementing relationships between tables?",
+    "options": {
+      "A": "Views",
+      "B": "Foreign Keys",
+      "C": "Indexes",
+      "D": "Stored Procedures"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 133
+  },
+  {
+    "id": 132,
+    "question": "During database design, which step ensures that attributes are logically grouped to avoid duplication?",
+    "options": {
+      "A": "Execution phase",
+      "B": "Normalization phase",
+      "C": "Query phase",
+      "D": "Compilation phase"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 134
+  },
+  {
+    "id": 133,
+    "question": "A database is being designed using a popular DBMS like MySQL or PostgreSQL. What is the main purpose of using such DBMS tools?",
+    "options": {
+      "A": "Writing programming loops",
+      "B": "Designing user interfaces",
+      "C": "Creating operating systems",
+      "D": "Managing structured data efficiently"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 135
+  },
+  {
+    "id": 134,
+    "question": "A company wants to prevent unauthorized access to sensitive database records. Which solution should be designed?",
+    "options": {
+      "A": "Store passwords in plain text",
+      "B": "Implement role-based access control (RBAC)",
+      "C": "Allow all users full database access",
+      "D": "Disable authentication system"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 136
+  },
+  {
+    "id": 135,
+    "question": "A system stores user passwords. What is the most secure design choice?",
+    "options": {
+      "A": "Store passwords as plain text",
+      "B": "Encrypt passwords using reversible encryption",
+      "C": "Hash passwords with a secure algorithm",
+      "D": "Store passwords in a text file"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 137
+  },
+  {
+    "id": 136,
+    "question": "A database administrator wants to protect data during transmission over a network. Which solution should be implemented?",
+    "options": {
+      "A": "HTTP protocol",
+      "B": "FTP protocol",
+      "C": "HTTPS with encryption",
+      "D": "Telnet connection"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 138
+  },
+  {
+    "id": 137,
+    "question": "A developer needs to ensure only authorized users can modify data. Which approach should be implemented?",
+    "options": {
+      "A": "Remove authentication system",
+      "B": "Use user roles and permissions",
+      "C": "Share admin credentials",
+      "D": "Store credentials in code"
+    },
+    "answer": "B",
+    "category": "Database Systems",
+    "originalId": 139
+  },
+  {
+    "id": 138,
+    "question": "A system requires protection against data loss due to hardware failure. Which solution should be designed?",
+    "options": {
+      "A": "Delete unused data",
+      "B": "Disable backups",
+      "C": "Implement regular database backups",
+      "D": "Store data in one location only"
+    },
+    "answer": "C",
+    "category": "Database Systems",
+    "originalId": 140
+  },
+  {
+    "id": 139,
+    "question": "Which of the following is NOT a core component of an Android application?",
+    "options": {
+      "A": "Activity",
+      "B": "Broadcast Receiver",
+      "C": "Intent Filter",
+      "D": "Content Provider"
+    },
+    "answer": "C",
+    "category": "Mobile Application Development",
+    "originalId": 141
+  },
+  {
+    "id": 140,
+    "question": "Which Android component is responsible for managing an app's UI and user interactions?",
+    "options": {
+      "A": "Service",
+      "B": "Activity",
+      "C": "Content Provider",
+      "D": "Broadcast Receiver"
+    },
+    "answer": "B",
+    "category": "Mobile Application Development",
+    "originalId": 142
+  },
+  {
+    "id": 141,
+    "question": "What is the role of a \"Service\" in Android?",
+    "options": {
+      "A": "To store and retrieve data from a database",
+      "B": "To perform long-running operations in the background",
+      "C": "To handle communication between different apps",
+      "D": "To display user interface elements"
+    },
+    "answer": "B",
+    "category": "Mobile Application Development",
+    "originalId": 143
+  },
+  {
+    "id": 142,
+    "question": "What is the purpose of the \"Logcat\" tool in Android Studio?",
+    "options": {
+      "A": "To design user interfaces",
+      "B": "To view system and app logs in real-time",
+      "C": "To manage project dependencies",
+      "D": "To generate APK files"
+    },
+    "answer": "B",
+    "category": "Mobile Application Development",
+    "originalId": 144
+  },
+  {
+    "id": 143,
+    "question": "Which file is responsible for declaring an Android app’s permissions and components?",
+    "options": {
+      "A": "build.gradle",
+      "B": "MainActivity.kt",
+      "C": "AndroidManifest.xml",
+      "D": "strings.xml"
+    },
+    "answer": "C",
+    "category": "Mobile Application Development",
+    "originalId": 145
+  },
+  {
+    "id": 144,
+    "question": "Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements?",
+    "options": {
+      "A": "Borders style",
+      "B": "Colors style",
+      "C": "Margins style",
+      "D": "Height style"
+    },
+    "answer": "B",
+    "category": "Web Development",
+    "originalId": 146
+  },
+  {
+    "id": 145,
+    "question": "Consider the following JavaScript statements. var sentence = \"Life is precious!!\"; // Sample text var pattern = /\\d+/g // Matches all instances of one or more digits In order to check if the pattern matches with the string represented by a variable sentence, the statement is ____________",
+    "options": {
+      "A": "sentence==pattern",
+      "B": "pattern.test(text)",
+      "C": "sentence.test(pattern)",
+      "D": "pattern.test(sentence)"
+    },
+    "answer": "D",
+    "category": "Web Development",
+    "originalId": 147
+  },
+  {
+    "id": 146,
+    "question": "What is the purpose of using relative and absolute paths in hyperlinking?",
+    "options": {
+      "A": "To specify the location of the linked page",
+      "B": "To control the size and position of the linked element",
+      "C": "To define the background color of the linked element",
+      "D": "To add interactivity to the linked element"
+    },
+    "answer": "A",
+    "category": "Web Development",
+    "originalId": 148
+  },
+  {
+    "id": 147,
+    "question": "What is the purpose of using the box-sizing property in CSS?",
+    "options": {
+      "A": "To control the layout of table elements",
+      "B": "To specify the position of an element",
+      "C": "To control the size of an element including padding and border",
+      "D": "To create rounded corners on elements"
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 149
+  },
+  {
+    "id": 148,
+    "question": "What does the ID selector do?",
+    "options": {
+      "A": "Apply the style to a specific element",
+      "B": "Apply the style to all the elements",
+      "C": "Apply the style to a group of elements",
+      "D": "Apply the style to elements of the same type"
+    },
+    "answer": "A",
+    "category": "Web Development",
+    "originalId": 150
+  },
+  {
+    "id": 149,
+    "question": "Given the following PHP code, when does the cookie expire? setcookie (“username”, ”light”, time()+3600);",
+    "options": {
+      "A": "After 3600 minutes",
+      "B": "After 3 days",
+      "C": "Expired 60 minutes ago already",
+      "D": "After 1 hour"
+    },
+    "answer": "D",
+    "category": "Web Development",
+    "originalId": 151
+  },
+  {
+    "id": 150,
+    "question": "Among the given statements, which statement is correct?",
+    "options": {
+      "A": "JavaScript enables the segregation of a web page's layout and styles.",
+      "B": "HTML attributes enable the incorporation of interactivity into your website.",
+      "C": "HTML enables you to organize the contents of a webpage.",
+      "D": "JavaScript cannot alter the content or attributes of HTML elements."
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 152
+  },
+  {
+    "id": 151,
+    "question": "What is the correct HTML for inserting an image?",
+    "options": {
+      "A": "<img src=\"image.gif\" alt=\"MyImage\">",
+      "B": "<img alt=\"MyImage\" image.gif /img>",
+      "C": "<image src=\"image.gif\" alt=\"MyImage\">",
+      "D": "<img href=\"image.gif\" alt=\"MyImage\">"
+    },
+    "answer": "A",
+    "category": "Web Development",
+    "originalId": 153
+  },
+  {
+    "id": 152,
+    "question": "What is the purpose of hyperlinking to an email address in HTML?",
+    "options": {
+      "A": "To display the email address as a clickable link",
+      "B": "To open the default email client with a new message",
+      "C": "To redirect the user to a different web page",
+      "D": "To send an email directly from the web page"
+    },
+    "answer": "B",
+    "category": "Web Development",
+    "originalId": 154
+  },
+  {
+    "id": 153,
+    "question": "What type of attack attempts to exploit a web application by injecting malicious scripts into content delivered to users?",
+    "options": {
+      "A": "SQL Injection",
+      "B": "Buffer Overflow",
+      "C": "Cross-Site Scripting (XSS)",
+      "D": "Session Fixation"
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 155
+  },
+  {
+    "id": 154,
+    "question": "Which of the following best describes why PHP is considered a server-side language?",
+    "options": {
+      "A": "It executes in the browser before HTML loads",
+      "B": "It executes on the server and returns generated HTML to the client",
+      "C": "It compiles to machine code on the client",
+      "D": "It manipulates the DOM directly"
+    },
+    "answer": "B",
+    "category": "Web Development",
+    "originalId": 156
+  },
+  {
+    "id": 155,
+    "question": "Which statement best describes the role of the PHP engine in processing a web request?",
+    "options": {
+      "A": "It serves the HTML file directly from the file system to the browser.",
+      "B": "It acts as a DNS resolver to look up the server's IP address.",
+      "C": "It receives the request from the web server, executes the PHP code, and returns the resulting HTML output to the server.",
+      "D": "It handles all client-side form validation before transmission."
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 157
+  },
+  {
+    "id": 156,
+    "question": "What is the correct way to access the temporary name of an uploaded file?",
+    "options": {
+      "A": "$_FILES['fieldname']['tmp']",
+      "B": "$_FILES['fieldname']['tempname']",
+      "C": "$_FILES['fieldname']['tmp_name']",
+      "D": "$_FILES['fieldname']['upload_tmp']"
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 158
+  },
+  {
+    "id": 157,
+    "question": "Why is Backend development generally considered more secure than Frontend development?",
+    "options": {
+      "A": "Frontend scripts are invisible to users.",
+      "B": "Backend scripts are easier to encrypt.",
+      "C": "Backend is more secure as users do not see the source code.",
+      "D": "Frontend has built-in less secure protocols."
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 159
+  },
+  {
+    "id": 158,
+    "question": "What is the Hypertext Transfer Protocol (HTTP) primarily used for?",
+    "options": {
+      "A": "Managing connections between devices on a network",
+      "B": "Identifying hosts through unique network addresses",
+      "C": "Protecting information stored on web servers",
+      "D": "Exchanging web resources between clients and servers"
+    },
+    "answer": "D",
+    "category": "Web Development",
+    "originalId": 160
+  },
+  {
+    "id": 159,
+    "question": "To link to a document that is located outside on the Web, you should use a(n):",
+    "options": {
+      "A": "Relative URL",
+      "B": "Absolute URL",
+      "C": "Named Anchor",
+      "D": "Internal Link"
+    },
+    "answer": "B",
+    "category": "Web Development",
+    "originalId": 161
+  },
+  {
+    "id": 160,
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "options": {
+      "A": "<a url=\"http://www.w3schools.com\">W3Schools.com</a>",
+      "B": "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+      "C": "<a>http://www.w3schools.com</a>",
+      "D": "<a name=\"http://www.w3schools.com\">W3Schools.com</a>"
+    },
+    "answer": "B",
+    "category": "Web Development",
+    "originalId": 162
+  },
+  {
+    "id": 161,
+    "question": "Which of the following rules will override all others, assuming equal specificity?",
+    "options": {
+      "A": "Inline style",
+      "B": "External stylesheet",
+      "C": "Embedded stylesheet",
+      "D": "Browser default"
+    },
+    "answer": "A",
+    "category": "Web Development",
+    "originalId": 163
+  },
+  {
+    "id": 162,
+    "question": "Which of the following selectors has the highest specificity?",
+    "options": {
+      "A": "div p",
+      "B": ".content p",
+      "C": "#main p",
+      "D": "p:hover"
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 164
+  },
+  {
+    "id": 163,
+    "question": "What does the declaration p.blog { font-size: 12pt; } do?",
+    "options": {
+      "A": "Applies to all <p> elements",
+      "B": "Applies to all elements with class blog",
+      "C": "Applies only to <p> elements with class blog",
+      "D": "Applies to <p> inside .blog"
+    },
+    "answer": "C",
+    "category": "Web Development",
+    "originalId": 165
+  },
+  {
+    "id": 164,
+    "question": "What is the key purpose of the !important indicator in a CSS declaration?",
+    "options": {
+      "A": "To prevent the style from being inherited by child elements.",
+      "B": "To prevent a specific rule from being overridden by other rules.",
+      "C": "To flag a rule as experimental or deprecated.",
+      "D": "To make the property value case-sensitive."
+    },
+    "answer": "B",
+    "category": "Web Development",
+    "originalId": 166
+  },
+  {
+    "id": 165,
+    "question": "In CSS, what is the correct hierarchy of selector specificity, from highest to lowest?",
+    "options": {
+      "A": "Element, Class, ID, Inline Style",
+      "B": "Universal Selector, Element, Class, ID",
+      "C": "Inline Style, Universal Selector, ID, Class, Element",
+      "D": "ID, Class, Element, Universal Selector"
+    },
+    "answer": "D",
+    "category": "Web Development",
+    "originalId": 167
+  },
+  {
+    "id": 166,
+    "question": "What is the key difference between symmetric and asymmetric encryption?",
+    "options": {
+      "A": "Symmetric uses public keys; asymmetric does not",
+      "B": "Symmetric uses the same key for encryption and decryption; asymmetric uses a key pair",
+      "C": "Asymmetric is faster than symmetric encryption",
+      "D": "Symmetric provides digital signatures"
+    },
+    "answer": "B",
+    "category": "Cybersecurity",
+    "originalId": 168
+  },
+  {
+    "id": 167,
+    "question": "Which security testing method is performed with no prior knowledge of the system?",
+    "options": {
+      "A": "White-box testing",
+      "B": "Black-box testing",
+      "C": "Grey-box testing",
+      "D": "Regression testing"
+    },
+    "answer": "B",
+    "category": "Cybersecurity",
+    "originalId": 169
+  },
+  {
+    "id": 168,
+    "question": "Which of the following types of malwares disguises itself as legitimate software to trick users into installing it on their systems?",
+    "options": {
+      "A": "Trojan",
+      "B": "Virus",
+      "C": "Worm",
+      "D": "Rootkit"
+    },
+    "answer": "A",
+    "category": "Cybersecurity",
+    "originalId": 170
+  },
+  {
+    "id": 169,
+    "question": "In security terms, what is \"defense in depth\"?",
+    "options": {
+      "A": "A security model based solely on firewalls",
+      "B": "A layered approach to security using multiple defensive mechanisms",
+      "C": "A principle that requires deep learning models for intrusion detection",
+      "D": "A term for military-grade cyber defense"
+    },
+    "answer": "B",
+    "category": "Cybersecurity",
+    "originalId": 171
+  },
+  {
+    "id": 170,
+    "question": "Which type of attack relies on repeatedly trying different passwords until the correct one is found?",
+    "options": {
+      "A": "Denial of Service (DoS)",
+      "B": "Cross-Site Request Forgery (CSRF)",
+      "C": "Brute-force attack",
+      "D": "Social engineering"
+    },
+    "answer": "C",
+    "category": "Cybersecurity",
+    "originalId": 172
+  },
+  {
+    "id": 171,
+    "question": "The code segment below has time complexity? for (int i = 0; i < n; i++){ for (int j = 1; j < n: j=j ∗2){ int val = ( j ∗ i ) ; cout<< val; } }",
+    "options": {
+      "A": "O(1)",
+      "B": "O(n)",
+      "C": "O(n2)",
+      "D": "O(n log n)"
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 173
+  },
+  {
+    "id": 172,
+    "question": "If the function T (n) = Ω(g(n), which statements are true?",
+    "options": {
+      "A": "T(n) <= cg(n) for all n >= n0, for positive c, n0",
+      "B": "T(n) >= cg(n) for all n >= n0, for positive c, n0",
+      "C": "T(n) = cg(n) for all n >= n0, for positive c, n0",
+      "D": "T(n) > cg(n) for all n >= n0, for positive c, n0"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 174
+  },
+  {
+    "id": 173,
+    "question": "Which of the following data structures can be used to reverse the order of set of data items?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Linked list",
+      "D": "Heap"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 175
+  },
+  {
+    "id": 174,
+    "question": "Which of the following sorting algorithm is of divide-and-conquer type?",
+    "options": {
+      "A": "Bubble sort",
+      "B": "Insertion sort",
+      "C": "Quick sort",
+      "D": "Selection sort"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 176
+  },
+  {
+    "id": 175,
+    "question": "Searching for an element in a hash table containing n elements can be performed in time",
+    "options": {
+      "A": "O(1)",
+      "B": "O( n )",
+      "C": "O(n2)",
+      "D": "O(n log n)"
+    },
+    "answer": "A",
+    "category": "Data Structures & Algorithms",
+    "originalId": 177
+  },
+  {
+    "id": 176,
+    "question": "Which of the following operations is performed more efficiently by doubly linked list than by singly linked list?",
+    "options": {
+      "A": "Deleting a node whose location in given",
+      "B": "Searching of an unsorted list for a given item",
+      "C": "Inverting a node after the node with given location",
+      "D": "Traversing a list to process each node"
+    },
+    "answer": "A",
+    "category": "Data Structures & Algorithms",
+    "originalId": 178
+  },
+  {
+    "id": 177,
+    "question": "Suppose that items A, B, C, D and E are pushed, in that order, onto an initially empty stack S. S is then popped four times; as each item is popped off, it is inserted into an initially empty queue. If two items are then removed from the queue, what is the next item that will be removed from the queue?",
+    "options": {
+      "A": "item A",
+      "B": "item B",
+      "C": "item C",
+      "D": "item D"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 179
+  },
+  {
+    "id": 178,
+    "question": "Which of the following statements is false about chaining collision avoidance",
+    "options": {
+      "A": "A hash table never fills up; we can always add more elements to the chain.",
+      "B": "Chaining is mostly used when it is unknown which keys may be inserted or deleted.",
+      "C": "The table may become full in the chaining collision avoidance",
+      "D": "Chaining is Simpler to implement."
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 180
+  },
+  {
+    "id": 179,
+    "question": "In the Binary Search algorithm, if the middle element is greater than the search key, what happens next?",
+    "options": {
+      "A": "The search continues in the right half of the array",
+      "B": "The search terminates as unsuccessful",
+      "C": "The search continues in the left half of the array",
+      "D": "The middle element is swapped with the first element"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 181
+  },
+  {
+    "id": 180,
+    "question": "What happens when you try to pop an element from an empty stack?",
+    "options": {
+      "A": "The operation succeeds with a null value",
+      "B": "The stack automatically initializes with default values",
+      "C": "The operation fails with a stack underflow error",
+      "D": "The program terminates immediately"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 182
+  },
+  {
+    "id": 181,
+    "question": "Which application would most likely use a queue data structure?",
+    "options": {
+      "A": "Browser's back button history",
+      "B": "Undo functionality in a text editor",
+      "C": "Print job scheduling",
+      "D": "Expression evaluation"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 183
+  },
+  {
+    "id": 182,
+    "question": "For the linked list implementation of the queue, where are the enqueues and dequeues performed?",
+    "options": {
+      "A": "Enqueue in front of the first element, dequeue the first element",
+      "B": "Enqueue after the last element, dequeue the last element",
+      "C": "Enqueue after the last element, dequeue the first element",
+      "D": "Enqueue in front of the first element, dequeue the last element"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 184
+  },
+  {
+    "id": 183,
+    "question": "Assume the UNIX editor allows searching in both forward and backward directions and also allows for a wraparound if necessary. If the sequence of lines is stored as a linked list, which of the following is most reasonable?",
+    "options": {
+      "A": "Singly-linked list",
+      "B": "Doubly linked list",
+      "C": "Circular singly linked list",
+      "D": "Circular doubly linked list"
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 185
+  },
+  {
+    "id": 184,
+    "question": "Which binary tree is used to represent mathematical expressions where each operator has exactly two operands?",
+    "options": {
+      "A": "Complete Binary Tree",
+      "B": "Strictly Binary Tree",
+      "C": "Balanced Binary Tree",
+      "D": "Skewed Binary Tree"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 186
+  },
+  {
+    "id": 185,
+    "question": "Which of the following is a common application of tree data structures in computer systems?",
+    "options": {
+      "A": "Sorting a list of numbers using bubble sort",
+      "B": "Representing hierarchical data such as file systems",
+      "C": "Managing linear data such as queues",
+      "D": "Implementing circular arrays"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 187
+  },
+  {
+    "id": 186,
+    "question": "Which type of tree structure is commonly used to store and manage sorted data efficiently?",
+    "options": {
+      "A": "AVL Tree",
+      "B": "Binary Search Tree",
+      "C": "Skewed Linked List",
+      "D": "Strictly Binary Tree"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 188
+  },
+  {
+    "id": 187,
+    "question": "What data structure is used for breadth first traversal of a graph?",
+    "options": {
+      "A": "The complexity in the best case",
+      "B": "The complexity in the worst case",
+      "C": "The complexity in the average case",
+      "D": "The behavior of an algorithm as the input size grows"
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 189
+  },
+  {
+    "id": 188,
+    "question": "In a queue, what operations correspond to adding and removing elements?",
+    "options": {
+      "A": "push and pop",
+      "B": "enqueue and dequeue",
+      "C": "insert and delete",
+      "D": "add and remove"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 191
+  },
+  {
+    "id": 189,
+    "question": "Which data structure is most efficient for implementing a priority queue?",
+    "options": {
+      "A": "Binary search tree",
+      "B": "Hash table",
+      "C": "Binary heap",
+      "D": "Linked list"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 192
+  },
+  {
+    "id": 190,
+    "question": "The disadvantage in using a circular linked list is …………………….",
+    "options": {
+      "A": "It is possible to get into infinite loop",
+      "B": "Last node points to first node.",
+      "C": "Time consuming",
+      "D": "Requires more memory space"
+    },
+    "answer": "A",
+    "category": "Data Structures & Algorithms",
+    "originalId": 193
+  },
+  {
+    "id": 191,
+    "question": "Consider a situation where a swap operation is very costly. Which of the following sorting algorithms should be preferred so that the number of swap operations is minimized in general?",
+    "options": {
+      "A": "Quick sort",
+      "B": "Merge sort",
+      "C": "Bubble sort",
+      "D": "Shell sort"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 194
+  },
+  {
+    "id": 192,
+    "question": "For the linked list implementation of the queue, where are the enqueue and dequeues performed?",
+    "options": {
+      "A": "Enqueue in front of the first element, dequeue the first element",
+      "B": "Enqueue after the last element, dequeue the last element",
+      "C": "Enqueue after the last element, dequeue the first element",
+      "D": "Enqueue in front of the first element, dequeue the last element"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 195
+  },
+  {
+    "id": 193,
+    "question": "Which sorting algorithm has the same average and worst-case time bounds (in Big-Oh) as heapsort?",
+    "options": {
+      "A": "insertion sort",
+      "B": "merge sort",
+      "C": "quicksort",
+      "D": "shell sort"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 196
+  },
+  {
+    "id": 194,
+    "question": "Which of the following statements hold true for binary search trees?",
+    "options": {
+      "A": "The left subtree of a node contains only nodes with keys less than the node’s key",
+      "B": "The right subtree of a node contains only nodes with keys greater than the node’s key",
+      "C": "The median of the key values is at the root of the tree.",
+      "D": "In-order traversal of a BST visits the nodes in non-decreasing order."
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 197
+  },
+  {
+    "id": 195,
+    "question": "You are designing a parking system for a single-lane parking lot where cars can only exit in the reverse order of their entry. Which data structure best models this scenario?",
+    "options": {
+      "A": "Stack (LIFO)",
+      "B": "Queue(FIFO)",
+      "C": "Array",
+      "D": "Graph"
+    },
+    "answer": "A",
+    "category": "Data Structures & Algorithms",
+    "originalId": 198
+  },
+  {
+    "id": 196,
+    "question": "Consider a call center where calls are handled on a first-come, first-served basis. To efficiently manage the sequence of incoming calls, which data structure would you choose?",
+    "options": {
+      "A": "Priority Queue",
+      "B": "Stack (LIFO)",
+      "C": "Binary Search Tree",
+      "D": "Queue"
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 199
+  },
+  {
+    "id": 197,
+    "question": "A hospital emergency room needs to prioritize patients based on the severity of their condition. Patients with critical conditions are treated first, regardless of arrival time. Which data structure would you use to manage the patients?",
+    "options": {
+      "A": "Queue",
+      "B": "Priority Queue",
+      "C": "Stack (LIFO)",
+      "D": "Linked List"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 200
+  },
+  {
+    "id": 198,
+    "question": "Which of the following is non-liner data structure?",
+    "options": {
+      "A": "Stacks",
+      "B": "List",
+      "C": "Strings",
+      "D": "Trees"
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 201
+  },
+  {
+    "id": 199,
+    "question": "Which of the following data structure can’t store the non-homogeneous data elements?",
+    "options": {
+      "A": "Arrays",
+      "B": "Records",
+      "C": "Pointers",
+      "D": "Stacks"
+    },
+    "answer": "A",
+    "category": "Data Structures & Algorithms",
+    "originalId": 202
+  },
+  {
+    "id": 200,
+    "question": "To represent hierarchical relationship between elements, which data structure is suitable?",
+    "options": {
+      "A": "Dequeue",
+      "B": "Priority",
+      "C": "Tree",
+      "D": "Graph"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 203
+  },
+  {
+    "id": 201,
+    "question": "Minimum number of fields in each node of a doubly linked list is ____",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "1"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 204
+  },
+  {
+    "id": 202,
+    "question": "Which of following data structure is more appropriate for implementing quick sort iteratively?",
+    "options": {
+      "A": "Deque",
+      "B": "Queue",
+      "C": "Stack",
+      "D": "Priority queue"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 205
+  },
+  {
+    "id": 203,
+    "question": "The number of edges in a complete graph of n vertices is",
+    "options": {
+      "A": "n(n+1)/2",
+      "B": "n(n-1)/2",
+      "C": "n2/2",
+      "D": "n"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 206
+  },
+  {
+    "id": 204,
+    "question": "The time complexity of quicksort is ……..",
+    "options": {
+      "A": "O(n)",
+      "B": "O(logn)",
+      "C": "O(n2)",
+      "D": "O(n logn)"
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 207
+  },
+  {
+    "id": 205,
+    "question": "………. sorting is good to use when alphabetizing a large list of names.",
+    "options": {
+      "A": "Merge",
+      "B": "Heap",
+      "C": "Radix",
+      "D": "Bubble"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 208
+  },
+  {
+    "id": 206,
+    "question": "The total number of comparisons in a bubble sort is ….",
+    "options": {
+      "A": "O(n logn)",
+      "B": "O(2n)",
+      "C": "O(n2)",
+      "D": "O(n)"
+    },
+    "answer": "A",
+    "category": "Data Structures & Algorithms",
+    "originalId": 209
+  },
+  {
+    "id": 207,
+    "question": "……… form of access is used to add and remove nodes from a queue.",
+    "options": {
+      "A": "LIFO, Last In First Out",
+      "B": "FIFO, First In First Out",
+      "C": "Graph",
+      "D": "Tree"
+    },
+    "answer": "B",
+    "category": "Data Structures & Algorithms",
+    "originalId": 210
+  },
+  {
+    "id": 208,
+    "question": "The term push and pop is related to",
+    "options": {
+      "A": "Array",
+      "B": "Lists",
+      "C": "Stacks",
+      "D": "Trees"
+    },
+    "answer": "C",
+    "category": "Data Structures & Algorithms",
+    "originalId": 211
+  },
+  {
+    "id": 209,
+    "question": "The operation of processing each element in the list is known as ……",
+    "options": {
+      "A": "Sorting",
+      "B": "Merging",
+      "C": "Inserting",
+      "D": "Traversal"
+    },
+    "answer": "D",
+    "category": "Data Structures & Algorithms",
+    "originalId": 212
+  },
+  {
+    "id": 210,
+    "question": "Which software development model is also known as verification and validation model?",
+    "options": {
+      "A": "Waterfall",
+      "B": "V-Model",
+      "C": "Spiral model",
+      "D": "Prototype model"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 213
+  },
+  {
+    "id": 211,
+    "question": "From the following software development model, one is not suitable for large projects and good for learning and experimenting?",
+    "options": {
+      "A": "Spiral model",
+      "B": "Big Bang model",
+      "C": "Waterfall model",
+      "D": "Prototype model"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 214
+  },
+  {
+    "id": 212,
+    "question": "According to International Business market research, “40% of projects are abandoned before they are completed, 64% exceed their cost projections by an average of 195 percent, and 96 projects are restarted for every 100 projects.” What is the significance of these figures?",
+    "options": {
+      "A": "Lack of software ethics and understanding",
+      "B": "Clear management issues in the company",
+      "C": "adequate training of development team",
+      "D": "development experience of the team"
+    },
+    "answer": "A",
+    "category": "Software Engineering & Project Management",
+    "originalId": 215
+  },
+  {
+    "id": 213,
+    "question": "The process of generating analysis and designing documents in software development process is?",
+    "options": {
+      "A": "Re-engineering",
+      "B": "Reverse engineering",
+      "C": "Software re-engineering",
+      "D": "Science and engineering"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 216
+  },
+  {
+    "id": 214,
+    "question": "_________ is a software development life cycle model that is chosen if the development team has less experience on similar projects.",
+    "options": {
+      "A": "Iterative Enhancement Model",
+      "B": "RAD",
+      "C": "Spiral",
+      "D": "Waterfall"
+    },
+    "answer": "C",
+    "category": "Software Engineering & Project Management",
+    "originalId": 217
+  },
+  {
+    "id": 215,
+    "question": "Which of the following are the 5 generic software engineering framework activities from beginning to the closing phase?",
+    "options": {
+      "A": "communication, modeling, planning, construction, deployment",
+      "B": "communication, planning, modeling, construction, deployment",
+      "C": "analysis, designing, programming, debugging, maintenance",
+      "D": "analysis, planning, designing, programming, testing"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 218
+  },
+  {
+    "id": 216,
+    "question": "Cohesion and coupling metrics are primarily used which in software design?",
+    "options": {
+      "A": "Component level design",
+      "B": "Architectural design",
+      "C": "User interface design",
+      "D": "Pattern based design"
+    },
+    "answer": "A",
+    "category": "Software Engineering & Project Management",
+    "originalId": 219
+  },
+  {
+    "id": 217,
+    "question": "Which of the following is the understanding of software product limitations, learning systems related to problems or changes to be done in existing systems beforehand, identifying and addressing the impact of project on organization and personnel?",
+    "options": {
+      "A": "Feasibility study",
+      "B": "System analysis",
+      "C": "System design",
+      "D": "Requirements gathering"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 220
+  },
+  {
+    "id": 218,
+    "question": "From the following system model one is being depicted by the ATM operations below.",
+    "options": {
+      "A": "Structural model",
+      "B": "Context model",
+      "C": "Behavioral model",
+      "D": "Interaction model"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 221
+  },
+  {
+    "id": 219,
+    "question": "Which of the following is not a design principle for software design?",
+    "options": {
+      "A": "Traceable to analysis model",
+      "B": "Should “Reinvent The Wheel”",
+      "C": "Minimize Intellectual distance",
+      "D": "Exhibit uniformity and integration"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 222
+  },
+  {
+    "id": 220,
+    "question": "A government agency is developing a system to manage citizen data, including personal information and records. Which view of the 4+1 Architectural View should they focus on to ensure interoperability with other government systems?",
+    "options": {
+      "A": "Logical View",
+      "B": "Development view",
+      "C": "Physical view",
+      "D": "Process view"
+    },
+    "answer": "C",
+    "category": "Software Engineering & Project Management",
+    "originalId": 223
+  },
+  {
+    "id": 221,
+    "question": "Requirement engineering mainly focuses on:",
+    "options": {
+      "A": "Implementation and coding of software",
+      "B": "Visual design and layout",
+      "C": "Gathering, analyzing, and documenting what the system should do",
+      "D": "Marketing the final product"
+    },
+    "answer": "C",
+    "category": "Software Engineering & Project Management",
+    "originalId": 224
+  },
+  {
+    "id": 222,
+    "question": "Why is requirement engineering considered a critical phase in software development?",
+    "options": {
+      "A": "It deals with hardware components",
+      "B": "It forms the foundation for design and development.",
+      "C": "It is where coding is done",
+      "D": "It improves the graphical interface"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 225
+  },
+  {
+    "id": 223,
+    "question": "During a requirement gathering session, you notice that the user is not expressing all their needs clearly. What technique can help uncover hidden requirements?",
+    "options": {
+      "A": "Document analysis",
+      "B": "Interview",
+      "C": "Interface design",
+      "D": "Observation"
+    },
+    "answer": "D",
+    "category": "Software Engineering & Project Management",
+    "originalId": 226
+  },
+  {
+    "id": 224,
+    "question": "A stakeholder keeps changing their requirements after each discussion. Which elicitation technique can help solidify their ideas?",
+    "options": {
+      "A": "Observation",
+      "B": "Prototyping",
+      "C": "Questionnaire",
+      "D": "Focus group"
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 227
+  },
+  {
+    "id": 225,
+    "question": "Suppose you are creating a requirements specification document. What should you include to ensure consistency throughout the document?",
+    "options": {
+      "A": "Use of user stories for each requirement",
+      "B": "Separate sections for functional and non-functional requirements",
+      "C": "Use of a standardized template and terminology",
+      "D": "Group similar requirements in paragraphs"
+    },
+    "answer": "C",
+    "category": "Software Engineering & Project Management",
+    "originalId": 228
+  },
+  {
+    "id": 226,
+    "question": "A project manager is developing the cost management plan. What is a key element that should be included to effectively control project costs throughout the execution phase?",
+    "options": {
+      "A": "A detailed budget breakdown by resource type.",
+      "B": "Clearly defined cost baselines, variance thresholds, and reporting mechanisms.",
+      "C": "Regular team meetings to discuss project expenses.",
+      "D": "List of resource types required for the project."
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 229
+  },
+  {
+    "id": 227,
+    "question": "Which tool would you apply to continuously compare planned versus actual project performance?",
+    "options": {
+      "A": "Work Breakdown Structure",
+      "B": "Pareto Chart",
+      "C": "Earned Value Management (EVM)",
+      "D": "Monte Carlo Simulation"
+    },
+    "answer": "C",
+    "category": "Software Engineering & Project Management",
+    "originalId": 230
+  },
+  {
+    "id": 228,
+    "question": "When preparing the risk response plan, what is the most proactive strategy for dealing with a high- probability, high-impact risk that cannot be avoided?",
+    "options": {
+      "A": "Accepting the risk and hoping it doesn't occur.",
+      "B": "Escalating the risk immediately to senior management.",
+      "C": "Plan with the assumption that the best-case scenario happens and the risk is avoided",
+      "D": "Developing a detailed mitigation plan with specific actions, responsibilities, and timelines to reduce the likelihood or impact."
+    },
+    "answer": "D",
+    "category": "Software Engineering & Project Management",
+    "originalId": 231
+  },
+  {
+    "id": 229,
+    "question": "In a software project schedule, you identify a task with 0 float/slack. What does this imply, and what actions might you consider if this task is delayed?",
+    "options": {
+      "A": "The task is on the critical path, and any delay will directly impact the project completion date. You might need to fast-track or crash the project.",
+      "B": "The task has no resource assigned, and you need to allocate resources immediately.",
+      "C": "The task is ahead of schedule and has extra time. No action is needed.",
+      "D": "The task duration is zero which means it is a dummy activity and no action is needed."
+    },
+    "answer": "A",
+    "category": "Software Engineering & Project Management",
+    "originalId": 232
+  },
+  {
+    "id": 230,
+    "question": "How would you develop a schedule that handles uncertainty?",
+    "options": {
+      "A": "Fix all deadlines strictly",
+      "B": "Use rolling wave planning to detail near-term work and estimate future tasks",
+      "C": "Skip time buffers",
+      "D": "Allow only team leads to plan"
+    },
+    "answer": "A",
+    "category": "Software Engineering & Project Management",
+    "originalId": 233
+  },
+  {
+    "id": 231,
+    "question": "Which of the following best describes the 'iron triangle' constraint in software project management, and what happens when the project scope is significantly increased without adjusting other constraints?",
+    "options": {
+      "A": "The iron triangle refers to cost, quality, and team size; increasing scope will automatically improve quality.",
+      "B": "The iron triangle represents scope, time, and cost; increasing scope without adjustment will likely cause schedule delays or cost overruns.",
+      "C": "The iron triangle refers to risk, communication, and procurement; scope increase affects only procurement.",
+      "D": "The iron triangle is a documentation framework; scope increases require only updating the project charter."
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 234
+  },
+  {
+    "id": 232,
+    "question": "During stakeholder analysis, a project manager identifies a stakeholder with high power but low interest in the project. According to the power/interest grid, what is the recommended communication strategy?",
+    "options": {
+      "A": "Manage closely — involve them in all project decisions and daily standups.",
+      "B": "Monitor — minimal engagement is needed since they have low power.",
+      "C": "Keep informed — send detailed weekly progress reports and include them in all reviews.",
+      "D": "Keep satisfied — provide periodic high-level updates and address their concerns promptly."
+    },
+    "answer": "D",
+    "category": "Software Engineering & Project Management",
+    "originalId": 235
+  },
+  {
+    "id": 233,
+    "question": "A project has the following activities and dependencies: A(5 days, no predecessor), B(8 days, depends on A), C(4 days, depends on A), D(6 days, depends on B and C), E(3 days, depends on D). Applying Critical Path Method (CPM), what is the project duration and which path is critical?",
+    "options": {
+      "A": "22 days; Critical path: A → B → D → E",
+      "B": "20 days; Critical path: A → C → D → E",
+      "C": "18 days; Critical path: A → C → E",
+      "D": "24 days; Critical path: A → B → C → D → E"
+    },
+    "answer": "A",
+    "category": "Software Engineering & Project Management",
+    "originalId": 236
+  },
+  {
+    "id": 234,
+    "question": "A project has BAC = $200,000, PV = $100,000, EV = $80,000, AC = $95,000. Applying Earned Value Management (EVM), which of the following correctly computes the Cost Performance Index (CPI) and Schedule Performance Index (SPI), and what do they indicate?",
+    "options": {
+      "A": "CPI = 1.19, SPI = 0.84; project is under budget and ahead of schedule.",
+      "B": "CPI = 0.95, SPI = 1.00; project is slightly over budget but on schedule.",
+      "C": "CPI = 0.84, SPI = 0.80; project is over budget and behind schedule.",
+      "D": "CPI = 1.06, SPI = 0.95; project is under budget and slightly behind schedule."
+    },
+    "answer": "C",
+    "category": "Software Engineering & Project Management",
+    "originalId": 237
+  },
+  {
+    "id": 235,
+    "question": "You are constructing a WBS for an online banking system. Which of the following WBS structures best reflects good decomposition practice for a three-level WBS?",
+    "options": {
+      "A": "Level 1: Project; Level 2: Frontend, Backend, Testing; Level 3: individual developer names assigned to each module.",
+      "B": "Level 1: Project; Level 2: Week 1 tasks, Week 2 tasks … Week N tasks; Level 3: daily activities per team member.",
+      "C": "Level 1: Project Charter; Level 2: Functional requirements and non-functional requirements; Level 3: individual test cases.",
+      "D": "Level 1: Online Banking System; Level 2: Requirements, Design, Development, Testing, Deployment, Project Management; Level 3: sub-deliverables under each phase (e.g., SRS document, UI wireframes, unit tests)."
+    },
+    "answer": "D",
+    "category": "Software Engineering & Project Management",
+    "originalId": 238
+  },
+  {
+    "id": 236,
+    "question": "When constructing a project cost baseline (S-curve), a project manager must aggregate costs over time. Which of the following best describes the correct method for building an S-curve baseline and its purpose in cost control?",
+    "options": {
+      "A": "Sum all costs at project completion and plot a flat line; it serves only as a final budget reference.",
+      "B": "Distribute costs from the WBS work packages across the schedule timeline, cumulatively sum them to produce a time-phased baseline that is used as the reference for EVM.",
+      "C": "Plot actual costs incurred after each reporting period without reference to planned values; it replaces the need for EVM.",
+      "D": "Calculate average monthly spend and draw a straight diagonal line from $0 to BAC; deviations are acceptable up to ±30%."
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 239
+  },
+  {
+    "id": 237,
+    "question": "A software project is 3 weeks behind schedule at the mid-point. The project manager proposes 'crashing' the critical path tasks. Which scenario best exemplifies valid schedule crashing and identifies its primary trade-off?",
+    "options": {
+      "A": "Assigning additional qualified developers to critical path coding tasks to reduce their duration; trade- off is increased cost and potential coordination overhead.",
+      "B": "Removing testing phases to save time; trade-off is reduced documentation.",
+      "C": "Overlapping the design and coding phases so they run in parallel; this is fast-tracking, not crashing.",
+      "D": "Extending working hours of the existing team with no additional resources or cost; trade-off is REDUCED MORALE."
+    },
+    "answer": "A",
+    "category": "Software Engineering & Project Management",
+    "originalId": 240
+  },
+  {
+    "id": 238,
+    "question": "During execution, a client requests 12 small feature additions not in the original WBS, arguing each is 'trivial.' What is the most appropriate project management response that protects scope while maintaining the client relationship?",
+    "options": {
+      "A": "Implement all 12 features immediately to maintain client satisfaction.",
+      "B": "Refuse all 12 features and remind the client that the contract is fixed-scope with no changes permitted.",
+      "C": "Evaluate each request through the formal Integrated Change Control process, assess impact on scope, schedule and cost, update the WBS and baseline if approved, and communicate outcomes to the client.",
+      "D": "Assign the features to junior team members to handle in their spare time, since they are trivial and will not affect the schedule."
+    },
+    "answer": "C",
+    "category": "Software Engineering & Project Management",
+    "originalId": 241
+  },
+  {
+    "id": 239,
+    "question": "When constructing a Software Project Management Plan (SPMP) for a large-scale ERP implementation, which component is most critical for ensuring that all team members understand their responsibilities and deliverable ownership?",
+    "options": {
+      "A": "The project Gantt chart, because it visually shows who is working each day.",
+      "B": "The Responsibility Assignment Matrix (RACI), which maps each WBS work package to team roles as Responsible, Accountable, Consulted, or Informed.",
+      "C": "The risk register, because it identifies who is responsible for risk responses.",
+      "D": "The communication plan, because it specifies meeting schedules and email distribution lists."
+    },
+    "answer": "B",
+    "category": "Software Engineering & Project Management",
+    "originalId": 242
+  },
+  {
+    "id": 240,
+    "question": "During risk planning for a healthcare software system, a risk is identified with a probability of 0.6 and an impact score of 4 (on a scale of 1–5), resulting in a risk score of 2.4. Which response strategy and justification best applies to this high-priority risk?",
+    "options": {
+      "A": "Develop a mitigation plan that reduces the probability or impact and assign a risk owner to monitor it throughout the project.",
+      "B": "Accept the risk passively and document it in the risk register with no action, since risk response planning is only required for low-probability events.",
+      "C": "Transfer the risk entirely to the client by adding a contract clause, eliminating the need for internal mitigation.",
+      "D": "Avoid the risk by canceling the entire healthcare module and reducing project scope."
+    },
+    "answer": "A",
+    "category": "Software Engineering & Project Management",
+    "originalId": 243
+  },
+  {
+    "id": 241,
+    "question": "Why do operating systems use paging in memory management?",
+    "options": {
+      "A": "To reduce the need for secondary storage",
+      "B": "To allow non-contiguous allocation of physical memory",
+      "C": "To eliminate the need for virtual memory",
+      "D": "To increase CPU clock speed"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 244
+  },
+  {
+    "id": 242,
+    "question": "Which of these is a key feature of a microkernel architecture?",
+    "options": {
+      "A": "Most OS services run in kernel space",
+      "B": "Device drivers are part of the kernel",
+      "C": "It is slower than a monolithic kernel",
+      "D": "Only essential functions (e.g., IPC, scheduling) run in kernel space"
+    },
+    "answer": "D",
+    "category": "Operating Systems",
+    "originalId": 245
+  },
+  {
+    "id": 243,
+    "question": "Which of the following is Not a core function of a modern operating system?",
+    "options": {
+      "A": "Process management",
+      "B": "Memory management",
+      "C": "Compiling source code",
+      "D": "File system management"
+    },
+    "answer": "C",
+    "category": "Operating Systems",
+    "originalId": 246
+  },
+  {
+    "id": 244,
+    "question": "Which of the following is NOT one of the four necessary conditions for a deadlock to occur?",
+    "options": {
+      "A": "Mutual Exclusion",
+      "B": "Hold and Wait",
+      "C": "No Preemption",
+      "D": "Priority Scheduling"
+    },
+    "answer": "D",
+    "category": "Operating Systems",
+    "originalId": 247
+  },
+  {
+    "id": 245,
+    "question": "A banking application uses a shared `account_balance` variable accessed by multiple threads for deposits and withdrawals. Occasionally, the balance shows incorrect values due to race conditions. Which synchronization technique would best resolve this issue?",
+    "options": {
+      "A": "Disabling interrupts",
+      "B": "Using a mutex lock around critical sections",
+      "C": "Increasing thread priority",
+      "D": "Rewriting the code in assembly language"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 248
+  },
+  {
+    "id": 246,
+    "question": "A file-editing application has two threads: Thread 1 locks `File A` and requests `File B`. Thread 2 locks `File B` and requests `File A`. This causes a deadlock. Which design change would prevent it?",
+    "options": {
+      "A": "Allow threads to hold unlimited locks",
+      "B": "Implement a lock hierarchy (always lock A before B)",
+      "C": "Restart the OS periodically",
+      "D": "Use non-blocking I/O"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 249
+  },
+  {
+    "id": 247,
+    "question": "Which of the following is the correct definition of a process in an operating system?",
+    "options": {
+      "A": "A program stored on disk that is waiting to be executed",
+      "B": "A program in execution including the program counter, stack, and data section",
+      "C": "A collection of threads that share the same memory space",
+      "D": "A system call that creates a new execution context"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 250
+  },
+  {
+    "id": 248,
+    "question": "What is the fundamental difference between a binary semaphore and a mutex?",
+    "options": {
+      "A": "A mutex has ownership, while a semaphore does not have ownership",
+      "B": "A binary semaphore can only be used for signaling, while a mutex can only be used for mutual exclusion",
+      "C": "A binary semaphore can count up to 1, while a mutex can count up to any value",
+      "D": "A mutex is implemented in user space, while a semaphore is implemented in kernel space"
+    },
+    "answer": "A",
+    "category": "Operating Systems",
+    "originalId": 251
+  },
+  {
+    "id": 249,
+    "question": "Which of the following best describes the difference between paging and segmentation?",
+    "options": {
+      "A": "Paging divides memory into variable-sized blocks, while segmentation uses fixed-sized blocks",
+      "B": "Paging is invisible to the programmer, while segmentation is visible to the programmer",
+      "C": "Paging suffers from external fragmentation, while segmentation suffers from internal fragmentation",
+      "D": "Paging requires a TLB, while segmentation does not"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 252
+  },
+  {
+    "id": 250,
+    "question": "A system uses demand paging with a page fault service time of 8 milliseconds and a memory access time of 100 nanoseconds. If the effective access time (EAT) is required to be no worse than 200 nanoseconds, what is the maximum acceptable page fault rate?",
+    "options": {
+      "A": "0.0000125 (1.25 × 10⁻⁵)",
+      "B": "0.000025 (2.5 × 10⁻⁵)",
+      "C": "0.00005 (5 × 10⁻⁵)",
+      "D": "0.0001 (1 × 10⁻⁴)"
+    },
+    "answer": "A",
+    "category": "Operating Systems",
+    "originalId": 253
+  },
+  {
+    "id": 251,
+    "question": "Consider a system with 6 identical resources. There are 4 processes with maximum needs: P1=4, P2=5, P3=3, P4=4. Currently allocated: P1=1, P2=2, P3=1, P4=1. How many resources must be available to guarantee that deadlock will not occur?",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A",
+    "category": "Operating Systems",
+    "originalId": 254
+  },
+  {
+    "id": 252,
+    "question": "Consider a system with 3 processes sharing a CPU. Process A has a period of 20ms and execution time of 5ms. Process B has period 30ms and execution time 10ms. Process C has period 50ms and execution time 15ms. Using Rate Monotonic Scheduling (RMS), is this set of processes schedulable?",
+    "options": {
+      "A": "Yes, because total utilization is less than 1",
+      "B": "Yes, because RMS always guarantees schedulability for any task set",
+      "C": "No, because the utilization exceeds the RMS schedulability bound for 3 tasks",
+      "D": "No, because period of C is too long"
+    },
+    "answer": "C",
+    "category": "Operating Systems",
+    "originalId": 255
+  },
+  {
+    "id": 253,
+    "question": "Two threads share a global variable and use a mutex for synchronization. Thread A locks the mutex, reads the variable, and then calls a function that attempts to lock the same mutex again before unlocking it. What will happen?",
+    "options": {
+      "A": "The thread will deadlock itself (self-deadlock) because standard mutexes are not recursive",
+      "B": "The thread will successfully lock the mutex again because the same thread already holds it",
+      "C": "The operating system will terminate the thread to prevent deadlock",
+      "D": "The mutex will be automatically converted to a recursive mutex"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 256
+  },
+  {
+    "id": 254,
+    "question": "In the context of file system implementation, what is the primary advantage of using extents over traditional block pointers in an inode?",
+    "options": {
+      "A": "Extents allow random access to any byte in the file without reading metadata",
+      "B": "Extents reduce metadata overhead by describing contiguous blocks with a single (start, length) pair",
+      "C": "Extents completely eliminate external fragmentation in the file system",
+      "D": "Extents automatically compress file data to save storage space"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 257
+  },
+  {
+    "id": 255,
+    "question": "In the POSIX threads (pthreads) library, which of the following is true about a thread created with the detachstate attribute set to PTHREAD_CREATE_DETACHED?",
+    "options": {
+      "A": "The thread's resources are automatically reclaimed when the thread terminates, and pthread_join() cannot be called on it",
+      "B": "The thread must be joined by the main thread using pthread_join() to prevent memory leaks",
+      "C": "The thread runs at a higher priority than normal threads",
+      "D": "The thread cannot be canceled using pthread_cancel()"
+    },
+    "answer": "A",
+    "category": "Operating Systems",
+    "originalId": 258
+  },
+  {
+    "id": 256,
+    "question": "Which of the following is a fundamental limitation of using the principle of least privilege in practice?",
+    "options": {
+      "A": "Determining the minimum necessary privileges for a given application is often difficult and error- prone",
+      "B": "The principle only applies to processes, not to threads",
+      "C": "Least privilege eliminates all security vulnerabilities but reduces performance by 50%"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 259
+  },
+  {
+    "id": 257,
+    "question": "In a system using the many-to-many threading model with scheduler activations, when a kernel thread blocks on a page fault, what happens to the other user-level threads mapped to that same kernel thread?",
+    "options": {
+      "A": "They continue running because the kernel thread remains scheduled",
+      "B": "They all block until the page fault is resolved because the kernel thread is blocked",
+      "C": "The user-level scheduler is notified and can run other user threads on different kernel threads",
+      "D": "The operating system automatically creates a new kernel thread to replace the blocked one"
+    },
+    "answer": "C",
+    "category": "Operating Systems",
+    "originalId": 260
+  },
+  {
+    "id": 258,
+    "question": "A file system uses inodes with 12 direct pointers, 1 single indirect pointer, 1 double indirect pointer, and 1 triple indirect pointer. Each block is 4 KB and each block pointer is 8 bytes. What is the maximum file size supported?",
+    "options": {
+      "A": "Approximately 4 GB",
+      "B": "Approximately 16 GB",
+      "C": "Approximately 64 GB",
+      "D": "Approximately 512 GB"
+    },
+    "answer": "D",
+    "category": "Operating Systems",
+    "originalId": 261
+  },
+  {
+    "id": 259,
+    "question": "Which of the following is NOT a valid technique for preventing deadlock?",
+    "options": {
+      "A": "Requiring processes to request all resources before execution (breaking hold-and-wait)",
+      "B": "Allowing preemption of held resources (breaking no-preemption)",
+      "C": "Increasing the number of resource instances (breaking mutual exclusion)",
+      "D": "Enforcing a total ordering of resource requests (breaking circular wait)"
+    },
+    "answer": "C",
+    "category": "Operating Systems",
+    "originalId": 262
+  },
+  {
+    "id": 260,
+    "question": "A system uses a multi-level queue scheduling algorithm with two queues: Queue 1 (RR, quantum=8ms) for interactive processes, Queue 2 (FCFS) for batch processes. Processes can move from Queue 2 to Queue 1 if they have been waiting for more than 100ms. This mechanism is an example of:",
+    "options": {
+      "A": "Priority inversion",
+      "B": "Aging",
+      "C": "Load balancing",
+      "D": "Thread pooling"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 263
+  },
+  {
+    "id": 261,
+    "question": "A software engineer is debugging a multithreaded application that occasionally crashes due to a race condition. The engineer suspects that two threads are accessing a shared data structure without proper synchronization. Which debugging approach would be most effective to identify the exact location of the race condition?",
+    "options": {
+      "A": "Add print statements before and after every shared memory access",
+      "B": "Use a thread sanitizer tool that dynamically detects data races during execution",
+      "C": "Remove all locks and observe which thread crashes first",
+      "D": "Increase the number of CPU cores to make the race condition more frequent"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 264
+  },
+  {
+    "id": 262,
+    "question": "As a software engineering team leader, you are tasked with selecting an operating system for a real-time medical device that monitors patient vital signs. The device requires guaranteed response times within 5 milliseconds. Which scheduling approach would you recommend and why?",
+    "options": {
+      "A": "Round Robin with a 1ms quantum because it provides fair scheduling for all processes",
+      "B": "Rate Monotonic Scheduling (RMS) because it provides schedulability guarantees for periodic tasks",
+      "C": "First-Come First-Served (FCFS) because it is simple and predictable",
+      "D": "Priority scheduling without aging because high-priority tasks should always run first"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 265
+  },
+  {
+    "id": 263,
+    "question": "A secure operating system implements mandatory access control (MAC) using SELinux. Which of the following best describes the difference between MAC and discretionary access control (DAC) from a software engineering perspective?",
+    "options": {
+      "A": "In MAC, users can freely grant access to their files; in DAC, the system enforces a global policy",
+      "B": "In MAC, the system enforces a global security policy that users cannot override; in DAC, file owners decide permissions",
+      "C": "MAC is used only for network security, while DAC is used for local file security",
+      "D": "MAC requires biometric authentication, while DAC uses passwords"
+    },
+    "answer": "B",
+    "category": "Operating Systems",
+    "originalId": 266
+  },
+  {
+    "id": 264,
+    "question": "As a software engineering project manager, you discover that a junior developer on your team has implemented a critical banking application without proper thread synchronization, leading to a race condition that could cause financial inconsistencies. What is the most appropriate ethical and professional response?",
+    "options": {
+      "A": "Ignore the issue because the application passed initial testing",
+      "B": "Immediately report the developer to senior management without discussion",
+      "C": "Discuss the issue privately with the developer, ensure they understand the severity, and implement a code review process to fix the synchronization problem",
+      "D": "Fix the problem yourself and never mention it to anyone to avoid embarrassing the developer"
+    },
+    "answer": "C",
+    "category": "Operating Systems",
+    "originalId": 267
+  },
+  {
+    "id": 265,
+    "question": "A company has a network address of 10.0.0.0/24. It needs to create two subnetworks to support 20 hosts and 12 hosts respectively. Which two subnetworks are valid?",
+    "options": {
+      "A": "10.0.0.0/27 and 10.0.0.32/28",
+      "B": "10.0.0.64/27 and 10.0.0.96/28",
+      "C": "10.0.0.0/28 and 10.0.0.32/27",
+      "D": "10.0.0.128/27 and 10.0.0.160/28"
+    },
+    "answer": "A",
+    "category": "Computer Networks",
+    "originalId": 268
+  },
+  {
+    "id": 266,
+    "question": "Which of the following is NOT a primary responsibility of Transport layer Protocols?",
+    "options": {
+      "A": "Identifying the proper application",
+      "B": "Subnetting",
+      "C": "Tracking individual communication",
+      "D": "Segmenting"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 269
+  },
+  {
+    "id": 267,
+    "question": "Which of the following statement is true about IPv6 addresses?",
+    "options": {
+      "A": "Leading zeros are not required.",
+      "B": "Two colons (::) are used to represent successive hexadecimal fields of zeros.",
+      "C": "Two colons (::) are used to separate fields.",
+      "D": "A single interface will have multiple IPv6 addresses of different types."
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 270
+  },
+  {
+    "id": 268,
+    "question": "Which transmission medium is most suitable for communication over very long distances where physical cables are not feasible?",
+    "options": {
+      "A": "Coaxial Cable",
+      "B": "Optical Fiber",
+      "C": "Twisted Pair Cable",
+      "D": "Satellite"
+    },
+    "answer": "D",
+    "category": "Computer Networks",
+    "originalId": 271
+  },
+  {
+    "id": 269,
+    "question": "Which transmission medium is best known for very high-speed data transmission and long-distance communication in modern backbone networks?",
+    "options": {
+      "A": "Coaxial Cable",
+      "B": "Optical Fiber",
+      "C": "Twisted Pair Cable",
+      "D": "Satellite"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 272
+  },
+  {
+    "id": 270,
+    "question": "Which of the following protocol used to provide remote access to servers and networking devices through plaintext?",
+    "options": {
+      "A": "Telnet",
+      "B": "SMTP",
+      "C": "ICMP",
+      "D": "SSH"
+    },
+    "answer": "A",
+    "category": "Computer Networks",
+    "originalId": 273
+  },
+  {
+    "id": 271,
+    "question": "Which PDU is processed when a host computer is de-encapsulating a message at the network layer of the TCP/IP model?",
+    "options": {
+      "A": "Packet",
+      "B": "Segment",
+      "C": "Bits",
+      "D": "Frame"
+    },
+    "answer": "D",
+    "category": "Computer Networks",
+    "originalId": 274
+  },
+  {
+    "id": 272,
+    "question": "What is the complete range of TCP and UDP well-known ports?",
+    "options": {
+      "A": "0 to 255",
+      "B": "0 to 1023",
+      "C": "256 to 1023",
+      "D": "1024 to 49151"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 275
+  },
+  {
+    "id": 273,
+    "question": "Which of the following network device repeats incoming data frames only to the computers to which a frame is addressed by using MAC address?",
+    "options": {
+      "A": "Active hub",
+      "B": "Router",
+      "C": "Switch",
+      "D": "Firewall"
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 276
+  },
+  {
+    "id": 274,
+    "question": "Which two flags in the TCP header are used in a TCP three-way handshake to establish connectivity between two network devices?",
+    "options": {
+      "A": "ACK and FIN",
+      "B": "FIN and Checksum",
+      "C": "URG and SEQ",
+      "D": "ACK AND SYNC"
+    },
+    "answer": "D",
+    "category": "Computer Networks",
+    "originalId": 277
+  },
+  {
+    "id": 275,
+    "question": "Which three layers of the OSI model are comparable in function to the application layer of the TCP/IP model?",
+    "options": {
+      "A": "Application, Presentation and Transport",
+      "B": "Session, Transport and Network",
+      "C": "Application, Session and Datalink",
+      "D": "Application, Presentation and Session"
+    },
+    "answer": "D",
+    "category": "Computer Networks",
+    "originalId": 278
+  },
+  {
+    "id": 276,
+    "question": "Which statement describes the half-duplex mode of data transmission?",
+    "options": {
+      "A": "Data that is transmitted over the network flows in both directions at the same time.",
+      "B": "Data that is transmitted over the network flows in one direction to many different destinations simultaneously.",
+      "C": "Data that is transmitted over the network flows in one direction at a time.",
+      "D": "Data that is transmitted over the network can only flow in one direction."
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 279
+  },
+  {
+    "id": 277,
+    "question": "A Network engineer has been asked to develop a physical topology for a network that provides a high level of redundancy. Which physical topology requires that every node is attached to every other node on the network?",
+    "options": {
+      "A": "Mesh",
+      "B": "Extended Star",
+      "C": "Hierarchical",
+      "D": "Bus"
+    },
+    "answer": "A",
+    "category": "Computer Networks",
+    "originalId": 280
+  },
+  {
+    "id": 278,
+    "question": "What method can be used by two computers to ensure that packets are not dropped because too much data is being sent too quickly?",
+    "options": {
+      "A": "Encapsulation",
+      "B": "Flow control",
+      "C": "Access method",
+      "D": "Response timeout"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 281
+  },
+  {
+    "id": 279,
+    "question": "Which device operates at the Network Layer of the OSI model?",
+    "options": {
+      "A": "Hub",
+      "B": "Repeater",
+      "C": "Switch",
+      "D": "Router"
+    },
+    "answer": "D",
+    "category": "Computer Networks",
+    "originalId": 282
+  },
+  {
+    "id": 280,
+    "question": "Which protocol is used for web browsing?",
+    "options": {
+      "A": "FTP",
+      "B": "HTTP",
+      "C": "SMTP",
+      "D": "SNMP"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 283
+  },
+  {
+    "id": 281,
+    "question": "Which OSI layer is responsible for routing?",
+    "options": {
+      "A": "Data Link",
+      "B": "Network",
+      "C": "Transport",
+      "D": "Physical"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 284
+  },
+  {
+    "id": 282,
+    "question": "What is the main function of a switch?",
+    "options": {
+      "A": "Connect different networks",
+      "B": "Forward data based on MAC address",
+      "C": "Assign IP addresses",
+      "D": "Encrypt data"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 285
+  },
+  {
+    "id": 283,
+    "question": "What is the main difference between a switch and a hub?",
+    "options": {
+      "A": "Switch broadcasts to all ports",
+      "B": "Hub uses MAC addresses",
+      "C": "Switch forwards data intelligently",
+      "D": "Hub operates at Network layer"
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 286
+  },
+  {
+    "id": 284,
+    "question": "Why is fiber optic preferred for backbone networks?",
+    "options": {
+      "A": "It is cheap",
+      "B": "It uses electricity",
+      "C": "It supports high bandwidth and long distance",
+      "D": "It is wireless"
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 287
+  },
+  {
+    "id": 285,
+    "question": "Which layer ensures reliable data transfer between end systems?",
+    "options": {
+      "A": "Physical",
+      "B": "Data Link",
+      "C": "Transport",
+      "D": "Session"
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 288
+  },
+  {
+    "id": 286,
+    "question": "Why is TCP considered reliable compared to UDP?",
+    "options": {
+      "A": "It does not check errors",
+      "B": "It guarantees delivery and order",
+      "C": "It is faster",
+      "D": "It is connectionless"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 289
+  },
+  {
+    "id": 287,
+    "question": "A company needs high-speed long-distance communication between buildings. What should they use?",
+    "options": {
+      "A": "Coaxial Cable",
+      "B": "Twisted Pair",
+      "C": "Optical Fiber",
+      "D": "Bluetooth"
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 290
+  },
+  {
+    "id": 288,
+    "question": "You are designing a network that requires secure and reliable data transfer. Which protocol should you use?",
+    "options": {
+      "A": "UDP",
+      "B": "IP",
+      "C": "TCP",
+      "D": "ARP"
+    },
+    "answer": "C",
+    "category": "Computer Networks",
+    "originalId": 291
+  },
+  {
+    "id": 289,
+    "question": "A university wants to separate student and staff networks for security. What should be used?",
+    "options": {
+      "A": "VLANs",
+      "B": "Hub",
+      "C": "Coaxial cable",
+      "D": "Ping"
+    },
+    "answer": "A",
+    "category": "Computer Networks",
+    "originalId": 292
+  },
+  {
+    "id": 290,
+    "question": "A network designer needs to reduce traffic collisions in LAN. What should they implement?",
+    "options": {
+      "A": "Hub-based network",
+      "B": "Switch-based network",
+      "C": "Bus topology",
+      "D": "Broadcast system"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 293
+  },
+  {
+    "id": 291,
+    "question": "A network has IP range 192.168.1.0/24. If it is divided into 4 equal subnets, how many hosts per subnet?",
+    "options": {
+      "A": "62",
+      "B": "64",
+      "C": "128",
+      "D": "254"
+    },
+    "answer": "A",
+    "category": "Computer Networks",
+    "originalId": 294
+  },
+  {
+    "id": 292,
+    "question": "A network transmits 10 MB of data in 5 seconds. What is the bandwidth in MB/s?",
+    "options": {
+      "A": "1 MB/s",
+      "B": "2 MB/s",
+      "C": "5 MB/s",
+      "D": "10 MB/s"
+    },
+    "answer": "B",
+    "category": "Computer Networks",
+    "originalId": 295
+  },
+  {
+    "id": 293,
+    "question": "What is the primary purpose of Change Management Reviews?",
+    "options": {
+      "A": "Decreasing Software Errors",
+      "B": "Ensuring Document Conformance",
+      "C": "Accelerating System Testing",
+      "D": "Minimizing Work Metrics"
+    },
+    "answer": "A",
+    "category": "Software Quality & Maintenance",
+    "originalId": 296
+  },
+  {
+    "id": 294,
+    "question": "Which phase of the software reengineering process involves creating a new system from the extracted design information?",
+    "options": {
+      "A": "Reverse Engineering",
+      "B": "Restructuring",
+      "C": "Forward Engineering",
+      "D": "Re-documentation"
+    },
+    "answer": "C",
+    "category": "Software Quality & Maintenance",
+    "originalId": 297
+  },
+  {
+    "id": 295,
+    "question": "What is a challenge related to the legal factor in software reuse?",
+    "options": {
+      "A": "Technical complexity",
+      "B": "Economic viability",
+      "C": "Proprietary and copyright issues",
+      "D": "Managerial resistance"
+    },
+    "answer": "C",
+    "category": "Software Quality & Maintenance",
+    "originalId": 298
+  },
+  {
+    "id": 296,
+    "question": "During the maintenance phase of a software product's life cycle, which metrics are considered de facto metrics for assessing the software's quality?",
+    "options": {
+      "A": "Fix backlog and backlog management index",
+      "B": "Defect arrivals and customer problem calls",
+      "C": "Fix response time and fix responsiveness",
+      "D": "Percent delinquent fixes and fix quality"
+    },
+    "answer": "B",
+    "category": "Software Quality & Maintenance",
+    "originalId": 299
+  },
+  {
+    "id": 297,
+    "question": "Which activity is NOT typically part of the re-engineering process?",
+    "options": {
+      "A": "Source code translation",
+      "B": "Reverse engineering",
+      "C": "Program modularization",
+      "D": "Data re-engineering"
+    },
+    "answer": "A",
+    "category": "Software Quality & Maintenance",
+    "originalId": 300
+  },
+  {
+    "id": 298,
+    "question": "When creating a test plan, which element is critical to include?",
+    "options": {
+      "A": "The list of all possible defects.",
+      "B": "Detailed descriptions of objectives, scope, resources, and schedule.",
+      "C": "Only functional testing requirements.",
+      "D": "A high-level summary of the software being tested."
+    },
+    "answer": "B",
+    "category": "Software Quality & Maintenance",
+    "originalId": 301
+  },
+  {
+    "id": 299,
+    "question": "How does prioritizing test cases benefit the testing process?",
+    "options": {
+      "A": "Reduces overall testing effort by skipping low-priority tests.",
+      "B": "Ensures critical functionalities are tested early and frequently.",
+      "C": "Eliminates the need for test execution reporting.",
+      "D": "Limits testing to functional aspects only."
+    },
+    "answer": "B",
+    "category": "Software Quality & Maintenance",
+    "originalId": 302
+  },
+  {
+    "id": 300,
+    "question": "Which of the following types of testing focuses on ensuring that new changes in code do not adversely affect existing functionality?",
+    "options": {
+      "A": "Unit Testing",
+      "B": "Regression Testing",
+      "C": "Performance Testing",
+      "D": "Smoke Testing"
+    },
+    "answer": "B",
+    "category": "Software Quality & Maintenance",
+    "originalId": 303
+  },
+  {
+    "id": 301,
+    "question": "Which of the following tests is performed to ensure that the system meets user requirements and business objectives?",
+    "options": {
+      "A": "Unit Testing",
+      "B": "System Testing",
+      "C": "Acceptance Testing",
+      "D": "Stress Testing"
+    },
+    "answer": "C",
+    "category": "Software Quality & Maintenance",
+    "originalId": 304
+  }
+]
