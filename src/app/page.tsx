@@ -41,7 +41,7 @@ export default function Home() {
     setPhase("exam");
   };
 
-  const handleFinish = (answers: Record<number, string>) => {
+  const handleFinish = (answers: Record<number, string>, _flagged: number[]) => {
     setFinalAnswers(answers);
     setPhase("results");
   };

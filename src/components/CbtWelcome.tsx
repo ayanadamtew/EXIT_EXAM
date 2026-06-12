@@ -116,7 +116,7 @@ export default function CbtWelcome({ onStart, questions }: CbtWelcomeProps) {
                     <Label htmlFor="candidate-name" className="text-slate-600 text-xs font-bold uppercase tracking-wider">Candidate Full Name</Label>
                     <Input
                       id="candidate-name"
-                      placeholder="e.g. Ayana Damtew"
+                      placeholder="e.g. Ayuda"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       className="bg-slate-50/50 border-slate-200 focus:border-blue-500 focus:ring-blue-500 text-slate-900 rounded-xl h-11"

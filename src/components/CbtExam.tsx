@@ -516,7 +516,7 @@ export default function CbtExam({
               <span>Current</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded bg-emerald-600 inline-block" />
+              <span className="w-2.5 h-2.5 rounded bg-slate-600 inline-block" />
               <span className="text-slate-600">Answered</span>
             </div>
             <div className="flex items-center gap-1.5">
@@ -543,7 +543,7 @@ export default function CbtExam({
                 } else if (isFlagged) {
                   btnClass = 'bg-rose-500 text-white border-rose-400 shadow-sm';
                 } else if (isAnswered) {
-                  btnClass = 'bg-emerald-600 text-white border-emerald-500 shadow-sm';
+                  btnClass = 'bg-slate-600 text-white border-slate-500 shadow-sm';
                 }
 
                 // Find actual global questions array index
