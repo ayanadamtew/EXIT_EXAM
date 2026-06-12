@@ -20,8 +20,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = '';
 async function extractTextNode(pdfPath: string): Promise<string> {
   const dataBuffer = fs.readFileSync(pdfPath);
   const pdf = await pdfjsLib.getDocument({ 
-    data: new Uint8Array(dataBuffer),
-    disableWorker: true
+    data: new Uint8Array(dataBuffer)
   }).promise;
 
   // Strategy 1: Use pdfjs's native hasEOL line-break detection
