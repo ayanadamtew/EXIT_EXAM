@@ -88,7 +88,6 @@ export default function CbtWelcome({ onStart, questions }: CbtWelcomeProps) {
           </div>
           <div>
             <h1 className="text-xl font-bold tracking-wider text-blue-600 uppercase">Jimma University</h1>
-            <p className="text-xs font-semibold text-slate-500 tracking-widest uppercase mt-0.5">Computer-Based Testing Platform</p>
           </div>
         </div>
 
