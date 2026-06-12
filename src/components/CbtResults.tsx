@@ -41,6 +41,7 @@ export default function CbtResults({
 }: CbtResultsProps) {
   const [reviewFilter, setReviewFilter] = useState<'all' | 'correct' | 'incorrect' | 'unanswered'>('all');
   const [expandedQs, setExpandedQs] = useState<number[]>([]);
+  const [copied, setCopied] = useState(false);
 
   // Calculate scores
   let correctCount = 0;
@@ -111,8 +112,51 @@ export default function CbtResults({
     ? `${Math.floor(activeTimeMinutes / 60)}h ${activeTimeMinutes % 60}m`
     : `${activeTimeMinutes} mins`;
 
+  const getTelegramShareText = () => {
+    let categoryList = '';
+    Object.entries(categoryStats).forEach(([cat, stats]) => {
+      const pct = Math.round((stats.correct / stats.total) * 100);
+      const emoji = pct >= 50 ? '✅' : '⚠️';
+      categoryList += `\n${emoji} *${cat}*: ${pct}% (${stats.correct}/${stats.total})`;
+    });
+
+    const statusEmoji = isPassed ? '🎉 PASS' : '❌ FAIL';
+    return `🎓 *Exit Exam CBT - Jimma University* 🎓
+━━━━━━━━━━━━━━━━━━━━━━
+🏆 *Result*: ${statusEmoji}
+📊 *Score*: ${scorePercent}% (${correctCount}/${totalQuestions} Correct)
+⏱️ *Allowed Time*: ${durationString}
+${categoryList}
+
+⚡ Practice online now and test your skills!
+#ExitExam #JimmaUniversity #CBT`;
+  };
+
+  const handleTelegramShare = () => {
+    const text = getTelegramShareText();
+    
+    // Copy to clipboard first
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 3000);
+    });
+
+    // Open Telegram share dialog
+    const url = typeof window !== 'undefined' ? window.location.origin : 'https://exitexam.ju.edu.et';
+    const telegramUrl = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`;
+    window.open(telegramUrl, '_blank');
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col p-4 md:p-8 relative overflow-x-hidden">
+      {/* Toast Notification */}
+      {copied && (
+        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-[9999] bg-slate-900/90 text-white font-semibold text-xs px-4 py-2.5 rounded-full shadow-lg backdrop-blur-md border border-white/10 flex items-center gap-2 animate-bounce">
+          <CheckCircle className="h-4 w-4 text-emerald-500 shrink-0" />
+          <span>Telegram post copied to clipboard!</span>
+        </div>
+      )}
+
       {/* Background gradients */}
       <div className="absolute top-[-20%] left-[-20%] w-[60%] h-[60%] bg-blue-100/40 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-[-20%] right-[-20%] w-[60%] h-[60%] bg-indigo-100/40 rounded-full blur-[120px] pointer-events-none" />
@@ -126,7 +170,7 @@ export default function CbtResults({
               Exit Exam — Computer-Based Testing Results
             </p>
           </div>
-          <div className="flex items-center gap-3 w-full md:w-auto">
+          <div className="flex items-center gap-3 w-full md:w-auto flex-wrap print:hidden">
             <Button
               variant="outline"
               onClick={onRetake}
@@ -137,10 +181,19 @@ export default function CbtResults({
             </Button>
             <Button
               onClick={() => window.print()}
-              className="bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl flex-1 md:flex-none flex items-center gap-2 h-11 shadow-sm"
+              className="border-slate-200 bg-white text-slate-700 hover:text-slate-900 hover:bg-slate-100 rounded-xl flex-1 md:flex-none flex items-center gap-2 h-11"
             >
               <Printer className="h-4 w-4" />
               Print Report
+            </Button>
+            <Button
+              onClick={handleTelegramShare}
+              className="bg-[#229ED9] hover:bg-[#208ebe] text-white font-bold rounded-xl flex-1 md:flex-none flex items-center justify-center gap-2 h-11 shadow-sm px-4"
+            >
+              <svg className="h-4 w-4 fill-current shrink-0" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15.82-1.05 6.09-1.5 8.56-.19 1.05-.73 1.4-1.1 1.43-.81.07-1.43-.53-2.21-1.04-1.23-.8-1.92-1.3-3.12-2.09-1.38-.91-.49-1.41.3-2.23.2-.21 3.78-3.47 3.85-3.77.01-.04.01-.18-.07-.25-.09-.07-.22-.05-.31-.03-.13.03-2.22 1.41-6.27 4.14-.59.41-1.13.61-1.61.6-.53-.01-1.56-.3-2.32-.55-.93-.3-1.67-.47-1.61-.99.03-.27.4-.55 1.11-.84 4.36-1.9 7.27-3.15 8.73-3.76 4.17-1.74 5.04-2.04 5.61-2.05.12 0 .4.03.58.18.15.12.19.29.21.41.02.09.03.28.01.47z"/>
+              </svg>
+              <span>Share to Telegram</span>
             </Button>
           </div>
         </div>
@@ -272,7 +325,7 @@ export default function CbtResults({
         </Card>
 
         {/* Answer Review Section */}
-        <div className="space-y-4">
+        <div className="space-y-4 print:hidden">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-slate-200 pb-4">
             <div className="flex items-center gap-2">
               <HelpCircle className="h-5 w-5 text-indigo-600" />
@@ -280,7 +333,7 @@ export default function CbtResults({
             </div>
 
             {/* Answer Filter Buttons */}
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
+            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 print:hidden">
               {(['all', 'correct', 'incorrect', 'unanswered'] as const).map((filter) => {
                 const isActive = reviewFilter === filter;
                 let count = totalQuestions;
@@ -366,11 +419,11 @@ export default function CbtResults({
                         </Badge>
                         {statusBadge}
                       </div>
-                      <p className="text-slate-600 text-sm font-medium line-clamp-1">
+                      <p className="text-slate-600 text-sm font-medium line-clamp-1 print:line-clamp-none">
                         {q.question}
                       </p>
                     </div>
-                    <div className="text-slate-400 mt-1 shrink-0">
+                    <div className="text-slate-400 mt-1 shrink-0 print:hidden">
                       {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
                     </div>
                   </div>
