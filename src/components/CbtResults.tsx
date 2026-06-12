@@ -30,16 +30,12 @@ interface Question {
 
 interface CbtResultsProps {
   questions: Question[];
-  studentName: string;
-  studentId: string;
   answers: Record<number, string>;
   onRetake: () => void;
 }
 
 export default function CbtResults({
   questions,
-  studentName,
-  studentId,
   answers,
   onRetake,
 }: CbtResultsProps) {
@@ -127,7 +123,7 @@ export default function CbtResults({
           <div>
             <h1 className="text-2xl md:text-3xl font-black text-slate-900">Examination Results</h1>
             <p className="text-slate-500 text-sm font-medium mt-1">
-              Candidate: <span className="text-slate-900 font-bold">{studentName}</span> | ID: <span className="text-slate-900 font-bold">{studentId}</span>
+              Exit Exam — Computer-Based Testing Results
             </p>
           </div>
           <div className="flex items-center gap-3 w-full md:w-auto">
@@ -199,7 +195,7 @@ export default function CbtResults({
 
           {/* Quick Metrics Grid */}
           <Card className="border-slate-200 bg-white shadow-sm md:col-span-2 p-6 flex flex-col justify-between">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-slate-50 border border-slate-150 rounded-2xl p-4 flex flex-col justify-center">
                 <span className="text-slate-500 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 mb-1.5">
                   <CheckCircle className="h-4 w-4 text-emerald-500" />
@@ -238,7 +234,7 @@ export default function CbtResults({
             </div>
 
             <div className="border-t border-slate-100 mt-6 pt-4 text-xs text-slate-400 font-medium">
-              * Official Computer-Based Exit Examination report generated for student ID {studentId}.
+              * Official Computer-Based Exit Examination report.
             </div>
           </Card>
         </div>

@@ -1,0 +1,862 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Program:  BSc in Software Engineering 
+Exam Type:  JU-Mock Exit Exam: Round-1 
+Exam Item: Multiple Choice 
+Number of Questions:  100 
+Time Allowed:   3:00hrs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                               June 05, 2026 
+Jimma University  
+ 
+
+1. Which of the following best describes a PROGRAMMING LANGUAGE? 
+A. Designing and writing instructions for computers 
+B. To translate the entire source code before execution 
+C. A formal language used to write programs 
+D. A set of instructions written to perform tasks 
+ANSWER: C 
+2. Consider the C++ code snippet below. What will be the value of y after executing the following code? 
+ 
+ #include<iostream> 
+using namespace std; 
+int main() { 
+ int y, a=4, b=8, c=10, d=7;  
+ y= a--  +  b++  - ++c + d++; 
+    return 0; 
+} 
+ 
+A. 8 
+B. 7      
+C.  6       
+D. 0        
+ANSWER: A 
+3. Among the following, which loop is commonly used when the number of iterations is known? 
+A. while loop 
+B. do-while loop 
+C. for loop 
+D. nested loop 
+ANSWER: C 
+4. Which of the following is NOT a user-defined data type? 
+A.  struct 
+B. enum 
+C.  int 
+D. class 
+ANSWER: C 
+5. Consider the C++ code snippet below. What will be the output after executing the following code? 
+
+#include <iostream> 
+using namespace std; 
+int main() { 
+      int a, b, c; 
+       a = 8, b = 6; 
+      c = (a << 2) | (b >> 1); 
+      cout << c; 
+   return 0; 
+} 
+ 
+A. 32 
+B.  35 
+C.  34 
+D. 36 
+ANSWER: B 
+6. Consider the C++ code snippet below: The function update() modifies the value of num in the main() 
+function. Which parameter passing method is used? 
+#include <iostream> 
+using namespace std; 
+void update (int &x) { 
+    x = x + 10; 
+} 
+int main() { 
+    int num = 5; 
+    update(num); 
+    cout << num; 
+    return 0; 
+} 
+A. Pass by value 
+B. Pass by reference 
+C. Pass by constant only 
+D. Pass by copy 
+ANSWER: B 
+7. Review the following conditional evaluation statement: 
+result = (x > 10) ? (y < 5 ? 1 : 2) : 3; 
+If x = 15 and y = 8, what value is assigned to the variable result? 
+A. 2 
+B. 1 
+C.  3 
+D. 15 
+ANSWER: A 
+8. Which explicit file open mode flag should be passed to an std::ofstream constructor to ensure that existing 
+file content is preserved and new records are appended to the end of the stream? 
+A. std::ios::in 
+B.  std::ios::trunc 
+
+C.  std::ios::out 
+D.  std::ios::app 
+ANSWER: D  
+ 
+9. Imagine a software developer configures a loop statement below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Which of the following describes the accurate output trace behavior of this processing block? 
+A. The program prints numbers from 0 to 4, then completely breaks out of the loop construct. 
+B. The loop skips printing the digit 5 specifically, but successfully executes processing for all other 
+indices. 
+C. The execution engine halts execution entirely, logging a critical runtime memory boundary exception. 
+D. The loop loops infinitely at index value 5 because the loop control increment step is bypassed. 
+ANSWER: B 
+10. Consider the following structural array declaration sequence:  
+ 
+int matrix[2][3] = {{1, 2, 3}, {4, 5, 6}}; 
+What is the explicit evaluation outcome when looking up the record position matrix [1][0]? 
+A. 1 
+B. 2 
+C. 4 
+D. 5 
+ANSWER: C 
+11. Suppose freshman students’ practices writing simple C++ programs every day without being required by 
+the instructor because they want to improve their skills. This behavior shows: 
+A. External pressure 
+B. Self-motivation  
+C. Lack of understanding 
+D. Memorization only 
+ANSWER: B  
+ 
+#include <iostream> 
+using namespace std; 
+int main() { 
+    for (int i = 0; i < 10; i++) { 
+        if (i == 5) 
+            continue; 
+        cout << i; 
+    } 
+    return 0; 
+} 
+
+12. Which of the following is the name for all computers connected to a network that participate directly in 
+network communication? 
+A. Media 
+ 
+ 
+B.  Hosts 
+ 
+ 
+C. Servers 
+ 
+ 
+D.  Intermediary devices 
+ANSWER: B  
+13. What are the two sublayers of the OSI model data link layer? 
+A. LLC and MAC 
+ 
+B. NIC and MAC 
+ 
+C.  Physical and LLC  
+D.  Transport and Physical 
+ANSWER: A 
+14. Which statement is true about the TCP/IP and OSI models? 
+A. The TCP/IP transport layer and OSI Layer 4 provide similar services and functions. 
+B. The TCP/IP network access layer has similar functions to the OSI network layer. 
+C. The OSI Layer 7 and the TCP/IP application layer provide identical functions. 
+D. The first three OSI layers describe general services that are also provided by the TCP/IP internet 
+layer. 
+ANSWER: A 
+15. Which of the following network device repeats incoming data frames only to the computers to which a 
+frame is addressed by using MAC address? 
+A. Active hub 
+ 
+B. Router  
+C. Switch  
+D. Firewall 
+ ANSWER: C.  
+16. Which PDU format is used when bits are received from the network medium by the NIC of a host? 
+A. File 
+ 
+ 
+B.  Frame  
+C.  Packet  
+D. Segment 
+ANSWER: B  
+17. Which message delivery option is used to when all deices need to receive the same message 
+simultaneously? 
+A. Duplex 
+ 
+ 
+B.  Unicast 
+ 
+ 
+C.  Multicast 
+D. Broadcast  
+ANSWER: D.  
+
+ 
+18. Why low coupling and high cohesion are desirable in software engineering? 
+A. Increase hardware dependency 
+B. Improve maintainability and flexibility 
+C. Eliminate the need for testing 
+D. Prevent software documentation 
+ANSWER: B.  
+19. Which of the following statement explains the relationship between software quality and 
+Software Engineering principles? 
+A. Software quality depends only on programming language selection 
+B. Applying Software Engineering principles improves software quality attributes 
+C. Software quality eliminates the need for maintenance 
+D. Software quality depends only on hardware performance 
+ANSWER: B.  
+20. Why incremental models are advantageous? 
+A. They reduce risk by delivering the full system at once. 
+B. They allow partial implementation to be deployed and evaluated early. 
+C. They eliminate the need for documentation. 
+D. They strictly follow sequential phases. 
+ANSWER: B.  
+21. For a large-scale enterprise system with high technical risks, changing requirements, and strict 
+quality concerns, the most suitable model would be: 
+A. Waterfall model 
+B. Agile model 
+C. Spiral model  
+D. RAD model 
+ANSWER: C.  
+ 
+
+22. Which of the following software process activity includes correcting faults after software 
+deployment? 
+A. Requirement analysis 
+B.  System design 
+C.  Maintenance 
+D.  Validation 
+ANSWER: C.  
+23. Which of the following software Engineering principle primarily helps minimize the impact 
+of changes in one module on other modules? 
+A. Redundancy 
+B. High coupling 
+C. Low cohesion 
+D. Low coupling 
+ANSWER: D.  
+24. Which type of malware disguises itself as legitimate software to trick users into installing it, 
+allowing attackers to gain unauthorized access to a system? 
+A. Spyware 
+B. Trojan Horse 
+C. Ransomware 
+D. Worm 
+ANSWER: B. 
+25. How do firewalls protect networks? 
+A. By isolating specific applications from each other 
+B. By detecting and alerting on malicious activities 
+C. By encrypting all outgoing data packets 
+D. By blocking unauthorized access based on predefined rules 
+ANSWER: D. 
+ 
+ 
+ 
+
+26. Which cryptographic technique converts data into a fixed-length value and is commonly used 
+to verify data integrity rather than to encrypt data? 
+A.  Hashing 
+B. Asymmetric cryptography 
+C.  Symmetric cryptography 
+D.  Public Key Infrastructure 
+ANSWER: A 
+27. Which cryptographic algorithm relies on the mathematical difficulty of factoring large prime 
+numbers and is widely used for secure data transmission? 
+A. RSA: Rivest–Shamir–Adleman 
+B. DES: Data Encryption Standard 
+C. ECC: Elliptic Curve Cryptography 
+D.  MD5: Message Digest Algorithm 5 
+ANSWER: A 
+28. A Software Engineer is designing a web application where users authenticate with a password 
+and receive a code via email for additional security. What type of authentication is being 
+implemented? 
+A. Single-Factor Authentication 
+B. Biometric Authentication 
+C. Multi-Factor Authentication 
+D. Token-Based Authentication 
+ANSWER: C 
+29. Which firewall type examines individual packets based on information such as source IP 
+address, destination IP address, and port number without considering connection state? 
+A. Proxy Firewall 
+B.  Stateful Inspection Firewall 
+C. Packet Filtering Firewall 
+D. Next-Generation Firewall 
+ANSWER: C  
+ 
+
+30. Which condition occurs when a process is holding at least one resource while simultaneously 
+waiting to acquire additional resources held by other processes? 
+A. Mutual Exclusion 
+B. Hold and Wait 
+C. Thrashing 
+D. Circular Wait 
+ANSWER: B 
+31. An operating system divides both physical and logical memory into fixed-size blocks and maps 
+them using page tables. 
+A. Virtual Memory 
+B. Segmentation 
+C. Swapping 
+D. Paging 
+ANSWER: D.  
+32. In file management, which technique temporarily stores data in memory to improve 
+input/output performance by reducing the speed gap between CPU and storage devices? 
+A. Buffering 
+B. Encryption 
+C.  RAID 
+D. File Permissions 
+ANSWER: A. 
+33. Assume there are 5 processes scheduled using Round Robin Scheduling algorithm with a time 
+quantum of 2 ms. All processes arrive at time 0 ms. The burst times are given below: 
+ 
+ 
+ 
+ 
+Which process completes first? 
+A. P1 
+B. P2 
+C.  P3 
+D. P5 
+ANSWER: C 
+Process 
+Burst Time 
+P1 
+6 ms 
+P2 
+5 ms 
+P3 
+2ms 
+P4 
+3 ms 
+P5 
+7 ms 
+
+34. Which of the following is a key method for managing data security issues? 
+A. Ignoring small vulnerabilities 
+B. Patch management 
+C. Increasing the size of data storage 
+D. Using only symmetric encryption 
+ANSWER: B 
+35. Which file management issue arises when multiple processes attempt to access the same file 
+simultaneously? 
+A. Fragmentation 
+B. File Corruption 
+C. Race Condition 
+D. Deadlock 
+ANSWER: C 
+36. The binary search tree shown below was constructed by inserting a sequence of items into an 
+empty tree. Which of the following input sequences will not generate the above binary search 
+tree? 
+A. 5, 3, 4, 9, 12, 7, 8, 6, 20 
+B. 5, 9, 3, 7, 6, 8, 4, 12, 20 
+C. 5, 9, 7, 8, 6, 12, 20, 3, 4 
+D. 5, 9, 3, 6, 7, 8, 4, 12, 20 
+Answer D 
+ 
+ 
+ 
+ 
+ 
+
+37. Which of the following best defines complexity analysis? 
+A. The process of determining the exact time required for an algorithm 
+B. The systematic study of the cost of computation measured in time units or operations 
+C. The study of how programming languages affect algorithm performance 
+D. The analysis of how many programmers are needed to implement an algorithm 
+ANSWER B 
+38. In Bubble Sort, what happens after the first complete traversal through the array? 
+A. The largest element is placed in the last position 
+B. The smallest element is placed in the first position 
+C. The array is completely sorted 
+D. All adjacent elements are swapped 
+ANSWER A. 
+39. Which data structure would be most appropriate for implementing a print job scheduler where 
+jobs are processed in the order they are received? 
+A. Stack 
+B. Queue 
+C. Binary Search Tree 
+D. Heap 
+ANSWER B. 
+40. Which sorting algorithm has the same average and worst-case time bounds in Big-Oh? 
+A. Insertion sort 
+B. Quicksort 
+C. Shellsort 
+D. Mergesort 
+ANSWER D. 
+41. Which traversal algorithm uses a stack data structure to explore a graph as deeply as possible 
+before backtracking? 
+A. Level Order Traversal 
+B. Inorder Traversal 
+C. Breadth-First Search (BFS) 
+D. Depth-First Search (DFS) 
+ANSWER C. 
+
+42. Which PHP super global provides data that includes values from both $_GET, $_POST, and 
+$_SESSION? 
+A. $_GLOBAL 
+B. $_INPUT 
+C. $_REQUEST 
+D. $_DATA 
+ANSWER C. 
+43. When uploading a file with PHP, which attribute must be present in the form tag? 
+A.  enctype="application/json" 
+B. enctype="multipart/form-data" 
+C. type="upload" 
+D. method="upload" 
+ANSWER B. 
+44. Choosing POST instead of GET for form submission provides: 
+A. Faster processing 
+B. URL-based data sharing 
+C. Unlimited data size & improved security 
+D. Ability to execute JavaScript 
+ANSWER C. 
+45. The characteristic that each request a browser sends to an HTTP server is treated independently 
+of any previous request is known as:  
+A. Encrypted 
+B. Stateful 
+C. Layered 
+D. Stateless 
+ANSWER D. 
+ 
+ 
+ 
+ 
+ 
+
+46. Which HTML element is used to create a multi-line, scrollable text entry box in a form?   
+A. <input type="text">  
+B. <input type="multiline">  
+C. <textarea>  
+D. <input type="comment"> 
+ANSWER C. 
+47. Which attribute, when added to a form input field, ensures that the user must enter a value 
+before the form can be submitted?  
+A. validate  
+B. check  
+C. mandatory  
+D. required 
+ANSWER D. 
+48. Which CSS unit is a relative length unit that is based on the font size of the element's parent 
+element? 
+A. vw (viewport width) 
+B. rem (root em) 
+C. em 
+D. px (pixels) 
+ANSWER C. 
+49. Given the following CSS, what is the final color of <p> inside <div>? 
+ 
+p { color: red; } 
+div p { color: blue; } 
+#main p { color: green; } 
+ 
+ 
+If the <div> has id="main", the text color will be: 
+A. red 
+B. blue 
+C. green 
+D. undefined 
+ANSWER C. 
+50. Which of the following rules will override all others, assuming equal specificity? 
+A. Inline style 
+B. External stylesheet 
+C. Embedded stylesheet 
+D. Browser default 
+ANSWER A. 
+ 
+
+ 
+ 
+51. Which one of the following is evaluating the degree of success of an agent? 
+A.  Knowledge          
+B. Perception    
+C.  Performance measure          
+D.     Action 
+ANSWER C 
+52. Which search strategy is guaranteed to find the shortest path if step costs are identical? 
+A. Breadth-First Search 
+B. Depth-First Search 
+C. Greedy Best-First Search 
+D. Iterative Deepening Search 
+ANSWER: A 
+53. To solve the 8-Puzzle Problem, you decide to use a heuristic search strategy. Which algorithm 
+would combine the actual cost and estimated cost to the goal state? 
+A.  Breadth-First Search 
+B.  Uniform-Cost Search 
+C.  A* Search 
+D. Greedy Best-First Search 
+ANSWER: C 
+54. A smart home system follows the rule: "If motion is detected, then the lights turn on." Which 
+type of logic can represent this rule as P→Q? 
+A. Fuzzy Logic 
+B.  Predicate Logic 
+C. Propositional Logic 
+D. Semantic Networks 
+ANSWER: C. 
+55. Why is lifelong learning important for AI professionals? 
+A. To replace all existing knowledge periodically 
+B. To adapt to evolving new technologies   
+
+C. To focus only on programming languages 
+D. To eliminate dependency on automated tools 
+ANSWER: B. 
+56. Which of the following is NOT a type of unsupervised learning task? 
+A. Classification   
+B. Clustering      
+C. Dimensionality reduction  
+D. Anomaly detection 
+ANSWER: A. 
+57. Imagine have collected data on your daily exercise routines and calorie intake. Your goal is to 
+build a model that predicts how many calories you should burn based on your planned exercise. 
+What type of machine learning should you use?  
+A. Unsupervised Learning,  
+B. Supervised Learning   
+C. Reinforcement Learning  
+D. Deep Learning 
+ANSWER: B. 
+58. Which of the following is a NON-LINEAR classification model? 
+A. Linear Regression 
+B. Logistic Regression 
+C. Support Vector Machines 
+D. K-Nearest Neighbors (KNN) 
+ANSWER: D. 
+59. You have historical data on student performance, including demographics, study habits, and 
+past grades. Your goal is to build a model that identifies students at risk of dropping out. What 
+classification algorithm is best suited for this task? 
+A. Random Forest  
+B. K-Means Clustering 
+C. Naive Bayes  
+D. Principal Component Analysis (PCA) 
+ANSWER: A. 
+
+ 
+ 
+ 
+60. Which evaluation metric is NOT used for regression models? 
+A. Mean squared error (MSE). 
+B. Root mean squared error (RMSE). 
+C. Mean absolute error (MAE). 
+D. Precision and recall. 
+ANSWER: D. 
+61. What is the main purpose of the AndroidManifest.xml file?  
+A. To store application images  
+B. To write the application business logic  
+C. To declare application components  
+D. To display user interfaces 
+ANSWER: C. 
+62. Which Android component runs in the background without a user interface? 
+A. Service 
+B. Activity 
+C. Fragment 
+D. View 
+ANSWER: A. 
+63. A student creates a new Android project in Android Studio and wants to specify the minimum 
+Android version that can run the application. Which file should the student configure? 
+A. strings.xml 
+B. activity_main.xml 
+C. drawable folder 
+D. AndroidManifest.xml 
+ANSWER: D 
+ 
+
+ 
+ 
+64. A user enters their username into an EditText field. Which method should be used to retrieve 
+the entered value? 
+A. getValue() 
+B. getData() 
+C. getText().toString() 
+D. findText() 
+ANSWER: C 
+65. Which Android component is used to request an action from another component, such as 
+launching an activity or starting a service? 
+A. Service 
+B. Broadcast Receiver 
+C. Activity 
+D. Intent 
+ANSWER: D 
+66. Which project management model is best suited for a project with constantly evolving 
+requirements? 
+A. Waterfall model: rigid and sequential 
+B. Agile development: flexible and adaptable 
+C. Spiral model: risk-driven with iteration 
+D. Lean software development: focuses on minimizing waste 
+ANSWER: B 
+67. When estimating the cost of a software project, which of the following is the LEAST reliable 
+technique? 
+A. Expert judgment from experienced project managers. 
+B. Analogous estimating based on similar past projects. 
+C. Parametric estimating using historical data and formulas. 
+D. Guessing without any data or prior experience.  
+ANSWER: D 
+ 
+
+ 
+ 
+68. What is the PRIMARY purpose of a Work Breakdown Structure (WBS) in software 
+development? 
+A. To define the technical architecture of the software. 
+B. To decompose the project into manageable tasks and deliverables.   
+C. To document user interface (UI) mockups and design elements. 
+D. To create a list of potential risks associated with the project. 
+ANSWER: B 
+69. Which document shows project activities, durations, and dependencies? 
+A. Schedule plan   
+B. User guide 
+C. Test report 
+D.  Risk log 
+ANSWER: A 
+70. A software development project for a new e-commerce platform is underway using a Waterfall 
+methodology. The project manager notices the team is falling behind schedule due to 
+unforeseen technical challenges integrating with a third-party payment gateway. What is the 
+MOST appropriate action for the project manager to take in this situation?  
+A. Ignore the schedule delay and focus on completing the integration. 
+B. Increase the project budget to cover potential overtime costs. 
+C. Update the project schedule to reflect the realistic timeline for integration.   
+D. Delegate the issue to the development team to resolve without informing stakeholders. 
+ANSWER: C 
+71. What is the PRIMARY benefit of conducting code reviews in software development? 
+A. Reduce development time of the project 
+B. Identify potential bugs and code smells  
+C. Increase code complexity 
+D. Automate unit testing  
+ANSWER: B 
+ 
+
+72. During a software review, you are analyzing a software application for potential maintenance 
+challenges. The application has a complex codebase with numerous code smells and lacks 
+proper documentation. What is the most likely consequence? 
+A.  Low maintenance effort and cost   
+B. Increased maintenance effort and cost   
+C. No impact on future maintenance 
+D. Potential for security vulnerabilities only 
+ANSWER: B 
+73. Which maintenance approach should be applied to modernize outdated software technology? 
+A. Reengineering  
+B. Corrective maintenance 
+C. Preventive testing 
+D. Data backup 
+ANSWER: A 
+74. Which software maintenance plan should emphasize periodic code reviews and refactoring? 
+A. Preventive Maintenance Plan  
+B. Corrective Maintenance Plan 
+C. Perfective maintenance plan 
+D. Deployment Plan 
+ANSWER: A 
+75. Which of the following factors is NOT typically considered when selecting a version control 
+system for software maintenance? 
+A. Ease of use and collaboration features  
+B. Scalability to handle large codebases 
+C. Integration with bug tracking systems 
+D. The programming language used for the software  
+ANSWER: D 
+ 
+ 
+ 
+ 
+
+76. Consider the JAVA code snippet below. What will be the output after executing the following 
+code? 
+ 
+ 
+ 
+ 
+ 
+ 
+A. 1 2 3 4 5 
+B. 1 2 
+C. 1 2 3 
+D. Infinite loop 
+ANSWER: B 
+77. Which keyword is commonly used to refer to the current object? 
+A. this         
+B. super  
+C. new     
+D. object 
+ANSWER: A 
+78. Which Swing container is commonly used as the main window of a desktop application? 
+A. JRootPane 
+B. JPanel 
+C. JFrame 
+D. JMenuBar 
+ANSWER: C 
+79. A class Car extends a class Vehicle to reuse its properties and methods. Which concept is 
+demonstrated? 
+A. Encapsulation 
+B.  Inheritance 
+C. Polymorphism 
+D. Abstraction     
+ANSWER: B 
+Public class Test1{ 
+    Public static void main(String args []){ 
+       for (int i = 1; i <= 5; i++) { 
+         if (i == 3) 
+        break; 
+        System.out.print(i + " "); 
+} 
+
+80. Which of the following classes is a checked exception in Java, meaning the compiler forces 
+you to handle it or declare it in a throws clause? 
+A. NullPointerException 
+B. ArithmeticException 
+C. IllegalArgumentException 
+D. ClassNotFoundException 
+ANSWER: D 
+81. Which database model organizes data in a parent-child structure? 
+A. Relational model 
+B. Network model 
+C. Hierarchical model 
+D. Object-oriented model 
+ANSWER: C 
+82.  Which command removes all records from a table but keeps its structure? 
+A. DROP 
+B. DELETE 
+C. TRUNCATE 
+D. REMOVE 
+ANSWER: C 
+83. What will be the result of executing the SQL statement below, assuming that id is defined as a 
+PRIMARY KEY? 
+                           INSERT INTO Student VALUES (null, Abdi); 
+A. It will insert successfully 
+B. It will update existing record 
+C. It will delete the table 
+D. It will cause an error 
+ANSWER: D 
+84. Which database design activity focuses on converting real-world objects into database 
+tables? 
+A. Normalization 
+B.  ER modeling 
+C. Query optimization 
+D. Data mining 
+ANSWER: B 
+ 
+
+85. Which type of key is used to enforce relationships between two tables? 
+A. Candidate Key 
+B. Foreign Key 
+C. Super Key 
+D. Primary Key 
+ANSWER: B 
+86. Sensitive customer data is exposed due to hacking. What is the most critical initial action? 
+A. Launch marketing campaigns 
+B. Ignore until investigation completes 
+C. Replace the entire database immediately 
+D.  Identify how the attacker gained access 
+ANSWER: D 
+87. Which of the following types of testing focuses on ensuring that new changes in code do not 
+adversely affect existing functionality? 
+A. Unit Testing      
+B.  Regression Testing  
+C.   Performance Testing     
+D.    Smoke Testing 
+ANSWER: B 
+88. Which of the following tests is performed to ensure that the system meets user requirements and 
+business objectives? 
+A.  Unit Testing              
+B.   System Testing    
+C.   Acceptance Testing   
+D.    Stress  
+ANSWER: C 
+89. A software team is developing a test approach for a new banking system. Which document 
+best combines scope, resources, risks, and testing approach? 
+A. Test Case 
+B. Test Plan 
+C. Defect Report 
+D. Use Case 
+ANSWER: B 
+
+90. A test strategy defines how both manual and automated testing will be used. What is the main 
+benefit of this decision? 
+A. Reduces requirement gathering 
+B. Eliminates defects completely 
+C. Removes need for test cases 
+D. Improves test coverage and efficiency 
+ANSWER: D 
+91. A software project team identifies potential system failure risks during development. What 
+should be the first step in managing these risks? 
+A. Identify and analyze the risks 
+B. Ignore minor risks 
+C. Deploy the system immediately 
+D.  Increase project budget 
+ANSWER: A 
+92. . What makes requirement engineering an important stage in the software development process? 
+A.  It is where coding is done 
+B.  It improves the graphical interface of the project 
+C. It deals with software and hardware components 
+D. It forms the foundation for design and development. 
+ANSWER: D 
+93. Which requirement elicitation technique helps identify requirements by watching users in their 
+real working environment? 
+A. Survey 
+B. Interface design 
+C. Observation 
+D. Testing 
+ANSWER: C 
+94. A stakeholder keeps changing their requirements after each discussion. Which elicitation technique 
+can help solidify their ideas? 
+A. Observation   
+B.  Prototyping    
+C. Questionnaire    
+D.  Focus group 
+ANSWER: B 
+
+95. During requirement change analysis, a team evaluates cost, schedule, and risk. What is this 
+activity called? 
+A. Requirement coding 
+B. System deployment 
+C. Interface design 
+D. Impact analysis 
+ANSWER: D 
+96. Which of the following is NOT a role of requirement engineering? 
+A. Requirement gathering 
+B. Requirement analysis 
+C. Code compilation 
+D. Requirement validation 
+ANSWER: C 
+97. Why is “Don’t reinvent the wheel” important in software design? 
+A. It increases development cost 
+B. It promotes reuse of existing solutions 
+C. It makes software slower 
+D.  It removes testing needs 
+ANSWER: B 
+98. A software company is organizing its codebase into modules, packages, and libraries to make 
+development easier. Which 4+1 architectural view is being used? 
+A. Logical View 
+B. Physical View 
+C. Development View 
+D.  Process View 
+ANSWER: C 
+99. Which design strategy would best support scalability in a large e-government system? 
+A. Monolithic architecture 
+B. Single-server deployment 
+C. Microservices architecture 
+D. Manual processing system 
+ANSWER: C 
+100. 
+A system is expected to serve millions of users simultaneously. Which design decision is 
+most appropriate? 
+A. Single-threaded processing 
+B. Distributed system architecture 
+C. Local file-based storage 
+D.  Manual scaling 
+ANSWER: B 
+ 
+

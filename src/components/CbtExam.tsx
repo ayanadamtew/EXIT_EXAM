@@ -45,8 +45,6 @@ interface Question {
 
 interface CbtExamProps {
   questions: Question[];
-  studentName: string;
-  studentId: string;
   mode: 'exam' | 'exercise';
   onFinish: (answers: Record<number, string>, flagged: number[]) => void;
   onExit: () => void;
@@ -54,8 +52,6 @@ interface CbtExamProps {
 
 export default function CbtExam({
   questions,
-  studentName,
-  studentId,
   mode,
   onFinish,
   onExit,
@@ -79,12 +75,19 @@ export default function CbtExam({
   const [showExitConfirm, setShowExitConfirm] = useState(false);
   const [showTimeUpAlert, setShowTimeUpAlert] = useState(false);
 
+  // Track whether initial state has loaded from localStorage
+  const [initialized, setInitialized] = useState(false);
+
+  // Unique session key includes mode AND question count
+  // so switching between exam/exercise or different exams won't reuse stale timer
+  const sessionKey = `cbt_${mode}_${questions.length}`;
+
   // Load state from localStorage on mount (Auto-save recover)
   useEffect(() => {
-    const savedAnswers = localStorage.getItem(`cbt_${studentId}_answers`);
-    const savedFlagged = localStorage.getItem(`cbt_${studentId}_flagged`);
-    const savedTime = localStorage.getItem(`cbt_${studentId}_time`);
-    const savedIdx = localStorage.getItem(`cbt_${studentId}_idx`);
+    const savedAnswers = localStorage.getItem(`${sessionKey}_answers`);
+    const savedFlagged = localStorage.getItem(`${sessionKey}_flagged`);
+    const savedTime = localStorage.getItem(`${sessionKey}_time`);
+    const savedIdx = localStorage.getItem(`${sessionKey}_idx`);
 
     if (savedAnswers) setAnswers(JSON.parse(savedAnswers));
     if (savedFlagged) setFlagged(JSON.parse(savedFlagged));
@@ -92,33 +95,49 @@ export default function CbtExam({
     
     if (savedTime) {
       const parsedTime = parseInt(savedTime, 10);
-      if (parsedTime > 0) setTimeLeft(parsedTime);
+      // Only use saved time if it's valid and within the calculated limit
+      if (parsedTime > 0 && parsedTime <= calculatedTimeLimit) {
+        setTimeLeft(parsedTime);
+      } else {
+        setTimeLeft(calculatedTimeLimit);
+      }
     } else {
       setTimeLeft(calculatedTimeLimit);
     }
-  }, [studentId, calculatedTimeLimit]);
+
+    if (window.innerWidth < 1024) {
+      setSidebarOpen(false);
+    }
+
+    setInitialized(true);
+  }, [sessionKey, calculatedTimeLimit]);
 
   // Save state on changes (Auto-save)
   useEffect(() => {
+    if (!initialized) return;
     if (Object.keys(answers).length > 0) {
-      localStorage.setItem(`cbt_${studentId}_answers`, JSON.stringify(answers));
+      localStorage.setItem(`${sessionKey}_answers`, JSON.stringify(answers));
     }
-  }, [answers, studentId]);
+  }, [answers, sessionKey, initialized]);
 
   useEffect(() => {
-    localStorage.setItem(`cbt_${studentId}_flagged`, JSON.stringify(flagged));
-  }, [flagged, studentId]);
+    if (!initialized) return;
+    localStorage.setItem(`${sessionKey}_flagged`, JSON.stringify(flagged));
+  }, [flagged, sessionKey, initialized]);
 
   useEffect(() => {
-    localStorage.setItem(`cbt_${studentId}_idx`, currentIdx.toString());
-  }, [currentIdx, studentId]);
+    if (!initialized) return;
+    localStorage.setItem(`${sessionKey}_idx`, currentIdx.toString());
+  }, [currentIdx, sessionKey, initialized]);
 
-  // Timer interval
+  // Timer interval — only starts after initialization is complete
   useEffect(() => {
+    if (!initialized) return;
+
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
         const next = prev - 1;
-        localStorage.setItem(`cbt_${studentId}_time`, next.toString());
+        localStorage.setItem(`${sessionKey}_time`, next.toString());
         if (next <= 0) {
           clearInterval(timer);
           setShowTimeUpAlert(true);
@@ -129,7 +148,7 @@ export default function CbtExam({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [studentId]);
+  }, [sessionKey, initialized]);
 
   // Tab blur detection (exam security - Exam Mode only)
   useEffect(() => {
@@ -209,10 +228,10 @@ export default function CbtExam({
 
   // Clean local storage and submit
   const handleFinalSubmit = () => {
-    localStorage.removeItem(`cbt_${studentId}_answers`);
-    localStorage.removeItem(`cbt_${studentId}_flagged`);
-    localStorage.removeItem(`cbt_${studentId}_time`);
-    localStorage.removeItem(`cbt_${studentId}_idx`);
+    localStorage.removeItem(`${sessionKey}_answers`);
+    localStorage.removeItem(`${sessionKey}_flagged`);
+    localStorage.removeItem(`${sessionKey}_time`);
+    localStorage.removeItem(`${sessionKey}_idx`);
     onFinish(answers, flagged);
   };
 
@@ -233,7 +252,7 @@ export default function CbtExam({
           <div className="h-6 w-px bg-slate-200 hidden sm:block" />
           <div className="hidden md:flex flex-col">
             <span className="text-sm font-bold text-slate-900">
-              Candidate: {studentName} ({studentId})
+              Exit Exam — CBT Platform
             </span>
             <span className="text-xs text-slate-500 font-medium">
               Mode: {mode === 'exam' ? 'Official Exam' : 'Practice Exercise'}
@@ -438,44 +457,55 @@ export default function CbtExam({
           </div>
 
           {/* Navigation Controls footer */}
-          <div className="max-w-4xl mx-auto w-full border-t border-slate-200 mt-auto pt-4 pb-2 flex items-center justify-between gap-4 shrink-0">
+          <div className="max-w-4xl mx-auto w-full border-t border-slate-200 mt-auto pt-4 pb-6 sm:pb-4 flex items-center justify-between gap-4 shrink-0">
             <Button
               variant="outline"
               onClick={prevQuestion}
               disabled={currentIdx === 0}
-              className="border-slate-200 bg-white text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:pointer-events-none rounded-xl h-10 px-4 flex items-center gap-1.5"
+              className="border-slate-200 bg-white text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:pointer-events-none rounded-xl h-10 px-3 sm:px-4 flex items-center gap-1.5"
             >
               <ChevronLeft className="h-5 w-5" />
-              Previous page
+              <span className="hidden sm:inline">Previous page</span>
+              <span className="sm:hidden font-bold">Prev</span>
             </Button>
 
             <Button
               variant="ghost"
               onClick={clearAnswer}
               disabled={!answers[activeQuestion.id]}
-              className="text-slate-400 hover:text-rose-600 hover:bg-rose-50 disabled:opacity-20 disabled:pointer-events-none rounded-xl h-10 px-4 flex items-center gap-1.5"
+              className="text-slate-400 hover:text-rose-600 hover:bg-rose-50 disabled:opacity-20 disabled:pointer-events-none rounded-xl h-10 px-3 sm:px-4 flex items-center gap-1.5"
             >
               <Trash2 className="h-4 w-4" />
-              Clear answer
+              <span className="hidden sm:inline">Clear answer</span>
+              <span className="sm:hidden font-bold">Clear</span>
             </Button>
 
             <Button
               variant="outline"
               onClick={nextQuestion}
               disabled={currentIdx === questions.length - 1}
-              className="border-slate-200 bg-white text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:pointer-events-none rounded-xl h-10 px-4 flex items-center gap-1.5"
+              className="border-slate-200 bg-white text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:pointer-events-none rounded-xl h-10 px-3 sm:px-4 flex items-center gap-1.5"
             >
-              Next page
+              <span className="hidden sm:inline">Next page</span>
+              <span className="sm:hidden font-bold">Next</span>
               <ChevronRight className="h-5 w-5" />
             </Button>
           </div>
         </main>
 
         {/* Right Sidebar Question Navigation Palette */}
+        {sidebarOpen && (
+          <div
+            className="fixed inset-0 bg-slate-900/20 backdrop-blur-[2px] z-20 lg:hidden"
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
         <aside
           className={`shrink-0 w-80 border-l border-slate-200 bg-white flex flex-col transition-all duration-300 z-30 min-h-0 overflow-hidden ${
-            sidebarOpen ? 'translate-x-0' : 'translate-x-full absolute right-0 top-0 bottom-0 shadow-2xl'
-          } lg:relative lg:translate-x-0`}
+            sidebarOpen
+              ? 'translate-x-0 absolute right-0 top-0 bottom-0 shadow-2xl h-full'
+              : 'translate-x-full absolute right-0 top-0 bottom-0 shadow-2xl h-full'
+          } lg:relative lg:translate-x-0 lg:shadow-none lg:h-auto`}
         >
           <div className="p-4 border-b border-slate-100 flex items-center justify-between">
             <h3 className="font-bold text-slate-700 uppercase tracking-wider text-xs">Exam Navigation</h3>
@@ -593,13 +623,15 @@ export default function CbtExam({
       </div>
 
       {/* Floating button for mobile sidebar toggle */}
-      <Button
-        size="icon"
-        onClick={() => setSidebarOpen(true)}
-        className="fixed bottom-4 right-4 lg:hidden z-30 h-11 w-11 bg-blue-600 hover:bg-blue-500 text-white rounded-full shadow-lg"
-      >
-        <Menu className="h-5 w-5" />
-      </Button>
+      {!sidebarOpen && (
+        <Button
+          size="icon"
+          onClick={() => setSidebarOpen(true)}
+          className="fixed bottom-4 right-4 lg:hidden z-30 h-11 w-11 bg-blue-600 hover:bg-blue-500 text-white rounded-full shadow-lg"
+        >
+          <Menu className="h-5 w-5" />
+        </Button>
+      )}
 
       {/* Tab Warning Toast popup */}
       {showTabWarningToast && (
